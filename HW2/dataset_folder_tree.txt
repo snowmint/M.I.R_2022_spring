@@ -1,0 +1,4475 @@
+./HW2 Datasets
+├── ASAP
+│   ├── Brahms
+│   │   ├── annotation
+│   │   │   └── Shilyaev03_annotations.txt
+│   │   ├── mid
+│   │   │   └── Shilyaev03.mid
+│   │   └── wav
+│   │       └── Shilyaev03.wav
+│   ├── Debussy
+│   │   ├── annotation
+│   │   │   ├── Kleisen11M_annotations.txt
+│   │   │   ├── MunA12M_annotations.txt
+│   │   │   └── ParkJH13M_annotations.txt
+│   │   ├── mid
+│   │   │   ├── Kleisen11M.mid
+│   │   │   ├── MunA12M.mid
+│   │   │   └── ParkJH13M.mid
+│   │   └── wav
+│   │       ├── Kleisen11M.wav
+│   │       ├── MunA12M.wav
+│   │       └── ParkJH13M.wav
+│   ├── Glinka
+│   │   ├── annotation
+│   │   │   ├── Denisova10M_annotations.txt
+│   │   │   └── Kleisen07M_annotations.txt
+│   │   ├── mid
+│   │   │   ├── Denisova10M.mid
+│   │   │   └── Kleisen07M.mid
+│   │   └── wav
+│   │       ├── Denisova10M.wav
+│   │       └── Kleisen07M.wav
+│   ├── Liszt
+│   │   ├── annotation
+│   │   │   ├── ADIG07_annotations.txt
+│   │   │   ├── Albright04_annotations.txt
+│   │   │   ├── Ali03_annotations.txt
+│   │   │   ├── Avdeeva03_annotations.txt
+│   │   │   ├── Avdeeva07M_annotations.txt
+│   │   │   ├── Bogdanovitch02_annotations.txt
+│   │   │   ├── Broberg03_annotations.txt
+│   │   │   ├── BuiJL03M_annotations.txt
+│   │   │   ├── Cai03_annotations.txt
+│   │   │   ├── CaoJ03M_annotations.txt
+│   │   │   ├── ChenC02_annotations.txt
+│   │   │   ├── ChenGuang24M_annotations.txt
+│   │   │   ├── ChernovA04M_annotations.txt
+│   │   │   ├── DANILO03_annotations.txt
+│   │   │   ├── DANILO06_annotations.txt
+│   │   │   ├── Duepree10_annotations.txt
+│   │   │   ├── Dulu07M_annotations.txt
+│   │   │   ├── Dvorkine03_annotations.txt
+│   │   │   ├── FALIKS02_2004_annotations.txt
+│   │   │   ├── Faliks02_annotations.txt
+│   │   │   ├── Faliks03_annotations.txt
+│   │   │   ├── Falzone02_annotations.txt
+│   │   │   ├── FEINER03_annotations.txt
+│   │   │   ├── GarritsonL04M_annotations.txt
+│   │   │   ├── Gasanov02_annotations.txt
+│   │   │   ├── Gasanov06M_annotations.txt
+│   │   │   ├── GiacomelliN11M_annotations.txt
+│   │   │   ├── Giltburg03_annotations.txt
+│   │   │   ├── Goldberg02_annotations.txt
+│   │   │   ├── Gryaznov02_annotations.txt
+│   │   │   ├── GuoE03M_annotations.txt
+│   │   │   ├── HAGINO03_annotations.txt
+│   │   │   ├── Hao03_annotations.txt
+│   │   │   ├── HSU04_annotations.txt
+│   │   │   ├── HUAN_B03_annotations.txt
+│   │   │   ├── Huang01_annotations.txt
+│   │   │   ├── Huang13M_annotations.txt
+│   │   │   ├── Huang14M_annotations.txt
+│   │   │   ├── Huang15M_annotations.txt
+│   │   │   ├── Huang16M_annotations.txt
+│   │   │   ├── Huang17M_annotations.txt
+│   │   │   ├── Huang18M_annotations.txt
+│   │   │   ├── Huangci01_annotations.txt
+│   │   │   ├── HUAN_J03_annotations.txt
+│   │   │   ├── Hwang03_annotations.txt
+│   │   │   ├── JIA03_annotations.txt
+│   │   │   ├── JIA08_annotations.txt
+│   │   │   ├── Jin07M_annotations.txt
+│   │   │   ├── KaiRuiR04_annotations.txt
+│   │   │   ├── KanM06_annotations.txt
+│   │   │   ├── KanM09M_annotations.txt
+│   │   │   ├── Kim02_annotations.txt
+│   │   │   ├── KIM_J04_annotations.txt
+│   │   │   ├── KIM_W02_annotations.txt
+│   │   │   ├── Kleisen03_annotations.txt
+│   │   │   ├── Kleisen06M_annotations.txt
+│   │   │   ├── Kolessova07_annotations.txt
+│   │   │   ├── Krasnitsky03_annotations.txt
+│   │   │   ├── Ladid02_annotations.txt
+│   │   │   ├── Lai02_annotations.txt
+│   │   │   ├── LeeE04M_annotations.txt
+│   │   │   ├── LeungM06M_annotations.txt
+│   │   │   ├── LeungM08M_annotations.txt
+│   │   │   ├── LeungM12M_annotations.txt
+│   │   │   ├── LeungR04M_annotations.txt
+│   │   │   ├── Levitsky02_annotations.txt
+│   │   │   ├── Levitsky06M_annotations.txt
+│   │   │   ├── LiA09M_annotations.txt
+│   │   │   ├── Lin02_annotations.txt
+│   │   │   ├── Lin07M_annotations.txt
+│   │   │   ├── LiuC04M_annotations.txt
+│   │   │   ├── LiuC05M_annotations.txt
+│   │   │   ├── LiuY03M_annotations.txt
+│   │   │   ├── LiuY06M_annotations.txt
+│   │   │   ├── Lo02_annotations.txt
+│   │   │   ├── Lu03M_annotations.txt
+│   │   │   ├── LUO02_annotations.txt
+│   │   │   ├── LuoJ05M_annotations.txt
+│   │   │   ├── MCVEY02_annotations.txt
+│   │   │   ├── Min03M_annotations.txt
+│   │   │   ├── Min06M_annotations.txt
+│   │   │   ├── MorozovY03_annotations.txt
+│   │   │   ├── MunA08M_annotations.txt
+│   │   │   ├── Park03M_annotations.txt
+│   │   │   ├── Pavlovic03_annotations.txt
+│   │   │   ├── Qin03_annotations.txt
+│   │   │   ├── Schmitt02_annotations.txt
+│   │   │   ├── Schneider03_annotations.txt
+│   │   │   ├── SEBAST02_annotations.txt
+│   │   │   ├── Seredenko02_annotations.txt
+│   │   │   ├── Sham05_annotations.txt
+│   │   │   ├── Shamray02_annotations.txt
+│   │   │   ├── SUDBIN02_annotations.txt
+│   │   │   ├── Sun09_annotations.txt
+│   │   │   ├── Sychev03_annotations.txt
+│   │   │   ├── Tario06M_annotations.txt
+│   │   │   ├── TET03_annotations.txt
+│   │   │   ├── Tran02_annotations.txt
+│   │   │   ├── Travinskyy03_annotations.txt
+│   │   │   ├── Tysman07M_annotations.txt
+│   │   │   ├── Uiasiuk03_annotations.txt
+│   │   │   ├── VuV06M_annotations.txt
+│   │   │   ├── Wang06M_annotations.txt
+│   │   │   ├── WangA01_annotations.txt
+│   │   │   ├── WangA07M_annotations.txt
+│   │   │   ├── WangV03_annotations.txt
+│   │   │   ├── WangY02M_annotations.txt
+│   │   │   ├── WongDoe02_2006_annotations.txt
+│   │   │   ├── WongDoe02_2009_annotations.txt
+│   │   │   ├── Woo02_annotations.txt
+│   │   │   ├── Woo06M_annotations.txt
+│   │   │   ├── Yang05M_annotations.txt
+│   │   │   ├── Ye04_annotations.txt
+│   │   │   ├── Yeletskiy03_annotations.txt
+│   │   │   ├── Yeletskiy05M_annotations.txt
+│   │   │   ├── Yoon02_annotations.txt
+│   │   │   ├── Yu04_annotations.txt
+│   │   │   ├── ZhangH02_annotations.txt
+│   │   │   ├── ZhangH07M_annotations.txt
+│   │   │   ├── ZhangX03_annotations.txt
+│   │   │   └── Zuber07M_annotations.txt
+│   │   ├── mid
+│   │   │   ├── ADIG07.mid
+│   │   │   ├── Albright04.mid
+│   │   │   ├── Ali03.mid
+│   │   │   ├── Avdeeva03.mid
+│   │   │   ├── Avdeeva07M.mid
+│   │   │   ├── Bogdanovitch02.mid
+│   │   │   ├── Broberg03.mid
+│   │   │   ├── BuiJL03M.mid
+│   │   │   ├── Cai03.mid
+│   │   │   ├── CaoJ03M.mid
+│   │   │   ├── ChenC02.mid
+│   │   │   ├── ChenGuang24M.mid
+│   │   │   ├── ChernovA04M.mid
+│   │   │   ├── DANILO03.mid
+│   │   │   ├── DANILO06.mid
+│   │   │   ├── Duepree10.mid
+│   │   │   ├── Dulu07M.mid
+│   │   │   ├── Dvorkine03.mid
+│   │   │   ├── FALIKS02_2004.mid
+│   │   │   ├── Faliks02.mid
+│   │   │   ├── Faliks03.mid
+│   │   │   ├── Falzone02.mid
+│   │   │   ├── FEINER03.mid
+│   │   │   ├── GarritsonL04M.mid
+│   │   │   ├── Gasanov02.mid
+│   │   │   ├── Gasanov06M.mid
+│   │   │   ├── GiacomelliN11M.mid
+│   │   │   ├── Giltburg03.mid
+│   │   │   ├── Goldberg02.mid
+│   │   │   ├── Gryaznov02.mid
+│   │   │   ├── GuoE03M.mid
+│   │   │   ├── HAGINO03.mid
+│   │   │   ├── Hao03.mid
+│   │   │   ├── HSU04.mid
+│   │   │   ├── HUAN_B03.mid
+│   │   │   ├── Huang01.mid
+│   │   │   ├── Huang13M.mid
+│   │   │   ├── Huang14M.mid
+│   │   │   ├── Huang15M.mid
+│   │   │   ├── Huang16M.mid
+│   │   │   ├── Huang17M.mid
+│   │   │   ├── Huang18M.mid
+│   │   │   ├── Huangci01.mid
+│   │   │   ├── HUAN_J03.mid
+│   │   │   ├── Hwang03.mid
+│   │   │   ├── JIA03.mid
+│   │   │   ├── JIA08.mid
+│   │   │   ├── Jin07M.mid
+│   │   │   ├── KaiRuiR04.mid
+│   │   │   ├── KanM06.mid
+│   │   │   ├── KanM09M.mid
+│   │   │   ├── Kim02.mid
+│   │   │   ├── KIM_J04.mid
+│   │   │   ├── KIM_W02.mid
+│   │   │   ├── Kleisen03.mid
+│   │   │   ├── Kleisen06M.mid
+│   │   │   ├── Kolessova07.mid
+│   │   │   ├── Krasnitsky03.mid
+│   │   │   ├── Ladid02.mid
+│   │   │   ├── Lai02.mid
+│   │   │   ├── LeeE04M.mid
+│   │   │   ├── LeungM06M.mid
+│   │   │   ├── LeungM08M.mid
+│   │   │   ├── LeungM12M.mid
+│   │   │   ├── LeungR04M.mid
+│   │   │   ├── Levitsky02.mid
+│   │   │   ├── Levitsky06M.mid
+│   │   │   ├── LiA09M.mid
+│   │   │   ├── Lin02.mid
+│   │   │   ├── Lin07M.mid
+│   │   │   ├── LiuC04M.mid
+│   │   │   ├── LiuC05M.mid
+│   │   │   ├── LiuY03M.mid
+│   │   │   ├── LiuY06M.mid
+│   │   │   ├── Lo02.mid
+│   │   │   ├── Lu03M.mid
+│   │   │   ├── LUO02.mid
+│   │   │   ├── LuoJ05M.mid
+│   │   │   ├── MCVEY02.mid
+│   │   │   ├── Min03M.mid
+│   │   │   ├── Min06M.mid
+│   │   │   ├── MorozovY03.mid
+│   │   │   ├── MunA08M.mid
+│   │   │   ├── Park03M.mid
+│   │   │   ├── Pavlovic03.mid
+│   │   │   ├── Qin03.mid
+│   │   │   ├── Schmitt02.mid
+│   │   │   ├── Schneider03.mid
+│   │   │   ├── SEBAST02.mid
+│   │   │   ├── Seredenko02.mid
+│   │   │   ├── Sham05.mid
+│   │   │   ├── Shamray02.mid
+│   │   │   ├── SUDBIN02.mid
+│   │   │   ├── Sun09.mid
+│   │   │   ├── Sychev03.mid
+│   │   │   ├── Tario06M.mid
+│   │   │   ├── TET03.mid
+│   │   │   ├── Tran02.mid
+│   │   │   ├── Travinskyy03.mid
+│   │   │   ├── Tysman07M.mid
+│   │   │   ├── Uiasiuk03.mid
+│   │   │   ├── VuV06M.mid
+│   │   │   ├── Wang06M.mid
+│   │   │   ├── WangA01.mid
+│   │   │   ├── WangA07M.mid
+│   │   │   ├── WangV03.mid
+│   │   │   ├── WangY02M.mid
+│   │   │   ├── WongDoe02_2006.mid
+│   │   │   ├── WongDoe02_2009.mid
+│   │   │   ├── Woo02.mid
+│   │   │   ├── Woo06M.mid
+│   │   │   ├── Yang05M.mid
+│   │   │   ├── Ye04.mid
+│   │   │   ├── Yeletskiy03.mid
+│   │   │   ├── Yeletskiy05M.mid
+│   │   │   ├── Yoon02.mid
+│   │   │   ├── Yu04.mid
+│   │   │   ├── ZhangH02.mid
+│   │   │   ├── ZhangH07M.mid
+│   │   │   ├── ZhangX03.mid
+│   │   │   └── Zuber07M.mid
+│   │   └── wav
+│   │       ├── Avdeeva07M.wav
+│   │       ├── BuiJL03M.wav
+│   │       ├── CaoJ03M.wav
+│   │       ├── ChenGuang24M.wav
+│   │       ├── ChernovA04M.wav
+│   │       ├── Dulu07M.wav
+│   │       ├── GarritsonL04M.wav
+│   │       ├── Gasanov06M.wav
+│   │       ├── GiacomelliN11M.wav
+│   │       ├── GuoE03M.wav
+│   │       ├── Huang13M.wav
+│   │       ├── Huang14M.wav
+│   │       ├── Huang15M.wav
+│   │       ├── Huang16M.wav
+│   │       ├── Huang17M.wav
+│   │       ├── Huang18M.wav
+│   │       ├── Jin07M.wav
+│   │       ├── KanM09M.wav
+│   │       ├── Kleisen06M.wav
+│   │       ├── LeeE04M.wav
+│   │       ├── LeungM06M.wav
+│   │       ├── LeungM08M.wav
+│   │       ├── LeungM12M.wav
+│   │       ├── LeungR04M.wav
+│   │       ├── Levitsky06M.wav
+│   │       ├── LiA09M.wav
+│   │       ├── Lin07M.wav
+│   │       ├── LiuC04M.wav
+│   │       ├── LiuC05M.wav
+│   │       ├── LiuY03M.wav
+│   │       ├── LiuY06M.wav
+│   │       ├── Lu03M.wav
+│   │       ├── LuoJ05M.wav
+│   │       ├── Min03M.wav
+│   │       ├── Min06M.wav
+│   │       ├── MunA08M.wav
+│   │       ├── Park03M.wav
+│   │       ├── Tario06M.wav
+│   │       ├── Tysman07M.wav
+│   │       ├── VuV06M.wav
+│   │       ├── Wang06M.wav
+│   │       ├── WangA07M.wav
+│   │       ├── WangY02M.wav
+│   │       ├── Woo06M.wav
+│   │       ├── Yang05M.wav
+│   │       ├── Yeletskiy05M.wav
+│   │       ├── ZhangH07M.wav
+│   │       └── Zuber07M.wav
+│   └── Prokofiev
+│       ├── annotation
+│       │   ├── Colafelice11_annotations.txt
+│       │   ├── Dossin07_annotations.txt
+│       │   ├── Fab13_annotations.txt
+│       │   ├── Guo04_annotations.txt
+│       │   ├── Kociuban16_annotations.txt
+│       │   ├── Lin06_annotations.txt
+│       │   ├── Song04_annotations.txt
+│       │   └── Teo05_annotations.txt
+│       ├── mid
+│       │   ├── Colafelice11.mid
+│       │   ├── Dossin07.mid
+│       │   ├── Fab13.mid
+│       │   ├── Guo04.mid
+│       │   ├── Kociuban16.mid
+│       │   ├── Lin06.mid
+│       │   ├── Song04.mid
+│       │   └── Teo05.mid
+│       └── wav
+│           ├── Colafelice11.wav
+│           ├── Dossin07.wav
+│           ├── Fab13.wav
+│           ├── Guo04.wav
+│           ├── Kociuban16.wav
+│           ├── Lin06.wav
+│           ├── Song04.wav
+│           └── Teo05.wav
+├── Ballroom
+│   ├── BallroomAnnotations
+│   │   ├── allBallroomFiles
+│   │   └── ballroomGroundTruth
+│   │       ├── Albums-AnaBelen_Veneo-01.bpm
+│   │       ├── Albums-AnaBelen_Veneo-02.bpm
+│   │       ├── Albums-AnaBelen_Veneo-03.bpm
+│   │       ├── Albums-AnaBelen_Veneo-11.bpm
+│   │       ├── Albums-AnaBelen_Veneo-13.bpm
+│   │       ├── Albums-AnaBelen_Veneo-15.bpm
+│   │       ├── Albums-Ballroom_Classics4-01.bpm
+│   │       ├── Albums-Ballroom_Classics4-02.bpm
+│   │       ├── Albums-Ballroom_Classics4-03.bpm
+│   │       ├── Albums-Ballroom_Classics4-04.bpm
+│   │       ├── Albums-Ballroom_Classics4-05.bpm
+│   │       ├── Albums-Ballroom_Classics4-06.bpm
+│   │       ├── Albums-Ballroom_Classics4-07.bpm
+│   │       ├── Albums-Ballroom_Classics4-08.bpm
+│   │       ├── Albums-Ballroom_Classics4-09.bpm
+│   │       ├── Albums-Ballroom_Classics4-10.bpm
+│   │       ├── Albums-Ballroom_Classics4-11.bpm
+│   │       ├── Albums-Ballroom_Classics4-12.bpm
+│   │       ├── Albums-Ballroom_Classics4-13.bpm
+│   │       ├── Albums-Ballroom_Classics4-14.bpm
+│   │       ├── Albums-Ballroom_Classics4-18.bpm
+│   │       ├── Albums-Ballroom_Classics4-19.bpm
+│   │       ├── Albums-Ballroom_Classics4-20.bpm
+│   │       ├── Albums-Ballroom_Magic-01.bpm
+│   │       ├── Albums-Ballroom_Magic-02.bpm
+│   │       ├── Albums-Ballroom_Magic-03.bpm
+│   │       ├── Albums-Ballroom_Magic-04.bpm
+│   │       ├── Albums-Ballroom_Magic-05.bpm
+│   │       ├── Albums-Ballroom_Magic-06.bpm
+│   │       ├── Albums-Ballroom_Magic-07.bpm
+│   │       ├── Albums-Ballroom_Magic-08.bpm
+│   │       ├── Albums-Ballroom_Magic-09.bpm
+│   │       ├── Albums-Ballroom_Magic-10.bpm
+│   │       ├── Albums-Ballroom_Magic-11.bpm
+│   │       ├── Albums-Ballroom_Magic-15.bpm
+│   │       ├── Albums-Ballroom_Magic-16.bpm
+│   │       ├── Albums-Ballroom_Magic-17.bpm
+│   │       ├── Albums-Ballroom_Magic-18.bpm
+│   │       ├── Albums-Cafe_Paradiso-01.bpm
+│   │       ├── Albums-Cafe_Paradiso-02.bpm
+│   │       ├── Albums-Cafe_Paradiso-03.bpm
+│   │       ├── Albums-Cafe_Paradiso-04.bpm
+│   │       ├── Albums-Cafe_Paradiso-05.bpm
+│   │       ├── Albums-Cafe_Paradiso-06.bpm
+│   │       ├── Albums-Cafe_Paradiso-07.bpm
+│   │       ├── Albums-Cafe_Paradiso-08.bpm
+│   │       ├── Albums-Cafe_Paradiso-09.bpm
+│   │       ├── Albums-Cafe_Paradiso-10.bpm
+│   │       ├── Albums-Cafe_Paradiso-11.bpm
+│   │       ├── Albums-Cafe_Paradiso-12.bpm
+│   │       ├── Albums-Cafe_Paradiso-14.bpm
+│   │       ├── Albums-Cafe_Paradiso-15.bpm
+│   │       ├── Albums-Cafe_Paradiso-16.bpm
+│   │       ├── Albums-Chrisanne1-01.bpm
+│   │       ├── Albums-Chrisanne1-02.bpm
+│   │       ├── Albums-Chrisanne1-03.bpm
+│   │       ├── Albums-Chrisanne1-04.bpm
+│   │       ├── Albums-Chrisanne1-05.bpm
+│   │       ├── Albums-Chrisanne1-06.bpm
+│   │       ├── Albums-Chrisanne1-07.bpm
+│   │       ├── Albums-Chrisanne1-08.bpm
+│   │       ├── Albums-Chrisanne1-12.bpm
+│   │       ├── Albums-Chrisanne1-13.bpm
+│   │       ├── Albums-Chrisanne1-14.bpm
+│   │       ├── Albums-Chrisanne2-01.bpm
+│   │       ├── Albums-Chrisanne2-02.bpm
+│   │       ├── Albums-Chrisanne2-03.bpm
+│   │       ├── Albums-Chrisanne2-04.bpm
+│   │       ├── Albums-Chrisanne2-05.bpm
+│   │       ├── Albums-Chrisanne2-06.bpm
+│   │       ├── Albums-Chrisanne2-07.bpm
+│   │       ├── Albums-Chrisanne2-11.bpm
+│   │       ├── Albums-Chrisanne2-12.bpm
+│   │       ├── Albums-Chrisanne3-01.bpm
+│   │       ├── Albums-Chrisanne3-02.bpm
+│   │       ├── Albums-Chrisanne3-03.bpm
+│   │       ├── Albums-Chrisanne3-04.bpm
+│   │       ├── Albums-Chrisanne3-05.bpm
+│   │       ├── Albums-Chrisanne3-06.bpm
+│   │       ├── Albums-Chrisanne3-07.bpm
+│   │       ├── Albums-Chrisanne3-08.bpm
+│   │       ├── Albums-Chrisanne3-09.bpm
+│   │       ├── Albums-Chrisanne3-13.bpm
+│   │       ├── Albums-Chrisanne3-14.bpm
+│   │       ├── Albums-Chrisanne3-15.bpm
+│   │       ├── Albums-Commitments-08.bpm
+│   │       ├── Albums-Commitments-10.bpm
+│   │       ├── Albums-Commitments-11.bpm
+│   │       ├── Albums-Fire-01.bpm
+│   │       ├── Albums-Fire-02.bpm
+│   │       ├── Albums-Fire-03.bpm
+│   │       ├── Albums-Fire-07.bpm
+│   │       ├── Albums-Fire-08.bpm
+│   │       ├── Albums-Fire-09.bpm
+│   │       ├── Albums-Fire-10.bpm
+│   │       ├── Albums-Fire-12.bpm
+│   │       ├── Albums-Fire-13.bpm
+│   │       ├── Albums-Fire-14.bpm
+│   │       ├── Albums-Fire-15.bpm
+│   │       ├── Albums-GloriaEstefan_MiTierra-01.bpm
+│   │       ├── Albums-GloriaEstefan_MiTierra-04.bpm
+│   │       ├── Albums-GloriaEstefan_MiTierra-06.bpm
+│   │       ├── Albums-GloriaEstefan_MiTierra-08.bpm
+│   │       ├── Albums-GloriaEstefan_MiTierra-11.bpm
+│   │       ├── Albums-I_Like_It2-01.bpm
+│   │       ├── Albums-I_Like_It2-02.bpm
+│   │       ├── Albums-I_Like_It2-09.bpm
+│   │       ├── Albums-Latin_Jam-01.bpm
+│   │       ├── Albums-Latin_Jam-02.bpm
+│   │       ├── Albums-Latin_Jam-03.bpm
+│   │       ├── Albums-Latin_Jam-04.bpm
+│   │       ├── Albums-Latin_Jam-05.bpm
+│   │       ├── Albums-Latin_Jam-06.bpm
+│   │       ├── Albums-Latin_Jam-07.bpm
+│   │       ├── Albums-Latin_Jam-08.bpm
+│   │       ├── Albums-Latin_Jam-09.bpm
+│   │       ├── Albums-Latin_Jam-11.bpm
+│   │       ├── Albums-Latin_Jam-12.bpm
+│   │       ├── Albums-Latin_Jam-13.bpm
+│   │       ├── Albums-Latin_Jam-14.bpm
+│   │       ├── Albums-Latin_Jam-15.bpm
+│   │       ├── Albums-Latin_Jam2-01.bpm
+│   │       ├── Albums-Latin_Jam2-02.bpm
+│   │       ├── Albums-Latin_Jam2-03.bpm
+│   │       ├── Albums-Latin_Jam2-04.bpm
+│   │       ├── Albums-Latin_Jam2-05.bpm
+│   │       ├── Albums-Latin_Jam2-06.bpm
+│   │       ├── Albums-Latin_Jam2-07.bpm
+│   │       ├── Albums-Latin_Jam2-08.bpm
+│   │       ├── Albums-Latin_Jam2-09.bpm
+│   │       ├── Albums-Latin_Jam2-11.bpm
+│   │       ├── Albums-Latin_Jam2-12.bpm
+│   │       ├── Albums-Latin_Jam2-13.bpm
+│   │       ├── Albums-Latin_Jam2-14.bpm
+│   │       ├── Albums-Latin_Jam2-15.bpm
+│   │       ├── Albums-Latin_Jam3-01.bpm
+│   │       ├── Albums-Latin_Jam3-02.bpm
+│   │       ├── Albums-Latin_Jam3-03.bpm
+│   │       ├── Albums-Latin_Jam3-04.bpm
+│   │       ├── Albums-Latin_Jam3-05.bpm
+│   │       ├── Albums-Latin_Jam3-06.bpm
+│   │       ├── Albums-Latin_Jam3-07.bpm
+│   │       ├── Albums-Latin_Jam3-08.bpm
+│   │       ├── Albums-Latin_Jam3-09.bpm
+│   │       ├── Albums-Latin_Jam3-11.bpm
+│   │       ├── Albums-Latin_Jam3-12.bpm
+│   │       ├── Albums-Latin_Jam4-01.bpm
+│   │       ├── Albums-Latin_Jam4-02.bpm
+│   │       ├── Albums-Latin_Jam4-03.bpm
+│   │       ├── Albums-Latin_Jam4-05.bpm
+│   │       ├── Albums-Latin_Jam4-06.bpm
+│   │       ├── Albums-Latin_Jam4-07.bpm
+│   │       ├── Albums-Latin_Jam4-08.bpm
+│   │       ├── Albums-Latin_Jam4-10.bpm
+│   │       ├── Albums-Latin_Jam4-11.bpm
+│   │       ├── Albums-Latin_Jam4-12.bpm
+│   │       ├── Albums-Latin_Jam4-13.bpm
+│   │       ├── Albums-Latin_Jam5-01.bpm
+│   │       ├── Albums-Latin_Jam5-02.bpm
+│   │       ├── Albums-Latin_Jam5-03.bpm
+│   │       ├── Albums-Latin_Jam5-04.bpm
+│   │       ├── Albums-Latin_Jam5-06.bpm
+│   │       ├── Albums-Latin_Jam5-07.bpm
+│   │       ├── Albums-Latin_Jam5-08.bpm
+│   │       ├── Albums-Latin_Jam5-09.bpm
+│   │       ├── Albums-Latin_Jam5-10.bpm
+│   │       ├── Albums-Latin_Jam5-11.bpm
+│   │       ├── Albums-Latin_Jam5-12.bpm
+│   │       ├── Albums-Latino_Latino-01.bpm
+│   │       ├── Albums-Latino_Latino-03.bpm
+│   │       ├── Albums-Latino_Latino-04.bpm
+│   │       ├── Albums-Latino_Latino-05.bpm
+│   │       ├── Albums-Latino_Latino-06.bpm
+│   │       ├── Albums-Latino_Latino-09.bpm
+│   │       ├── Albums-Latino_Latino-10.bpm
+│   │       ├── Albums-Macumba-01.bpm
+│   │       ├── Albums-Macumba-02.bpm
+│   │       ├── Albums-Macumba-03.bpm
+│   │       ├── Albums-Macumba-04.bpm
+│   │       ├── Albums-Macumba-05.bpm
+│   │       ├── Albums-Macumba-06.bpm
+│   │       ├── Albums-Macumba-07.bpm
+│   │       ├── Albums-Macumba-08.bpm
+│   │       ├── Albums-Macumba-09.bpm
+│   │       ├── Albums-Macumba-10.bpm
+│   │       ├── Albums-Macumba-11.bpm
+│   │       ├── Albums-Macumba-12.bpm
+│   │       ├── Albums-Macumba-14.bpm
+│   │       ├── Albums-Macumba-15.bpm
+│   │       ├── Albums-Macumba-16.bpm
+│   │       ├── Albums-Mambo_Kings-03.bpm
+│   │       ├── Albums-Mambo_Kings-10.bpm
+│   │       ├── Albums-Mambo_Kings-11.bpm
+│   │       ├── Albums-Mambo_Kings-12.bpm
+│   │       ├── Albums-Pais_Tropical-01.bpm
+│   │       ├── Albums-Pais_Tropical-02.bpm
+│   │       ├── Albums-Pais_Tropical-03.bpm
+│   │       ├── Albums-Pais_Tropical-04.bpm
+│   │       ├── Albums-Pais_Tropical-05.bpm
+│   │       ├── Albums-Pais_Tropical-06.bpm
+│   │       ├── Albums-Pais_Tropical-07.bpm
+│   │       ├── Albums-Pais_Tropical-08.bpm
+│   │       ├── Albums-Pais_Tropical-09.bpm
+│   │       ├── Albums-Pais_Tropical-10.bpm
+│   │       ├── Albums-Pais_Tropical-11.bpm
+│   │       ├── Albums-Pais_Tropical-12.bpm
+│   │       ├── Albums-Pais_Tropical-13.bpm
+│   │       ├── Albums-Pais_Tropical-14.bpm
+│   │       ├── Albums-Pais_Tropical-15.bpm
+│   │       ├── Albums-Pais_Tropical-16.bpm
+│   │       ├── Albums-Secret_Garden-01.bpm
+│   │       ├── Albums-Secret_Garden-02.bpm
+│   │       ├── Albums-Secret_Garden-05.bpm
+│   │       ├── Albums-Secret_Garden-06.bpm
+│   │       ├── Albums-Step_By_Step-01.bpm
+│   │       ├── Albums-Step_By_Step-02.bpm
+│   │       ├── Albums-Step_By_Step-03.bpm
+│   │       ├── Albums-Step_By_Step-04.bpm
+│   │       ├── Albums-Step_By_Step-05.bpm
+│   │       ├── Albums-Step_By_Step-06.bpm
+│   │       ├── Albums-Step_By_Step-07.bpm
+│   │       ├── Albums-Step_By_Step-08.bpm
+│   │       ├── Albums-Step_By_Step-09.bpm
+│   │       ├── Albums-Step_By_Step-10.bpm
+│   │       ├── Albums-Step_By_Step-11.bpm
+│   │       ├── Albums-Step_By_Step-15.bpm
+│   │       ├── Albums-Step_By_Step-16.bpm
+│   │       ├── Albums-Step_By_Step-17.bpm
+│   │       ├── Albums-Step_By_Step-18.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-01.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-02.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-03.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-04.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-05.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-06.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-07.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-08.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-09.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-10.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-11.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-12.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-13.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-14.bpm
+│   │       ├── Albums-StrictlyDancing_Tango-15.bpm
+│   │       ├── Media-100601.bpm
+│   │       ├── Media-100602.bpm
+│   │       ├── Media-100603.bpm
+│   │       ├── Media-100604.bpm
+│   │       ├── Media-100605.bpm
+│   │       ├── Media-100606.bpm
+│   │       ├── Media-100607.bpm
+│   │       ├── Media-100608.bpm
+│   │       ├── Media-100609.bpm
+│   │       ├── Media-100610.bpm
+│   │       ├── Media-100614.bpm
+│   │       ├── Media-100615.bpm
+│   │       ├── Media-100616.bpm
+│   │       ├── Media-103301.bpm
+│   │       ├── Media-103302.bpm
+│   │       ├── Media-103303.bpm
+│   │       ├── Media-103304.bpm
+│   │       ├── Media-103305.bpm
+│   │       ├── Media-103306.bpm
+│   │       ├── Media-103307.bpm
+│   │       ├── Media-103308.bpm
+│   │       ├── Media-103312.bpm
+│   │       ├── Media-103313.bpm
+│   │       ├── Media-103314.bpm
+│   │       ├── Media-103315.bpm
+│   │       ├── Media-103401.bpm
+│   │       ├── Media-103402.bpm
+│   │       ├── Media-103403.bpm
+│   │       ├── Media-103404.bpm
+│   │       ├── Media-103405.bpm
+│   │       ├── Media-103406.bpm
+│   │       ├── Media-103407.bpm
+│   │       ├── Media-103408.bpm
+│   │       ├── Media-103409.bpm
+│   │       ├── Media-103410.bpm
+│   │       ├── Media-103411.bpm
+│   │       ├── Media-103412.bpm
+│   │       ├── Media-103413.bpm
+│   │       ├── Media-103414.bpm
+│   │       ├── Media-103415.bpm
+│   │       ├── Media-103416.bpm
+│   │       ├── Media-103417.bpm
+│   │       ├── Media-103501.bpm
+│   │       ├── Media-103502.bpm
+│   │       ├── Media-103503.bpm
+│   │       ├── Media-103504.bpm
+│   │       ├── Media-103505.bpm
+│   │       ├── Media-103506.bpm
+│   │       ├── Media-103507.bpm
+│   │       ├── Media-103508.bpm
+│   │       ├── Media-103509.bpm
+│   │       ├── Media-103510.bpm
+│   │       ├── Media-103511.bpm
+│   │       ├── Media-103512.bpm
+│   │       ├── Media-103513.bpm
+│   │       ├── Media-103514.bpm
+│   │       ├── Media-103515.bpm
+│   │       ├── Media-103516.bpm
+│   │       ├── Media-103517.bpm
+│   │       ├── Media-103601.bpm
+│   │       ├── Media-103602.bpm
+│   │       ├── Media-103603.bpm
+│   │       ├── Media-103604.bpm
+│   │       ├── Media-103605.bpm
+│   │       ├── Media-103606.bpm
+│   │       ├── Media-103607.bpm
+│   │       ├── Media-103608.bpm
+│   │       ├── Media-103609.bpm
+│   │       ├── Media-103610.bpm
+│   │       ├── Media-103611.bpm
+│   │       ├── Media-103612.bpm
+│   │       ├── Media-103613.bpm
+│   │       ├── Media-103614.bpm
+│   │       ├── Media-103615.bpm
+│   │       ├── Media-103616.bpm
+│   │       ├── Media-103617.bpm
+│   │       ├── Media-103618.bpm
+│   │       ├── Media-103619.bpm
+│   │       ├── Media-103701.bpm
+│   │       ├── Media-103702.bpm
+│   │       ├── Media-103703.bpm
+│   │       ├── Media-103704.bpm
+│   │       ├── Media-103705.bpm
+│   │       ├── Media-103706.bpm
+│   │       ├── Media-103707.bpm
+│   │       ├── Media-103708.bpm
+│   │       ├── Media-103709.bpm
+│   │       ├── Media-103710.bpm
+│   │       ├── Media-103711.bpm
+│   │       ├── Media-103712.bpm
+│   │       ├── Media-103713.bpm
+│   │       ├── Media-103714.bpm
+│   │       ├── Media-103715.bpm
+│   │       ├── Media-103716.bpm
+│   │       ├── Media-103717.bpm
+│   │       ├── Media-103718.bpm
+│   │       ├── Media-103719.bpm
+│   │       ├── Media-103801.bpm
+│   │       ├── Media-103802.bpm
+│   │       ├── Media-103803.bpm
+│   │       ├── Media-103804.bpm
+│   │       ├── Media-103805.bpm
+│   │       ├── Media-103806.bpm
+│   │       ├── Media-103807.bpm
+│   │       ├── Media-103808.bpm
+│   │       ├── Media-103809.bpm
+│   │       ├── Media-103810.bpm
+│   │       ├── Media-103811.bpm
+│   │       ├── Media-103812.bpm
+│   │       ├── Media-103813.bpm
+│   │       ├── Media-103814.bpm
+│   │       ├── Media-103815.bpm
+│   │       ├── Media-103816.bpm
+│   │       ├── Media-103817.bpm
+│   │       ├── Media-103818.bpm
+│   │       ├── Media-103819.bpm
+│   │       ├── Media-103901.bpm
+│   │       ├── Media-103902.bpm
+│   │       ├── Media-103903.bpm
+│   │       ├── Media-103904.bpm
+│   │       ├── Media-103905.bpm
+│   │       ├── Media-103906.bpm
+│   │       ├── Media-103907.bpm
+│   │       ├── Media-103908.bpm
+│   │       ├── Media-103909.bpm
+│   │       ├── Media-103910.bpm
+│   │       ├── Media-103911.bpm
+│   │       ├── Media-103912.bpm
+│   │       ├── Media-103913.bpm
+│   │       ├── Media-103914.bpm
+│   │       ├── Media-103917.bpm
+│   │       ├── Media-103918.bpm
+│   │       ├── Media-103919.bpm
+│   │       ├── Media-103920.bpm
+│   │       ├── Media-104001.bpm
+│   │       ├── Media-104002.bpm
+│   │       ├── Media-104003.bpm
+│   │       ├── Media-104004.bpm
+│   │       ├── Media-104005.bpm
+│   │       ├── Media-104006.bpm
+│   │       ├── Media-104007.bpm
+│   │       ├── Media-104008.bpm
+│   │       ├── Media-104009.bpm
+│   │       ├── Media-104010.bpm
+│   │       ├── Media-104011.bpm
+│   │       ├── Media-104012.bpm
+│   │       ├── Media-104015.bpm
+│   │       ├── Media-104016.bpm
+│   │       ├── Media-104017.bpm
+│   │       ├── Media-104101.bpm
+│   │       ├── Media-104102.bpm
+│   │       ├── Media-104103.bpm
+│   │       ├── Media-104104.bpm
+│   │       ├── Media-104105.bpm
+│   │       ├── Media-104106.bpm
+│   │       ├── Media-104107.bpm
+│   │       ├── Media-104108.bpm
+│   │       ├── Media-104109.bpm
+│   │       ├── Media-104110.bpm
+│   │       ├── Media-104111.bpm
+│   │       ├── Media-104112.bpm
+│   │       ├── Media-104113.bpm
+│   │       ├── Media-104114.bpm
+│   │       ├── Media-104115.bpm
+│   │       ├── Media-104116.bpm
+│   │       ├── Media-104117.bpm
+│   │       ├── Media-104118.bpm
+│   │       ├── Media-104119.bpm
+│   │       ├── Media-104201.bpm
+│   │       ├── Media-104202.bpm
+│   │       ├── Media-104203.bpm
+│   │       ├── Media-104204.bpm
+│   │       ├── Media-104205.bpm
+│   │       ├── Media-104206.bpm
+│   │       ├── Media-104207.bpm
+│   │       ├── Media-104208.bpm
+│   │       ├── Media-104209.bpm
+│   │       ├── Media-104210.bpm
+│   │       ├── Media-104211.bpm
+│   │       ├── Media-104212.bpm
+│   │       ├── Media-104216.bpm
+│   │       ├── Media-104217.bpm
+│   │       ├── Media-104218.bpm
+│   │       ├── Media-104219.bpm
+│   │       ├── Media-104301.bpm
+│   │       ├── Media-104302.bpm
+│   │       ├── Media-104303.bpm
+│   │       ├── Media-104304.bpm
+│   │       ├── Media-104305.bpm
+│   │       ├── Media-104306.bpm
+│   │       ├── Media-104307.bpm
+│   │       ├── Media-104308.bpm
+│   │       ├── Media-104309.bpm
+│   │       ├── Media-104314.bpm
+│   │       ├── Media-104315.bpm
+│   │       ├── Media-104316.bpm
+│   │       ├── Media-104317.bpm
+│   │       ├── Media-104401.bpm
+│   │       ├── Media-104402.bpm
+│   │       ├── Media-104403.bpm
+│   │       ├── Media-104404.bpm
+│   │       ├── Media-104405.bpm
+│   │       ├── Media-104406.bpm
+│   │       ├── Media-104407.bpm
+│   │       ├── Media-104408.bpm
+│   │       ├── Media-104409.bpm
+│   │       ├── Media-104415.bpm
+│   │       ├── Media-104416.bpm
+│   │       ├── Media-104417.bpm
+│   │       ├── Media-104418.bpm
+│   │       ├── Media-104501.bpm
+│   │       ├── Media-104502.bpm
+│   │       ├── Media-104503.bpm
+│   │       ├── Media-104504.bpm
+│   │       ├── Media-104505.bpm
+│   │       ├── Media-104506.bpm
+│   │       ├── Media-104507.bpm
+│   │       ├── Media-104508.bpm
+│   │       ├── Media-104514.bpm
+│   │       ├── Media-104515.bpm
+│   │       ├── Media-104516.bpm
+│   │       ├── Media-104601.bpm
+│   │       ├── Media-104602.bpm
+│   │       ├── Media-104603.bpm
+│   │       ├── Media-104604.bpm
+│   │       ├── Media-104605.bpm
+│   │       ├── Media-104606.bpm
+│   │       ├── Media-104607.bpm
+│   │       ├── Media-104608.bpm
+│   │       ├── Media-104609.bpm
+│   │       ├── Media-104615.bpm
+│   │       ├── Media-104616.bpm
+│   │       ├── Media-104617.bpm
+│   │       ├── Media-104618.bpm
+│   │       ├── Media-104701.bpm
+│   │       ├── Media-104702.bpm
+│   │       ├── Media-104703.bpm
+│   │       ├── Media-104704.bpm
+│   │       ├── Media-104705.bpm
+│   │       ├── Media-104706.bpm
+│   │       ├── Media-104707.bpm
+│   │       ├── Media-104708.bpm
+│   │       ├── Media-104709.bpm
+│   │       ├── Media-104710.bpm
+│   │       ├── Media-104711.bpm
+│   │       ├── Media-104712.bpm
+│   │       ├── Media-104716.bpm
+│   │       ├── Media-104717.bpm
+│   │       ├── Media-104718.bpm
+│   │       ├── Media-104801.bpm
+│   │       ├── Media-104802.bpm
+│   │       ├── Media-104803.bpm
+│   │       ├── Media-104804.bpm
+│   │       ├── Media-104805.bpm
+│   │       ├── Media-104806.bpm
+│   │       ├── Media-104807.bpm
+│   │       ├── Media-104808.bpm
+│   │       ├── Media-104809.bpm
+│   │       ├── Media-104810.bpm
+│   │       ├── Media-104811.bpm
+│   │       ├── Media-104815.bpm
+│   │       ├── Media-104816.bpm
+│   │       ├── Media-104901.bpm
+│   │       ├── Media-104902.bpm
+│   │       ├── Media-104903.bpm
+│   │       ├── Media-104904.bpm
+│   │       ├── Media-104905.bpm
+│   │       ├── Media-104906.bpm
+│   │       ├── Media-104907.bpm
+│   │       ├── Media-104908.bpm
+│   │       ├── Media-104909.bpm
+│   │       ├── Media-104915.bpm
+│   │       ├── Media-104916.bpm
+│   │       ├── Media-104917.bpm
+│   │       ├── Media-104918.bpm
+│   │       ├── Media-105001.bpm
+│   │       ├── Media-105002.bpm
+│   │       ├── Media-105003.bpm
+│   │       ├── Media-105004.bpm
+│   │       ├── Media-105005.bpm
+│   │       ├── Media-105006.bpm
+│   │       ├── Media-105007.bpm
+│   │       ├── Media-105008.bpm
+│   │       ├── Media-105009.bpm
+│   │       ├── Media-105010.bpm
+│   │       ├── Media-105011.bpm
+│   │       ├── Media-105016.bpm
+│   │       ├── Media-105017.bpm
+│   │       ├── Media-105018.bpm
+│   │       ├── Media-105019.bpm
+│   │       ├── Media-105020.bpm
+│   │       ├── Media-105101.bpm
+│   │       ├── Media-105102.bpm
+│   │       ├── Media-105103.bpm
+│   │       ├── Media-105104.bpm
+│   │       ├── Media-105105.bpm
+│   │       ├── Media-105106.bpm
+│   │       ├── Media-105107.bpm
+│   │       ├── Media-105108.bpm
+│   │       ├── Media-105109.bpm
+│   │       ├── Media-105110.bpm
+│   │       ├── Media-105111.bpm
+│   │       ├── Media-105112.bpm
+│   │       ├── Media-105119.bpm
+│   │       ├── Media-105120.bpm
+│   │       ├── Media-105121.bpm
+│   │       ├── Media-105122.bpm
+│   │       ├── Media-105207.bpm
+│   │       ├── Media-105209.bpm
+│   │       ├── Media-105210.bpm
+│   │       ├── Media-105211.bpm
+│   │       ├── Media-105212.bpm
+│   │       ├── Media-105213.bpm
+│   │       ├── Media-105214.bpm
+│   │       ├── Media-105215.bpm
+│   │       ├── Media-105301.bpm
+│   │       ├── Media-105302.bpm
+│   │       ├── Media-105303.bpm
+│   │       ├── Media-105304.bpm
+│   │       ├── Media-105305.bpm
+│   │       ├── Media-105306.bpm
+│   │       ├── Media-105307.bpm
+│   │       ├── Media-105308.bpm
+│   │       ├── Media-105309.bpm
+│   │       ├── Media-105313.bpm
+│   │       ├── Media-105314.bpm
+│   │       ├── Media-105315.bpm
+│   │       ├── Media-105316.bpm
+│   │       ├── Media-105317.bpm
+│   │       ├── Media-105318.bpm
+│   │       ├── Media-105320.bpm
+│   │       ├── Media-105401.bpm
+│   │       ├── Media-105402.bpm
+│   │       ├── Media-105403.bpm
+│   │       ├── Media-105404.bpm
+│   │       ├── Media-105405.bpm
+│   │       ├── Media-105406.bpm
+│   │       ├── Media-105407.bpm
+│   │       ├── Media-105408.bpm
+│   │       ├── Media-105409.bpm
+│   │       ├── Media-105410.bpm
+│   │       ├── Media-105411.bpm
+│   │       ├── Media-105412.bpm
+│   │       ├── Media-105413.bpm
+│   │       ├── Media-105414.bpm
+│   │       ├── Media-105415.bpm
+│   │       ├── Media-105416.bpm
+│   │       ├── Media-105417.bpm
+│   │       ├── Media-105418.bpm
+│   │       ├── Media-105419.bpm
+│   │       ├── Media-105420.bpm
+│   │       ├── Media-105501.bpm
+│   │       ├── Media-105502.bpm
+│   │       ├── Media-105503.bpm
+│   │       ├── Media-105504.bpm
+│   │       ├── Media-105505.bpm
+│   │       ├── Media-105506.bpm
+│   │       ├── Media-105507.bpm
+│   │       ├── Media-105508.bpm
+│   │       ├── Media-105509.bpm
+│   │       ├── Media-105510.bpm
+│   │       ├── Media-105511.bpm
+│   │       ├── Media-105516.bpm
+│   │       ├── Media-105517.bpm
+│   │       ├── Media-105518.bpm
+│   │       ├── Media-105601.bpm
+│   │       ├── Media-105602.bpm
+│   │       ├── Media-105603.bpm
+│   │       ├── Media-105604.bpm
+│   │       ├── Media-105605.bpm
+│   │       ├── Media-105606.bpm
+│   │       ├── Media-105607.bpm
+│   │       ├── Media-105608.bpm
+│   │       ├── Media-105609.bpm
+│   │       ├── Media-105611.bpm
+│   │       ├── Media-105612.bpm
+│   │       ├── Media-105613.bpm
+│   │       ├── Media-105614.bpm
+│   │       ├── Media-105615.bpm
+│   │       ├── Media-105701.bpm
+│   │       ├── Media-105702.bpm
+│   │       ├── Media-105703.bpm
+│   │       ├── Media-105704.bpm
+│   │       ├── Media-105705.bpm
+│   │       ├── Media-105706.bpm
+│   │       ├── Media-105707.bpm
+│   │       ├── Media-105708.bpm
+│   │       ├── Media-105709.bpm
+│   │       ├── Media-105710.bpm
+│   │       ├── Media-105715.bpm
+│   │       ├── Media-105716.bpm
+│   │       ├── Media-105717.bpm
+│   │       ├── Media-105801.bpm
+│   │       ├── Media-105802.bpm
+│   │       ├── Media-105803.bpm
+│   │       ├── Media-105804.bpm
+│   │       ├── Media-105805.bpm
+│   │       ├── Media-105806.bpm
+│   │       ├── Media-105807.bpm
+│   │       ├── Media-105808.bpm
+│   │       ├── Media-105809.bpm
+│   │       ├── Media-105810.bpm
+│   │       ├── Media-105811.bpm
+│   │       ├── Media-105812.bpm
+│   │       ├── Media-105816.bpm
+│   │       ├── Media-105817.bpm
+│   │       ├── Media-105818.bpm
+│   │       ├── Media-105819.bpm
+│   │       ├── Media-105820.bpm
+│   │       ├── Media-105901.bpm
+│   │       ├── Media-105902.bpm
+│   │       ├── Media-105903.bpm
+│   │       ├── Media-105904.bpm
+│   │       ├── Media-105905.bpm
+│   │       ├── Media-105906.bpm
+│   │       ├── Media-105907.bpm
+│   │       ├── Media-105911.bpm
+│   │       ├── Media-105912.bpm
+│   │       ├── Media-105913.bpm
+│   │       ├── Media-105914.bpm
+│   │       ├── Media-106001.bpm
+│   │       ├── Media-106002.bpm
+│   │       ├── Media-106003.bpm
+│   │       ├── Media-106004.bpm
+│   │       ├── Media-106005.bpm
+│   │       ├── Media-106006.bpm
+│   │       ├── Media-106007.bpm
+│   │       ├── Media-106008.bpm
+│   │       ├── Media-106009.bpm
+│   │       ├── Media-106010.bpm
+│   │       ├── Media-106011.bpm
+│   │       ├── Media-106012.bpm
+│   │       ├── Media-106015.bpm
+│   │       ├── Media-106016.bpm
+│   │       ├── Media-106017.bpm
+│   │       ├── Media-106101.bpm
+│   │       ├── Media-106102.bpm
+│   │       ├── Media-106103.bpm
+│   │       ├── Media-106104.bpm
+│   │       ├── Media-106105.bpm
+│   │       ├── Media-106106.bpm
+│   │       ├── Media-106107.bpm
+│   │       ├── Media-106108.bpm
+│   │       ├── Media-106109.bpm
+│   │       ├── Media-106110.bpm
+│   │       ├── Media-106111.bpm
+│   │       ├── Media-106112.bpm
+│   │       ├── Media-106113.bpm
+│   │       ├── Media-106114.bpm
+│   │       ├── Media-106115.bpm
+│   │       ├── Media-106116.bpm
+│   │       ├── Media-106117.bpm
+│   │       ├── Media-106118.bpm
+│   │       └── Media-106119.bpm
+│   ├── BallroomAnnotations-master
+│   │   ├── Albums-AnaBelen_Veneo-01.beats
+│   │   ├── Albums-AnaBelen_Veneo-02.beats
+│   │   ├── Albums-AnaBelen_Veneo-03.beats
+│   │   ├── Albums-AnaBelen_Veneo-11.beats
+│   │   ├── Albums-AnaBelen_Veneo-13.beats
+│   │   ├── Albums-AnaBelen_Veneo-15.beats
+│   │   ├── Albums-Ballroom_Classics4-01.beats
+│   │   ├── Albums-Ballroom_Classics4-02.beats
+│   │   ├── Albums-Ballroom_Classics4-03.beats
+│   │   ├── Albums-Ballroom_Classics4-04.beats
+│   │   ├── Albums-Ballroom_Classics4-05.beats
+│   │   ├── Albums-Ballroom_Classics4-06.beats
+│   │   ├── Albums-Ballroom_Classics4-07.beats
+│   │   ├── Albums-Ballroom_Classics4-08.beats
+│   │   ├── Albums-Ballroom_Classics4-09.beats
+│   │   ├── Albums-Ballroom_Classics4-10.beats
+│   │   ├── Albums-Ballroom_Classics4-11.beats
+│   │   ├── Albums-Ballroom_Classics4-12.beats
+│   │   ├── Albums-Ballroom_Classics4-13.beats
+│   │   ├── Albums-Ballroom_Classics4-14.beats
+│   │   ├── Albums-Ballroom_Classics4-18.beats
+│   │   ├── Albums-Ballroom_Classics4-19.beats
+│   │   ├── Albums-Ballroom_Classics4-20.beats
+│   │   ├── Albums-Ballroom_Magic-01.beats
+│   │   ├── Albums-Ballroom_Magic-02.beats
+│   │   ├── Albums-Ballroom_Magic-03.beats
+│   │   ├── Albums-Ballroom_Magic-04.beats
+│   │   ├── Albums-Ballroom_Magic-05.beats
+│   │   ├── Albums-Ballroom_Magic-06.beats
+│   │   ├── Albums-Ballroom_Magic-07.beats
+│   │   ├── Albums-Ballroom_Magic-08.beats
+│   │   ├── Albums-Ballroom_Magic-09.beats
+│   │   ├── Albums-Ballroom_Magic-10.beats
+│   │   ├── Albums-Ballroom_Magic-11.beats
+│   │   ├── Albums-Ballroom_Magic-15.beats
+│   │   ├── Albums-Ballroom_Magic-16.beats
+│   │   ├── Albums-Ballroom_Magic-17.beats
+│   │   ├── Albums-Ballroom_Magic-18.beats
+│   │   ├── Albums-Cafe_Paradiso-01.beats
+│   │   ├── Albums-Cafe_Paradiso-02.beats
+│   │   ├── Albums-Cafe_Paradiso-03.beats
+│   │   ├── Albums-Cafe_Paradiso-04.beats
+│   │   ├── Albums-Cafe_Paradiso-05.beats
+│   │   ├── Albums-Cafe_Paradiso-06.beats
+│   │   ├── Albums-Cafe_Paradiso-07.beats
+│   │   ├── Albums-Cafe_Paradiso-08.beats
+│   │   ├── Albums-Cafe_Paradiso-09.beats
+│   │   ├── Albums-Cafe_Paradiso-10.beats
+│   │   ├── Albums-Cafe_Paradiso-11.beats
+│   │   ├── Albums-Cafe_Paradiso-12.beats
+│   │   ├── Albums-Cafe_Paradiso-14.beats
+│   │   ├── Albums-Cafe_Paradiso-15.beats
+│   │   ├── Albums-Cafe_Paradiso-16.beats
+│   │   ├── Albums-Chrisanne1-01.beats
+│   │   ├── Albums-Chrisanne1-02.beats
+│   │   ├── Albums-Chrisanne1-03.beats
+│   │   ├── Albums-Chrisanne1-04.beats
+│   │   ├── Albums-Chrisanne1-05.beats
+│   │   ├── Albums-Chrisanne1-06.beats
+│   │   ├── Albums-Chrisanne1-07.beats
+│   │   ├── Albums-Chrisanne1-08.beats
+│   │   ├── Albums-Chrisanne1-12.beats
+│   │   ├── Albums-Chrisanne1-13.beats
+│   │   ├── Albums-Chrisanne1-14.beats
+│   │   ├── Albums-Chrisanne2-01.beats
+│   │   ├── Albums-Chrisanne2-02.beats
+│   │   ├── Albums-Chrisanne2-03.beats
+│   │   ├── Albums-Chrisanne2-04.beats
+│   │   ├── Albums-Chrisanne2-05.beats
+│   │   ├── Albums-Chrisanne2-06.beats
+│   │   ├── Albums-Chrisanne2-07.beats
+│   │   ├── Albums-Chrisanne2-11.beats
+│   │   ├── Albums-Chrisanne2-12.beats
+│   │   ├── Albums-Chrisanne3-01.beats
+│   │   ├── Albums-Chrisanne3-02.beats
+│   │   ├── Albums-Chrisanne3-03.beats
+│   │   ├── Albums-Chrisanne3-04.beats
+│   │   ├── Albums-Chrisanne3-05.beats
+│   │   ├── Albums-Chrisanne3-06.beats
+│   │   ├── Albums-Chrisanne3-07.beats
+│   │   ├── Albums-Chrisanne3-08.beats
+│   │   ├── Albums-Chrisanne3-09.beats
+│   │   ├── Albums-Chrisanne3-13.beats
+│   │   ├── Albums-Chrisanne3-14.beats
+│   │   ├── Albums-Chrisanne3-15.beats
+│   │   ├── Albums-Commitments-08.beats
+│   │   ├── Albums-Commitments-10.beats
+│   │   ├── Albums-Commitments-11.beats
+│   │   ├── Albums-Fire-01.beats
+│   │   ├── Albums-Fire-02.beats
+│   │   ├── Albums-Fire-03.beats
+│   │   ├── Albums-Fire-07.beats
+│   │   ├── Albums-Fire-08.beats
+│   │   ├── Albums-Fire-09.beats
+│   │   ├── Albums-Fire-10.beats
+│   │   ├── Albums-Fire-12.beats
+│   │   ├── Albums-Fire-13.beats
+│   │   ├── Albums-Fire-14.beats
+│   │   ├── Albums-Fire-15.beats
+│   │   ├── Albums-GloriaEstefan_MiTierra-01.beats
+│   │   ├── Albums-GloriaEstefan_MiTierra-04.beats
+│   │   ├── Albums-GloriaEstefan_MiTierra-06.beats
+│   │   ├── Albums-GloriaEstefan_MiTierra-08.beats
+│   │   ├── Albums-GloriaEstefan_MiTierra-11.beats
+│   │   ├── Albums-I_Like_It2-01.beats
+│   │   ├── Albums-I_Like_It2-02.beats
+│   │   ├── Albums-I_Like_It2-09.beats
+│   │   ├── Albums-Latin_Jam-01.beats
+│   │   ├── Albums-Latin_Jam-02.beats
+│   │   ├── Albums-Latin_Jam-03.beats
+│   │   ├── Albums-Latin_Jam-04.beats
+│   │   ├── Albums-Latin_Jam-05.beats
+│   │   ├── Albums-Latin_Jam-06.beats
+│   │   ├── Albums-Latin_Jam-07.beats
+│   │   ├── Albums-Latin_Jam-08.beats
+│   │   ├── Albums-Latin_Jam-09.beats
+│   │   ├── Albums-Latin_Jam-11.beats
+│   │   ├── Albums-Latin_Jam-12.beats
+│   │   ├── Albums-Latin_Jam-13.beats
+│   │   ├── Albums-Latin_Jam-14.beats
+│   │   ├── Albums-Latin_Jam-15.beats
+│   │   ├── Albums-Latin_Jam2-01.beats
+│   │   ├── Albums-Latin_Jam2-02.beats
+│   │   ├── Albums-Latin_Jam2-03.beats
+│   │   ├── Albums-Latin_Jam2-04.beats
+│   │   ├── Albums-Latin_Jam2-05.beats
+│   │   ├── Albums-Latin_Jam2-06.beats
+│   │   ├── Albums-Latin_Jam2-07.beats
+│   │   ├── Albums-Latin_Jam2-08.beats
+│   │   ├── Albums-Latin_Jam2-09.beats
+│   │   ├── Albums-Latin_Jam2-11.beats
+│   │   ├── Albums-Latin_Jam2-12.beats
+│   │   ├── Albums-Latin_Jam2-13.beats
+│   │   ├── Albums-Latin_Jam2-14.beats
+│   │   ├── Albums-Latin_Jam2-15.beats
+│   │   ├── Albums-Latin_Jam3-01.beats
+│   │   ├── Albums-Latin_Jam3-02.beats
+│   │   ├── Albums-Latin_Jam3-03.beats
+│   │   ├── Albums-Latin_Jam3-04.beats
+│   │   ├── Albums-Latin_Jam3-05.beats
+│   │   ├── Albums-Latin_Jam3-06.beats
+│   │   ├── Albums-Latin_Jam3-07.beats
+│   │   ├── Albums-Latin_Jam3-08.beats
+│   │   ├── Albums-Latin_Jam3-09.beats
+│   │   ├── Albums-Latin_Jam3-11.beats
+│   │   ├── Albums-Latin_Jam3-12.beats
+│   │   ├── Albums-Latin_Jam4-01.beats
+│   │   ├── Albums-Latin_Jam4-02.beats
+│   │   ├── Albums-Latin_Jam4-03.beats
+│   │   ├── Albums-Latin_Jam4-05.beats
+│   │   ├── Albums-Latin_Jam4-06.beats
+│   │   ├── Albums-Latin_Jam4-07.beats
+│   │   ├── Albums-Latin_Jam4-08.beats
+│   │   ├── Albums-Latin_Jam4-10.beats
+│   │   ├── Albums-Latin_Jam4-11.beats
+│   │   ├── Albums-Latin_Jam4-12.beats
+│   │   ├── Albums-Latin_Jam4-13.beats
+│   │   ├── Albums-Latin_Jam5-01.beats
+│   │   ├── Albums-Latin_Jam5-02.beats
+│   │   ├── Albums-Latin_Jam5-03.beats
+│   │   ├── Albums-Latin_Jam5-04.beats
+│   │   ├── Albums-Latin_Jam5-06.beats
+│   │   ├── Albums-Latin_Jam5-07.beats
+│   │   ├── Albums-Latin_Jam5-08.beats
+│   │   ├── Albums-Latin_Jam5-09.beats
+│   │   ├── Albums-Latin_Jam5-10.beats
+│   │   ├── Albums-Latin_Jam5-11.beats
+│   │   ├── Albums-Latin_Jam5-12.beats
+│   │   ├── Albums-Latino_Latino-01.beats
+│   │   ├── Albums-Latino_Latino-03.beats
+│   │   ├── Albums-Latino_Latino-04.beats
+│   │   ├── Albums-Latino_Latino-05.beats
+│   │   ├── Albums-Latino_Latino-06.beats
+│   │   ├── Albums-Latino_Latino-09.beats
+│   │   ├── Albums-Latino_Latino-10.beats
+│   │   ├── Albums-Macumba-01.beats
+│   │   ├── Albums-Macumba-02.beats
+│   │   ├── Albums-Macumba-03.beats
+│   │   ├── Albums-Macumba-04.beats
+│   │   ├── Albums-Macumba-05.beats
+│   │   ├── Albums-Macumba-06.beats
+│   │   ├── Albums-Macumba-07.beats
+│   │   ├── Albums-Macumba-08.beats
+│   │   ├── Albums-Macumba-09.beats
+│   │   ├── Albums-Macumba-10.beats
+│   │   ├── Albums-Macumba-11.beats
+│   │   ├── Albums-Macumba-12.beats
+│   │   ├── Albums-Macumba-14.beats
+│   │   ├── Albums-Macumba-15.beats
+│   │   ├── Albums-Macumba-16.beats
+│   │   ├── Albums-Mambo_Kings-03.beats
+│   │   ├── Albums-Mambo_Kings-10.beats
+│   │   ├── Albums-Mambo_Kings-11.beats
+│   │   ├── Albums-Mambo_Kings-12.beats
+│   │   ├── Albums-Pais_Tropical-01.beats
+│   │   ├── Albums-Pais_Tropical-02.beats
+│   │   ├── Albums-Pais_Tropical-03.beats
+│   │   ├── Albums-Pais_Tropical-04.beats
+│   │   ├── Albums-Pais_Tropical-05.beats
+│   │   ├── Albums-Pais_Tropical-06.beats
+│   │   ├── Albums-Pais_Tropical-07.beats
+│   │   ├── Albums-Pais_Tropical-08.beats
+│   │   ├── Albums-Pais_Tropical-09.beats
+│   │   ├── Albums-Pais_Tropical-10.beats
+│   │   ├── Albums-Pais_Tropical-11.beats
+│   │   ├── Albums-Pais_Tropical-12.beats
+│   │   ├── Albums-Pais_Tropical-13.beats
+│   │   ├── Albums-Pais_Tropical-14.beats
+│   │   ├── Albums-Pais_Tropical-15.beats
+│   │   ├── Albums-Pais_Tropical-16.beats
+│   │   ├── Albums-Secret_Garden-01.beats
+│   │   ├── Albums-Secret_Garden-02.beats
+│   │   ├── Albums-Secret_Garden-05.beats
+│   │   ├── Albums-Secret_Garden-06.beats
+│   │   ├── Albums-Step_By_Step-01.beats
+│   │   ├── Albums-Step_By_Step-02.beats
+│   │   ├── Albums-Step_By_Step-03.beats
+│   │   ├── Albums-Step_By_Step-04.beats
+│   │   ├── Albums-Step_By_Step-05.beats
+│   │   ├── Albums-Step_By_Step-06.beats
+│   │   ├── Albums-Step_By_Step-07.beats
+│   │   ├── Albums-Step_By_Step-08.beats
+│   │   ├── Albums-Step_By_Step-09.beats
+│   │   ├── Albums-Step_By_Step-10.beats
+│   │   ├── Albums-Step_By_Step-11.beats
+│   │   ├── Albums-Step_By_Step-15.beats
+│   │   ├── Albums-Step_By_Step-16.beats
+│   │   ├── Albums-Step_By_Step-17.beats
+│   │   ├── Albums-Step_By_Step-18.beats
+│   │   ├── Albums-StrictlyDancing_Tango-01.beats
+│   │   ├── Albums-StrictlyDancing_Tango-02.beats
+│   │   ├── Albums-StrictlyDancing_Tango-03.beats
+│   │   ├── Albums-StrictlyDancing_Tango-04.beats
+│   │   ├── Albums-StrictlyDancing_Tango-05.beats
+│   │   ├── Albums-StrictlyDancing_Tango-06.beats
+│   │   ├── Albums-StrictlyDancing_Tango-07.beats
+│   │   ├── Albums-StrictlyDancing_Tango-08.beats
+│   │   ├── Albums-StrictlyDancing_Tango-09.beats
+│   │   ├── Albums-StrictlyDancing_Tango-10.beats
+│   │   ├── Albums-StrictlyDancing_Tango-11.beats
+│   │   ├── Albums-StrictlyDancing_Tango-12.beats
+│   │   ├── Albums-StrictlyDancing_Tango-13.beats
+│   │   ├── Albums-StrictlyDancing_Tango-14.beats
+│   │   ├── Albums-StrictlyDancing_Tango-15.beats
+│   │   ├── Media-100601.beats
+│   │   ├── Media-100602.beats
+│   │   ├── Media-100603.beats
+│   │   ├── Media-100604.beats
+│   │   ├── Media-100605.beats
+│   │   ├── Media-100606.beats
+│   │   ├── Media-100607.beats
+│   │   ├── Media-100608.beats
+│   │   ├── Media-100609.beats
+│   │   ├── Media-100610.beats
+│   │   ├── Media-100614.beats
+│   │   ├── Media-100615.beats
+│   │   ├── Media-100616.beats
+│   │   ├── Media-103301.beats
+│   │   ├── Media-103302.beats
+│   │   ├── Media-103303.beats
+│   │   ├── Media-103304.beats
+│   │   ├── Media-103305.beats
+│   │   ├── Media-103306.beats
+│   │   ├── Media-103307.beats
+│   │   ├── Media-103308.beats
+│   │   ├── Media-103312.beats
+│   │   ├── Media-103313.beats
+│   │   ├── Media-103314.beats
+│   │   ├── Media-103315.beats
+│   │   ├── Media-103401.beats
+│   │   ├── Media-103402.beats
+│   │   ├── Media-103403.beats
+│   │   ├── Media-103404.beats
+│   │   ├── Media-103405.beats
+│   │   ├── Media-103406.beats
+│   │   ├── Media-103407.beats
+│   │   ├── Media-103408.beats
+│   │   ├── Media-103409.beats
+│   │   ├── Media-103410.beats
+│   │   ├── Media-103411.beats
+│   │   ├── Media-103412.beats
+│   │   ├── Media-103413.beats
+│   │   ├── Media-103414.beats
+│   │   ├── Media-103415.beats
+│   │   ├── Media-103416.beats
+│   │   ├── Media-103417.beats
+│   │   ├── Media-103501.beats
+│   │   ├── Media-103502.beats
+│   │   ├── Media-103503.beats
+│   │   ├── Media-103504.beats
+│   │   ├── Media-103505.beats
+│   │   ├── Media-103506.beats
+│   │   ├── Media-103507.beats
+│   │   ├── Media-103508.beats
+│   │   ├── Media-103509.beats
+│   │   ├── Media-103510.beats
+│   │   ├── Media-103511.beats
+│   │   ├── Media-103512.beats
+│   │   ├── Media-103513.beats
+│   │   ├── Media-103514.beats
+│   │   ├── Media-103515.beats
+│   │   ├── Media-103516.beats
+│   │   ├── Media-103517.beats
+│   │   ├── Media-103601.beats
+│   │   ├── Media-103602.beats
+│   │   ├── Media-103603.beats
+│   │   ├── Media-103604.beats
+│   │   ├── Media-103605.beats
+│   │   ├── Media-103606.beats
+│   │   ├── Media-103607.beats
+│   │   ├── Media-103608.beats
+│   │   ├── Media-103609.beats
+│   │   ├── Media-103610.beats
+│   │   ├── Media-103611.beats
+│   │   ├── Media-103612.beats
+│   │   ├── Media-103613.beats
+│   │   ├── Media-103614.beats
+│   │   ├── Media-103615.beats
+│   │   ├── Media-103616.beats
+│   │   ├── Media-103617.beats
+│   │   ├── Media-103618.beats
+│   │   ├── Media-103619.beats
+│   │   ├── Media-103701.beats
+│   │   ├── Media-103702.beats
+│   │   ├── Media-103703.beats
+│   │   ├── Media-103704.beats
+│   │   ├── Media-103705.beats
+│   │   ├── Media-103706.beats
+│   │   ├── Media-103707.beats
+│   │   ├── Media-103708.beats
+│   │   ├── Media-103709.beats
+│   │   ├── Media-103710.beats
+│   │   ├── Media-103711.beats
+│   │   ├── Media-103712.beats
+│   │   ├── Media-103713.beats
+│   │   ├── Media-103714.beats
+│   │   ├── Media-103715.beats
+│   │   ├── Media-103716.beats
+│   │   ├── Media-103717.beats
+│   │   ├── Media-103718.beats
+│   │   ├── Media-103719.beats
+│   │   ├── Media-103801.beats
+│   │   ├── Media-103802.beats
+│   │   ├── Media-103803.beats
+│   │   ├── Media-103804.beats
+│   │   ├── Media-103805.beats
+│   │   ├── Media-103806.beats
+│   │   ├── Media-103807.beats
+│   │   ├── Media-103808.beats
+│   │   ├── Media-103809.beats
+│   │   ├── Media-103810.beats
+│   │   ├── Media-103811.beats
+│   │   ├── Media-103812.beats
+│   │   ├── Media-103813.beats
+│   │   ├── Media-103814.beats
+│   │   ├── Media-103815.beats
+│   │   ├── Media-103816.beats
+│   │   ├── Media-103817.beats
+│   │   ├── Media-103818.beats
+│   │   ├── Media-103819.beats
+│   │   ├── Media-103901.beats
+│   │   ├── Media-103902.beats
+│   │   ├── Media-103903.beats
+│   │   ├── Media-103904.beats
+│   │   ├── Media-103905.beats
+│   │   ├── Media-103906.beats
+│   │   ├── Media-103907.beats
+│   │   ├── Media-103908.beats
+│   │   ├── Media-103909.beats
+│   │   ├── Media-103910.beats
+│   │   ├── Media-103911.beats
+│   │   ├── Media-103912.beats
+│   │   ├── Media-103913.beats
+│   │   ├── Media-103914.beats
+│   │   ├── Media-103917.beats
+│   │   ├── Media-103918.beats
+│   │   ├── Media-103919.beats
+│   │   ├── Media-103920.beats
+│   │   ├── Media-104001.beats
+│   │   ├── Media-104002.beats
+│   │   ├── Media-104003.beats
+│   │   ├── Media-104004.beats
+│   │   ├── Media-104005.beats
+│   │   ├── Media-104006.beats
+│   │   ├── Media-104007.beats
+│   │   ├── Media-104008.beats
+│   │   ├── Media-104009.beats
+│   │   ├── Media-104010.beats
+│   │   ├── Media-104011.beats
+│   │   ├── Media-104012.beats
+│   │   ├── Media-104015.beats
+│   │   ├── Media-104016.beats
+│   │   ├── Media-104017.beats
+│   │   ├── Media-104101.beats
+│   │   ├── Media-104102.beats
+│   │   ├── Media-104103.beats
+│   │   ├── Media-104104.beats
+│   │   ├── Media-104105.beats
+│   │   ├── Media-104106.beats
+│   │   ├── Media-104107.beats
+│   │   ├── Media-104108.beats
+│   │   ├── Media-104109.beats
+│   │   ├── Media-104110.beats
+│   │   ├── Media-104111.beats
+│   │   ├── Media-104112.beats
+│   │   ├── Media-104113.beats
+│   │   ├── Media-104114.beats
+│   │   ├── Media-104115.beats
+│   │   ├── Media-104116.beats
+│   │   ├── Media-104117.beats
+│   │   ├── Media-104118.beats
+│   │   ├── Media-104119.beats
+│   │   ├── Media-104201.beats
+│   │   ├── Media-104202.beats
+│   │   ├── Media-104203.beats
+│   │   ├── Media-104204.beats
+│   │   ├── Media-104205.beats
+│   │   ├── Media-104206.beats
+│   │   ├── Media-104207.beats
+│   │   ├── Media-104208.beats
+│   │   ├── Media-104209.beats
+│   │   ├── Media-104210.beats
+│   │   ├── Media-104211.beats
+│   │   ├── Media-104212.beats
+│   │   ├── Media-104216.beats
+│   │   ├── Media-104217.beats
+│   │   ├── Media-104218.beats
+│   │   ├── Media-104219.beats
+│   │   ├── Media-104301.beats
+│   │   ├── Media-104302.beats
+│   │   ├── Media-104303.beats
+│   │   ├── Media-104304.beats
+│   │   ├── Media-104305.beats
+│   │   ├── Media-104306.beats
+│   │   ├── Media-104307.beats
+│   │   ├── Media-104308.beats
+│   │   ├── Media-104309.beats
+│   │   ├── Media-104314.beats
+│   │   ├── Media-104315.beats
+│   │   ├── Media-104316.beats
+│   │   ├── Media-104317.beats
+│   │   ├── Media-104401.beats
+│   │   ├── Media-104402.beats
+│   │   ├── Media-104403.beats
+│   │   ├── Media-104404.beats
+│   │   ├── Media-104405.beats
+│   │   ├── Media-104406.beats
+│   │   ├── Media-104407.beats
+│   │   ├── Media-104408.beats
+│   │   ├── Media-104409.beats
+│   │   ├── Media-104415.beats
+│   │   ├── Media-104416.beats
+│   │   ├── Media-104417.beats
+│   │   ├── Media-104418.beats
+│   │   ├── Media-104501.beats
+│   │   ├── Media-104502.beats
+│   │   ├── Media-104503.beats
+│   │   ├── Media-104504.beats
+│   │   ├── Media-104505.beats
+│   │   ├── Media-104506.beats
+│   │   ├── Media-104507.beats
+│   │   ├── Media-104508.beats
+│   │   ├── Media-104514.beats
+│   │   ├── Media-104515.beats
+│   │   ├── Media-104516.beats
+│   │   ├── Media-104601.beats
+│   │   ├── Media-104602.beats
+│   │   ├── Media-104603.beats
+│   │   ├── Media-104604.beats
+│   │   ├── Media-104605.beats
+│   │   ├── Media-104606.beats
+│   │   ├── Media-104607.beats
+│   │   ├── Media-104608.beats
+│   │   ├── Media-104609.beats
+│   │   ├── Media-104615.beats
+│   │   ├── Media-104616.beats
+│   │   ├── Media-104617.beats
+│   │   ├── Media-104618.beats
+│   │   ├── Media-104701.beats
+│   │   ├── Media-104702.beats
+│   │   ├── Media-104703.beats
+│   │   ├── Media-104704.beats
+│   │   ├── Media-104705.beats
+│   │   ├── Media-104706.beats
+│   │   ├── Media-104707.beats
+│   │   ├── Media-104708.beats
+│   │   ├── Media-104709.beats
+│   │   ├── Media-104710.beats
+│   │   ├── Media-104711.beats
+│   │   ├── Media-104712.beats
+│   │   ├── Media-104716.beats
+│   │   ├── Media-104717.beats
+│   │   ├── Media-104718.beats
+│   │   ├── Media-104801.beats
+│   │   ├── Media-104802.beats
+│   │   ├── Media-104803.beats
+│   │   ├── Media-104804.beats
+│   │   ├── Media-104805.beats
+│   │   ├── Media-104806.beats
+│   │   ├── Media-104807.beats
+│   │   ├── Media-104808.beats
+│   │   ├── Media-104809.beats
+│   │   ├── Media-104810.beats
+│   │   ├── Media-104811.beats
+│   │   ├── Media-104815.beats
+│   │   ├── Media-104816.beats
+│   │   ├── Media-104901.beats
+│   │   ├── Media-104902.beats
+│   │   ├── Media-104903.beats
+│   │   ├── Media-104904.beats
+│   │   ├── Media-104905.beats
+│   │   ├── Media-104906.beats
+│   │   ├── Media-104907.beats
+│   │   ├── Media-104908.beats
+│   │   ├── Media-104909.beats
+│   │   ├── Media-104915.beats
+│   │   ├── Media-104916.beats
+│   │   ├── Media-104917.beats
+│   │   ├── Media-104918.beats
+│   │   ├── Media-105001.beats
+│   │   ├── Media-105002.beats
+│   │   ├── Media-105003.beats
+│   │   ├── Media-105004.beats
+│   │   ├── Media-105005.beats
+│   │   ├── Media-105006.beats
+│   │   ├── Media-105007.beats
+│   │   ├── Media-105008.beats
+│   │   ├── Media-105009.beats
+│   │   ├── Media-105010.beats
+│   │   ├── Media-105011.beats
+│   │   ├── Media-105016.beats
+│   │   ├── Media-105017.beats
+│   │   ├── Media-105018.beats
+│   │   ├── Media-105019.beats
+│   │   ├── Media-105020.beats
+│   │   ├── Media-105101.beats
+│   │   ├── Media-105102.beats
+│   │   ├── Media-105103.beats
+│   │   ├── Media-105104.beats
+│   │   ├── Media-105105.beats
+│   │   ├── Media-105106.beats
+│   │   ├── Media-105107.beats
+│   │   ├── Media-105108.beats
+│   │   ├── Media-105109.beats
+│   │   ├── Media-105110.beats
+│   │   ├── Media-105111.beats
+│   │   ├── Media-105112.beats
+│   │   ├── Media-105119.beats
+│   │   ├── Media-105120.beats
+│   │   ├── Media-105121.beats
+│   │   ├── Media-105122.beats
+│   │   ├── Media-105207.beats
+│   │   ├── Media-105209.beats
+│   │   ├── Media-105210.beats
+│   │   ├── Media-105211.beats
+│   │   ├── Media-105212.beats
+│   │   ├── Media-105213.beats
+│   │   ├── Media-105214.beats
+│   │   ├── Media-105215.beats
+│   │   ├── Media-105301.beats
+│   │   ├── Media-105302.beats
+│   │   ├── Media-105303.beats
+│   │   ├── Media-105304.beats
+│   │   ├── Media-105305.beats
+│   │   ├── Media-105306.beats
+│   │   ├── Media-105307.beats
+│   │   ├── Media-105308.beats
+│   │   ├── Media-105309.beats
+│   │   ├── Media-105313.beats
+│   │   ├── Media-105314.beats
+│   │   ├── Media-105315.beats
+│   │   ├── Media-105316.beats
+│   │   ├── Media-105317.beats
+│   │   ├── Media-105318.beats
+│   │   ├── Media-105320.beats
+│   │   ├── Media-105401.beats
+│   │   ├── Media-105402.beats
+│   │   ├── Media-105403.beats
+│   │   ├── Media-105404.beats
+│   │   ├── Media-105405.beats
+│   │   ├── Media-105406.beats
+│   │   ├── Media-105407.beats
+│   │   ├── Media-105408.beats
+│   │   ├── Media-105409.beats
+│   │   ├── Media-105410.beats
+│   │   ├── Media-105411.beats
+│   │   ├── Media-105412.beats
+│   │   ├── Media-105413.beats
+│   │   ├── Media-105414.beats
+│   │   ├── Media-105415.beats
+│   │   ├── Media-105416.beats
+│   │   ├── Media-105417.beats
+│   │   ├── Media-105418.beats
+│   │   ├── Media-105419.beats
+│   │   ├── Media-105420.beats
+│   │   ├── Media-105501.beats
+│   │   ├── Media-105502.beats
+│   │   ├── Media-105503.beats
+│   │   ├── Media-105504.beats
+│   │   ├── Media-105505.beats
+│   │   ├── Media-105506.beats
+│   │   ├── Media-105507.beats
+│   │   ├── Media-105508.beats
+│   │   ├── Media-105509.beats
+│   │   ├── Media-105510.beats
+│   │   ├── Media-105511.beats
+│   │   ├── Media-105516.beats
+│   │   ├── Media-105517.beats
+│   │   ├── Media-105518.beats
+│   │   ├── Media-105601.beats
+│   │   ├── Media-105602.beats
+│   │   ├── Media-105603.beats
+│   │   ├── Media-105604.beats
+│   │   ├── Media-105605.beats
+│   │   ├── Media-105606.beats
+│   │   ├── Media-105607.beats
+│   │   ├── Media-105608.beats
+│   │   ├── Media-105609.beats
+│   │   ├── Media-105611.beats
+│   │   ├── Media-105612.beats
+│   │   ├── Media-105613.beats
+│   │   ├── Media-105614.beats
+│   │   ├── Media-105615.beats
+│   │   ├── Media-105701.beats
+│   │   ├── Media-105702.beats
+│   │   ├── Media-105703.beats
+│   │   ├── Media-105704.beats
+│   │   ├── Media-105705.beats
+│   │   ├── Media-105706.beats
+│   │   ├── Media-105707.beats
+│   │   ├── Media-105708.beats
+│   │   ├── Media-105709.beats
+│   │   ├── Media-105710.beats
+│   │   ├── Media-105715.beats
+│   │   ├── Media-105716.beats
+│   │   ├── Media-105717.beats
+│   │   ├── Media-105801.beats
+│   │   ├── Media-105802.beats
+│   │   ├── Media-105803.beats
+│   │   ├── Media-105804.beats
+│   │   ├── Media-105805.beats
+│   │   ├── Media-105806.beats
+│   │   ├── Media-105807.beats
+│   │   ├── Media-105808.beats
+│   │   ├── Media-105809.beats
+│   │   ├── Media-105810.beats
+│   │   ├── Media-105811.beats
+│   │   ├── Media-105812.beats
+│   │   ├── Media-105816.beats
+│   │   ├── Media-105817.beats
+│   │   ├── Media-105818.beats
+│   │   ├── Media-105819.beats
+│   │   ├── Media-105820.beats
+│   │   ├── Media-105901.beats
+│   │   ├── Media-105902.beats
+│   │   ├── Media-105903.beats
+│   │   ├── Media-105904.beats
+│   │   ├── Media-105905.beats
+│   │   ├── Media-105906.beats
+│   │   ├── Media-105907.beats
+│   │   ├── Media-105911.beats
+│   │   ├── Media-105912.beats
+│   │   ├── Media-105913.beats
+│   │   ├── Media-105914.beats
+│   │   ├── Media-106001.beats
+│   │   ├── Media-106002.beats
+│   │   ├── Media-106003.beats
+│   │   ├── Media-106004.beats
+│   │   ├── Media-106005.beats
+│   │   ├── Media-106006.beats
+│   │   ├── Media-106007.beats
+│   │   ├── Media-106008.beats
+│   │   ├── Media-106009.beats
+│   │   ├── Media-106010.beats
+│   │   ├── Media-106011.beats
+│   │   ├── Media-106012.beats
+│   │   ├── Media-106015.beats
+│   │   ├── Media-106016.beats
+│   │   ├── Media-106017.beats
+│   │   ├── Media-106101.beats
+│   │   ├── Media-106102.beats
+│   │   ├── Media-106103.beats
+│   │   ├── Media-106104.beats
+│   │   ├── Media-106105.beats
+│   │   ├── Media-106106.beats
+│   │   ├── Media-106107.beats
+│   │   ├── Media-106108.beats
+│   │   ├── Media-106109.beats
+│   │   ├── Media-106110.beats
+│   │   ├── Media-106111.beats
+│   │   ├── Media-106112.beats
+│   │   ├── Media-106113.beats
+│   │   ├── Media-106114.beats
+│   │   ├── Media-106115.beats
+│   │   ├── Media-106116.beats
+│   │   ├── Media-106117.beats
+│   │   ├── Media-106118.beats
+│   │   ├── Media-106119.beats
+│   │   └── README.md
+│   └── BallroomData
+│       ├── ChaCha
+│       │   ├── Albums-Cafe_Paradiso-05.wav
+│       │   ├── Albums-Cafe_Paradiso-06.wav
+│       │   ├── Albums-Cafe_Paradiso-07.wav
+│       │   ├── Albums-Cafe_Paradiso-08.wav
+│       │   ├── Albums-Fire-01.wav
+│       │   ├── Albums-Fire-08.wav
+│       │   ├── Albums-Fire-14.wav
+│       │   ├── Albums-I_Like_It2-01.wav
+│       │   ├── Albums-I_Like_It2-02.wav
+│       │   ├── Albums-Latin_Jam-01.wav
+│       │   ├── Albums-Latin_Jam-04.wav
+│       │   ├── Albums-Latin_Jam-07.wav
+│       │   ├── Albums-Latin_Jam-13.wav
+│       │   ├── Albums-Latin_Jam2-04.wav
+│       │   ├── Albums-Latin_Jam2-05.wav
+│       │   ├── Albums-Latin_Jam2-06.wav
+│       │   ├── Albums-Latin_Jam2-13.wav
+│       │   ├── Albums-Latin_Jam3-01.wav
+│       │   ├── Albums-Latin_Jam3-02.wav
+│       │   ├── Albums-Latin_Jam3-03.wav
+│       │   ├── Albums-Latin_Jam4-01.wav
+│       │   ├── Albums-Latin_Jam4-06.wav
+│       │   ├── Albums-Latin_Jam4-11.wav
+│       │   ├── Albums-Latin_Jam5-02.wav
+│       │   ├── Albums-Latin_Jam5-07.wav
+│       │   ├── Albums-Latin_Jam5-11.wav
+│       │   ├── Albums-Latino_Latino-01.wav
+│       │   ├── Albums-Latino_Latino-04.wav
+│       │   ├── Albums-Latino_Latino-06.wav
+│       │   ├── Albums-Macumba-01.wav
+│       │   ├── Albums-Macumba-02.wav
+│       │   ├── Albums-Macumba-03.wav
+│       │   ├── Albums-Macumba-04.wav
+│       │   ├── Albums-Mambo_Kings-03.wav
+│       │   ├── Albums-Mambo_Kings-10.wav
+│       │   ├── Albums-Mambo_Kings-11.wav
+│       │   ├── Albums-Mambo_Kings-12.wav
+│       │   ├── Albums-Pais_Tropical-05.wav
+│       │   ├── Albums-Pais_Tropical-06.wav
+│       │   ├── Albums-Pais_Tropical-07.wav
+│       │   ├── Albums-Pais_Tropical-08.wav
+│       │   ├── Media-103401.wav
+│       │   ├── Media-103402.wav
+│       │   ├── Media-103403.wav
+│       │   ├── Media-103404.wav
+│       │   ├── Media-103405.wav
+│       │   ├── Media-103406.wav
+│       │   ├── Media-103407.wav
+│       │   ├── Media-103408.wav
+│       │   ├── Media-103409.wav
+│       │   ├── Media-103410.wav
+│       │   ├── Media-103411.wav
+│       │   ├── Media-103412.wav
+│       │   ├── Media-103413.wav
+│       │   ├── Media-103414.wav
+│       │   ├── Media-103415.wav
+│       │   ├── Media-103416.wav
+│       │   ├── Media-103417.wav
+│       │   ├── Media-103507.wav
+│       │   ├── Media-103508.wav
+│       │   ├── Media-103509.wav
+│       │   ├── Media-103510.wav
+│       │   ├── Media-103601.wav
+│       │   ├── Media-103602.wav
+│       │   ├── Media-103603.wav
+│       │   ├── Media-103604.wav
+│       │   ├── Media-103617.wav
+│       │   ├── Media-103701.wav
+│       │   ├── Media-103702.wav
+│       │   ├── Media-103703.wav
+│       │   ├── Media-103704.wav
+│       │   ├── Media-103716.wav
+│       │   ├── Media-103801.wav
+│       │   ├── Media-103802.wav
+│       │   ├── Media-103803.wav
+│       │   ├── Media-103804.wav
+│       │   ├── Media-103816.wav
+│       │   ├── Media-103906.wav
+│       │   ├── Media-103907.wav
+│       │   ├── Media-103908.wav
+│       │   ├── Media-103909.wav
+│       │   ├── Media-103910.wav
+│       │   ├── Media-104009.wav
+│       │   ├── Media-104010.wav
+│       │   ├── Media-104011.wav
+│       │   ├── Media-104012.wav
+│       │   ├── Media-104106.wav
+│       │   ├── Media-104107.wav
+│       │   ├── Media-104108.wav
+│       │   ├── Media-104109.wav
+│       │   ├── Media-104110.wav
+│       │   ├── Media-104111.wav
+│       │   ├── Media-105405.wav
+│       │   ├── Media-105406.wav
+│       │   ├── Media-105407.wav
+│       │   ├── Media-105417.wav
+│       │   ├── Media-105601.wav
+│       │   ├── Media-105602.wav
+│       │   ├── Media-105603.wav
+│       │   ├── Media-105604.wav
+│       │   ├── Media-105605.wav
+│       │   ├── Media-106005.wav
+│       │   ├── Media-106006.wav
+│       │   ├── Media-106007.wav
+│       │   ├── Media-106008.wav
+│       │   ├── Media-106101.wav
+│       │   ├── Media-106102.wav
+│       │   ├── Media-106103.wav
+│       │   ├── Media-106104.wav
+│       │   ├── Media-106105.wav
+│       │   └── Media-106117.wav
+│       ├── Jive
+│       │   ├── Albums-Cafe_Paradiso-14.wav
+│       │   ├── Albums-Cafe_Paradiso-15.wav
+│       │   ├── Albums-Cafe_Paradiso-16.wav
+│       │   ├── Albums-Commitments-08.wav
+│       │   ├── Albums-Commitments-10.wav
+│       │   ├── Albums-Fire-07.wav
+│       │   ├── Albums-Fire-12.wav
+│       │   ├── Albums-Latin_Jam-11.wav
+│       │   ├── Albums-Latin_Jam-12.wav
+│       │   ├── Albums-Latin_Jam2-11.wav
+│       │   ├── Albums-Latin_Jam2-12.wav
+│       │   ├── Albums-Latin_Jam3-11.wav
+│       │   ├── Albums-Latin_Jam3-12.wav
+│       │   ├── Albums-Latin_Jam4-05.wav
+│       │   ├── Albums-Latin_Jam4-10.wav
+│       │   ├── Albums-Latin_Jam5-04.wav
+│       │   ├── Albums-Latin_Jam5-09.wav
+│       │   ├── Albums-Macumba-14.wav
+│       │   ├── Albums-Macumba-15.wav
+│       │   ├── Albums-Macumba-16.wav
+│       │   ├── Albums-Pais_Tropical-13.wav
+│       │   ├── Albums-Pais_Tropical-14.wav
+│       │   ├── Albums-Pais_Tropical-15.wav
+│       │   ├── Albums-Pais_Tropical-16.wav
+│       │   ├── Media-103515.wav
+│       │   ├── Media-103516.wav
+│       │   ├── Media-103517.wav
+│       │   ├── Media-103611.wav
+│       │   ├── Media-103612.wav
+│       │   ├── Media-103613.wav
+│       │   ├── Media-103614.wav
+│       │   ├── Media-103619.wav
+│       │   ├── Media-103713.wav
+│       │   ├── Media-103714.wav
+│       │   ├── Media-103718.wav
+│       │   ├── Media-103719.wav
+│       │   ├── Media-103813.wav
+│       │   ├── Media-103814.wav
+│       │   ├── Media-103819.wav
+│       │   ├── Media-103917.wav
+│       │   ├── Media-103918.wav
+│       │   ├── Media-103919.wav
+│       │   ├── Media-103920.wav
+│       │   ├── Media-104015.wav
+│       │   ├── Media-104016.wav
+│       │   ├── Media-104017.wav
+│       │   ├── Media-104116.wav
+│       │   ├── Media-104117.wav
+│       │   ├── Media-104118.wav
+│       │   ├── Media-104119.wav
+│       │   ├── Media-105413.wav
+│       │   ├── Media-105414.wav
+│       │   ├── Media-105415.wav
+│       │   ├── Media-105420.wav
+│       │   ├── Media-106015.wav
+│       │   ├── Media-106016.wav
+│       │   ├── Media-106017.wav
+│       │   ├── Media-106114.wav
+│       │   ├── Media-106115.wav
+│       │   └── Media-106116.wav
+│       ├── Quickstep
+│       │   ├── Albums-AnaBelen_Veneo-11.wav
+│       │   ├── Albums-Ballroom_Classics4-18.wav
+│       │   ├── Albums-Ballroom_Classics4-19.wav
+│       │   ├── Albums-Ballroom_Classics4-20.wav
+│       │   ├── Albums-Ballroom_Magic-15.wav
+│       │   ├── Albums-Ballroom_Magic-16.wav
+│       │   ├── Albums-Ballroom_Magic-17.wav
+│       │   ├── Albums-Chrisanne1-12.wav
+│       │   ├── Albums-Chrisanne1-13.wav
+│       │   ├── Albums-Chrisanne1-14.wav
+│       │   ├── Albums-Chrisanne2-11.wav
+│       │   ├── Albums-Chrisanne2-12.wav
+│       │   ├── Albums-Chrisanne3-13.wav
+│       │   ├── Albums-Chrisanne3-14.wav
+│       │   ├── Albums-Chrisanne3-15.wav
+│       │   ├── Albums-Step_By_Step-15.wav
+│       │   ├── Albums-Step_By_Step-16.wav
+│       │   ├── Albums-Step_By_Step-17.wav
+│       │   ├── Albums-Step_By_Step-18.wav
+│       │   ├── Media-100614.wav
+│       │   ├── Media-100615.wav
+│       │   ├── Media-100616.wav
+│       │   ├── Media-103312.wav
+│       │   ├── Media-103313.wav
+│       │   ├── Media-103314.wav
+│       │   ├── Media-104216.wav
+│       │   ├── Media-104217.wav
+│       │   ├── Media-104218.wav
+│       │   ├── Media-104219.wav
+│       │   ├── Media-104314.wav
+│       │   ├── Media-104315.wav
+│       │   ├── Media-104316.wav
+│       │   ├── Media-104317.wav
+│       │   ├── Media-104415.wav
+│       │   ├── Media-104416.wav
+│       │   ├── Media-104417.wav
+│       │   ├── Media-104418.wav
+│       │   ├── Media-104514.wav
+│       │   ├── Media-104515.wav
+│       │   ├── Media-104516.wav
+│       │   ├── Media-104615.wav
+│       │   ├── Media-104616.wav
+│       │   ├── Media-104617.wav
+│       │   ├── Media-104618.wav
+│       │   ├── Media-104716.wav
+│       │   ├── Media-104717.wav
+│       │   ├── Media-104718.wav
+│       │   ├── Media-104815.wav
+│       │   ├── Media-104816.wav
+│       │   ├── Media-104915.wav
+│       │   ├── Media-104916.wav
+│       │   ├── Media-104917.wav
+│       │   ├── Media-104918.wav
+│       │   ├── Media-105016.wav
+│       │   ├── Media-105017.wav
+│       │   ├── Media-105018.wav
+│       │   ├── Media-105019.wav
+│       │   ├── Media-105020.wav
+│       │   ├── Media-105119.wav
+│       │   ├── Media-105120.wav
+│       │   ├── Media-105121.wav
+│       │   ├── Media-105122.wav
+│       │   ├── Media-105207.wav
+│       │   ├── Media-105313.wav
+│       │   ├── Media-105314.wav
+│       │   ├── Media-105315.wav
+│       │   ├── Media-105320.wav
+│       │   ├── Media-105516.wav
+│       │   ├── Media-105517.wav
+│       │   ├── Media-105518.wav
+│       │   ├── Media-105715.wav
+│       │   ├── Media-105716.wav
+│       │   ├── Media-105717.wav
+│       │   ├── Media-105816.wav
+│       │   ├── Media-105817.wav
+│       │   ├── Media-105818.wav
+│       │   ├── Media-105819.wav
+│       │   ├── Media-105820.wav
+│       │   ├── Media-105911.wav
+│       │   ├── Media-105912.wav
+│       │   ├── Media-105913.wav
+│       │   └── Media-105914.wav
+│       ├── Rumba
+│       │   ├── Albums-AnaBelen_Veneo-01.wav
+│       │   ├── Albums-AnaBelen_Veneo-03.wav
+│       │   ├── Albums-AnaBelen_Veneo-13.wav
+│       │   ├── Albums-AnaBelen_Veneo-15.wav
+│       │   ├── Albums-Cafe_Paradiso-09.wav
+│       │   ├── Albums-Cafe_Paradiso-10.wav
+│       │   ├── Albums-Cafe_Paradiso-11.wav
+│       │   ├── Albums-Cafe_Paradiso-12.wav
+│       │   ├── Albums-Fire-03.wav
+│       │   ├── Albums-Fire-10.wav
+│       │   ├── Albums-GloriaEstefan_MiTierra-01.wav
+│       │   ├── Albums-GloriaEstefan_MiTierra-04.wav
+│       │   ├── Albums-GloriaEstefan_MiTierra-06.wav
+│       │   ├── Albums-GloriaEstefan_MiTierra-08.wav
+│       │   ├── Albums-GloriaEstefan_MiTierra-11.wav
+│       │   ├── Albums-I_Like_It2-09.wav
+│       │   ├── Albums-Latin_Jam-02.wav
+│       │   ├── Albums-Latin_Jam-05.wav
+│       │   ├── Albums-Latin_Jam-08.wav
+│       │   ├── Albums-Latin_Jam-14.wav
+│       │   ├── Albums-Latin_Jam2-07.wav
+│       │   ├── Albums-Latin_Jam2-08.wav
+│       │   ├── Albums-Latin_Jam2-09.wav
+│       │   ├── Albums-Latin_Jam2-15.wav
+│       │   ├── Albums-Latin_Jam3-07.wav
+│       │   ├── Albums-Latin_Jam3-08.wav
+│       │   ├── Albums-Latin_Jam3-09.wav
+│       │   ├── Albums-Latin_Jam4-03.wav
+│       │   ├── Albums-Latin_Jam4-08.wav
+│       │   ├── Albums-Latin_Jam4-13.wav
+│       │   ├── Albums-Latin_Jam5-03.wav
+│       │   ├── Albums-Latin_Jam5-08.wav
+│       │   ├── Albums-Latin_Jam5-12.wav
+│       │   ├── Albums-Latino_Latino-05.wav
+│       │   ├── Albums-Latino_Latino-09.wav
+│       │   ├── Albums-Latino_Latino-10.wav
+│       │   ├── Albums-Macumba-09.wav
+│       │   ├── Albums-Macumba-10.wav
+│       │   ├── Albums-Macumba-11.wav
+│       │   ├── Albums-Macumba-12.wav
+│       │   ├── Albums-Pais_Tropical-09.wav
+│       │   ├── Albums-Pais_Tropical-10.wav
+│       │   ├── Albums-Pais_Tropical-11.wav
+│       │   ├── Albums-Pais_Tropical-12.wav
+│       │   ├── Media-103511.wav
+│       │   ├── Media-103512.wav
+│       │   ├── Media-103513.wav
+│       │   ├── Media-103514.wav
+│       │   ├── Media-103608.wav
+│       │   ├── Media-103609.wav
+│       │   ├── Media-103610.wav
+│       │   ├── Media-103615.wav
+│       │   ├── Media-103616.wav
+│       │   ├── Media-103709.wav
+│       │   ├── Media-103710.wav
+│       │   ├── Media-103711.wav
+│       │   ├── Media-103712.wav
+│       │   ├── Media-103717.wav
+│       │   ├── Media-103809.wav
+│       │   ├── Media-103810.wav
+│       │   ├── Media-103811.wav
+│       │   ├── Media-103812.wav
+│       │   ├── Media-103817.wav
+│       │   ├── Media-103818.wav
+│       │   ├── Media-103911.wav
+│       │   ├── Media-103912.wav
+│       │   ├── Media-103913.wav
+│       │   ├── Media-103914.wav
+│       │   ├── Media-104005.wav
+│       │   ├── Media-104006.wav
+│       │   ├── Media-104007.wav
+│       │   ├── Media-104008.wav
+│       │   ├── Media-104112.wav
+│       │   ├── Media-104113.wav
+│       │   ├── Media-104114.wav
+│       │   ├── Media-104115.wav
+│       │   ├── Media-105209.wav
+│       │   ├── Media-105408.wav
+│       │   ├── Media-105409.wav
+│       │   ├── Media-105410.wav
+│       │   ├── Media-105411.wav
+│       │   ├── Media-105412.wav
+│       │   ├── Media-105418.wav
+│       │   ├── Media-105419.wav
+│       │   ├── Media-105611.wav
+│       │   ├── Media-105612.wav
+│       │   ├── Media-105613.wav
+│       │   ├── Media-105614.wav
+│       │   ├── Media-105615.wav
+│       │   ├── Media-106009.wav
+│       │   ├── Media-106010.wav
+│       │   ├── Media-106011.wav
+│       │   ├── Media-106012.wav
+│       │   ├── Media-106110.wav
+│       │   ├── Media-106111.wav
+│       │   ├── Media-106112.wav
+│       │   ├── Media-106113.wav
+│       │   └── Media-106119.wav
+│       ├── Samba
+│       │   ├── Albums-AnaBelen_Veneo-02.wav
+│       │   ├── Albums-Cafe_Paradiso-01.wav
+│       │   ├── Albums-Cafe_Paradiso-02.wav
+│       │   ├── Albums-Cafe_Paradiso-03.wav
+│       │   ├── Albums-Cafe_Paradiso-04.wav
+│       │   ├── Albums-Fire-02.wav
+│       │   ├── Albums-Fire-09.wav
+│       │   ├── Albums-Fire-15.wav
+│       │   ├── Albums-Latin_Jam-03.wav
+│       │   ├── Albums-Latin_Jam-06.wav
+│       │   ├── Albums-Latin_Jam-09.wav
+│       │   ├── Albums-Latin_Jam-15.wav
+│       │   ├── Albums-Latin_Jam2-01.wav
+│       │   ├── Albums-Latin_Jam2-02.wav
+│       │   ├── Albums-Latin_Jam2-03.wav
+│       │   ├── Albums-Latin_Jam2-14.wav
+│       │   ├── Albums-Latin_Jam3-04.wav
+│       │   ├── Albums-Latin_Jam3-05.wav
+│       │   ├── Albums-Latin_Jam3-06.wav
+│       │   ├── Albums-Latin_Jam4-02.wav
+│       │   ├── Albums-Latin_Jam4-07.wav
+│       │   ├── Albums-Latin_Jam4-12.wav
+│       │   ├── Albums-Latin_Jam5-01.wav
+│       │   ├── Albums-Latin_Jam5-06.wav
+│       │   ├── Albums-Latin_Jam5-10.wav
+│       │   ├── Albums-Latino_Latino-03.wav
+│       │   ├── Albums-Macumba-05.wav
+│       │   ├── Albums-Macumba-06.wav
+│       │   ├── Albums-Macumba-07.wav
+│       │   ├── Albums-Macumba-08.wav
+│       │   ├── Albums-Pais_Tropical-01.wav
+│       │   ├── Albums-Pais_Tropical-02.wav
+│       │   ├── Albums-Pais_Tropical-03.wav
+│       │   ├── Albums-Pais_Tropical-04.wav
+│       │   ├── Media-103501.wav
+│       │   ├── Media-103502.wav
+│       │   ├── Media-103503.wav
+│       │   ├── Media-103504.wav
+│       │   ├── Media-103505.wav
+│       │   ├── Media-103506.wav
+│       │   ├── Media-103605.wav
+│       │   ├── Media-103606.wav
+│       │   ├── Media-103607.wav
+│       │   ├── Media-103618.wav
+│       │   ├── Media-103705.wav
+│       │   ├── Media-103706.wav
+│       │   ├── Media-103707.wav
+│       │   ├── Media-103708.wav
+│       │   ├── Media-103715.wav
+│       │   ├── Media-103805.wav
+│       │   ├── Media-103806.wav
+│       │   ├── Media-103807.wav
+│       │   ├── Media-103808.wav
+│       │   ├── Media-103815.wav
+│       │   ├── Media-103901.wav
+│       │   ├── Media-103902.wav
+│       │   ├── Media-103903.wav
+│       │   ├── Media-103904.wav
+│       │   ├── Media-103905.wav
+│       │   ├── Media-104001.wav
+│       │   ├── Media-104002.wav
+│       │   ├── Media-104003.wav
+│       │   ├── Media-104004.wav
+│       │   ├── Media-104101.wav
+│       │   ├── Media-104102.wav
+│       │   ├── Media-104103.wav
+│       │   ├── Media-104104.wav
+│       │   ├── Media-104105.wav
+│       │   ├── Media-105401.wav
+│       │   ├── Media-105402.wav
+│       │   ├── Media-105403.wav
+│       │   ├── Media-105404.wav
+│       │   ├── Media-105416.wav
+│       │   ├── Media-105606.wav
+│       │   ├── Media-105607.wav
+│       │   ├── Media-105608.wav
+│       │   ├── Media-105609.wav
+│       │   ├── Media-106001.wav
+│       │   ├── Media-106002.wav
+│       │   ├── Media-106003.wav
+│       │   ├── Media-106004.wav
+│       │   ├── Media-106106.wav
+│       │   ├── Media-106107.wav
+│       │   ├── Media-106108.wav
+│       │   ├── Media-106109.wav
+│       │   └── Media-106118.wav
+│       ├── Tango
+│       │   ├── Albums-Ballroom_Classics4-06.wav
+│       │   ├── Albums-Ballroom_Classics4-07.wav
+│       │   ├── Albums-Ballroom_Classics4-08.wav
+│       │   ├── Albums-Ballroom_Classics4-09.wav
+│       │   ├── Albums-Ballroom_Classics4-10.wav
+│       │   ├── Albums-Ballroom_Magic-06.wav
+│       │   ├── Albums-Ballroom_Magic-07.wav
+│       │   ├── Albums-Ballroom_Magic-08.wav
+│       │   ├── Albums-Chrisanne1-04.wav
+│       │   ├── Albums-Chrisanne1-05.wav
+│       │   ├── Albums-Chrisanne1-06.wav
+│       │   ├── Albums-Chrisanne2-04.wav
+│       │   ├── Albums-Chrisanne2-05.wav
+│       │   ├── Albums-Chrisanne2-06.wav
+│       │   ├── Albums-Chrisanne3-04.wav
+│       │   ├── Albums-Chrisanne3-05.wav
+│       │   ├── Albums-Chrisanne3-06.wav
+│       │   ├── Albums-Step_By_Step-05.wav
+│       │   ├── Albums-Step_By_Step-06.wav
+│       │   ├── Albums-Step_By_Step-07.wav
+│       │   ├── Albums-Step_By_Step-08.wav
+│       │   ├── Albums-StrictlyDancing_Tango-01.wav
+│       │   ├── Albums-StrictlyDancing_Tango-02.wav
+│       │   ├── Albums-StrictlyDancing_Tango-03.wav
+│       │   ├── Albums-StrictlyDancing_Tango-04.wav
+│       │   ├── Albums-StrictlyDancing_Tango-05.wav
+│       │   ├── Albums-StrictlyDancing_Tango-06.wav
+│       │   ├── Albums-StrictlyDancing_Tango-07.wav
+│       │   ├── Albums-StrictlyDancing_Tango-08.wav
+│       │   ├── Albums-StrictlyDancing_Tango-09.wav
+│       │   ├── Albums-StrictlyDancing_Tango-10.wav
+│       │   ├── Albums-StrictlyDancing_Tango-11.wav
+│       │   ├── Albums-StrictlyDancing_Tango-12.wav
+│       │   ├── Albums-StrictlyDancing_Tango-13.wav
+│       │   ├── Albums-StrictlyDancing_Tango-14.wav
+│       │   ├── Albums-StrictlyDancing_Tango-15.wav
+│       │   ├── Media-100605.wav
+│       │   ├── Media-100606.wav
+│       │   ├── Media-100607.wav
+│       │   ├── Media-103304.wav
+│       │   ├── Media-103305.wav
+│       │   ├── Media-103306.wav
+│       │   ├── Media-104206.wav
+│       │   ├── Media-104207.wav
+│       │   ├── Media-104208.wav
+│       │   ├── Media-104304.wav
+│       │   ├── Media-104305.wav
+│       │   ├── Media-104306.wav
+│       │   ├── Media-104404.wav
+│       │   ├── Media-104405.wav
+│       │   ├── Media-104505.wav
+│       │   ├── Media-104506.wav
+│       │   ├── Media-104605.wav
+│       │   ├── Media-104606.wav
+│       │   ├── Media-104706.wav
+│       │   ├── Media-104707.wav
+│       │   ├── Media-104708.wav
+│       │   ├── Media-104709.wav
+│       │   ├── Media-104710.wav
+│       │   ├── Media-104806.wav
+│       │   ├── Media-104807.wav
+│       │   ├── Media-104808.wav
+│       │   ├── Media-104906.wav
+│       │   ├── Media-104907.wav
+│       │   ├── Media-105008.wav
+│       │   ├── Media-105009.wav
+│       │   ├── Media-105107.wav
+│       │   ├── Media-105108.wav
+│       │   ├── Media-105109.wav
+│       │   ├── Media-105305.wav
+│       │   ├── Media-105306.wav
+│       │   ├── Media-105317.wav
+│       │   ├── Media-105505.wav
+│       │   ├── Media-105506.wav
+│       │   ├── Media-105507.wav
+│       │   ├── Media-105508.wav
+│       │   ├── Media-105705.wav
+│       │   ├── Media-105706.wav
+│       │   ├── Media-105707.wav
+│       │   ├── Media-105806.wav
+│       │   ├── Media-105807.wav
+│       │   ├── Media-105808.wav
+│       │   ├── Media-105903.wav
+│       │   ├── Media-105904.wav
+│       │   ├── Media-105905.wav
+│       │   └── Media-105906.wav
+│       ├── Viennese waltz
+│       │   ├── Albums-Ballroom_Classics4-11.wav
+│       │   ├── Albums-Ballroom_Classics4-12.wav
+│       │   ├── Albums-Ballroom_Classics4-13.wav
+│       │   ├── Albums-Ballroom_Classics4-14.wav
+│       │   ├── Albums-Ballroom_Magic-09.wav
+│       │   ├── Albums-Ballroom_Magic-10.wav
+│       │   ├── Albums-Ballroom_Magic-11.wav
+│       │   ├── Albums-Chrisanne1-07.wav
+│       │   ├── Albums-Chrisanne1-08.wav
+│       │   ├── Albums-Chrisanne2-07.wav
+│       │   ├── Albums-Chrisanne3-07.wav
+│       │   ├── Albums-Chrisanne3-08.wav
+│       │   ├── Albums-Chrisanne3-09.wav
+│       │   ├── Albums-Step_By_Step-09.wav
+│       │   ├── Albums-Step_By_Step-10.wav
+│       │   ├── Albums-Step_By_Step-11.wav
+│       │   ├── Media-100608.wav
+│       │   ├── Media-100609.wav
+│       │   ├── Media-100610.wav
+│       │   ├── Media-103307.wav
+│       │   ├── Media-103308.wav
+│       │   ├── Media-103315.wav
+│       │   ├── Media-104209.wav
+│       │   ├── Media-104210.wav
+│       │   ├── Media-104211.wav
+│       │   ├── Media-104212.wav
+│       │   ├── Media-104307.wav
+│       │   ├── Media-104308.wav
+│       │   ├── Media-104309.wav
+│       │   ├── Media-104406.wav
+│       │   ├── Media-104407.wav
+│       │   ├── Media-104408.wav
+│       │   ├── Media-104409.wav
+│       │   ├── Media-104507.wav
+│       │   ├── Media-104508.wav
+│       │   ├── Media-104607.wav
+│       │   ├── Media-104608.wav
+│       │   ├── Media-104609.wav
+│       │   ├── Media-104711.wav
+│       │   ├── Media-104712.wav
+│       │   ├── Media-104809.wav
+│       │   ├── Media-104810.wav
+│       │   ├── Media-104811.wav
+│       │   ├── Media-104908.wav
+│       │   ├── Media-104909.wav
+│       │   ├── Media-105010.wav
+│       │   ├── Media-105011.wav
+│       │   ├── Media-105110.wav
+│       │   ├── Media-105111.wav
+│       │   ├── Media-105112.wav
+│       │   ├── Media-105307.wav
+│       │   ├── Media-105308.wav
+│       │   ├── Media-105309.wav
+│       │   ├── Media-105318.wav
+│       │   ├── Media-105509.wav
+│       │   ├── Media-105510.wav
+│       │   ├── Media-105511.wav
+│       │   ├── Media-105708.wav
+│       │   ├── Media-105709.wav
+│       │   ├── Media-105710.wav
+│       │   ├── Media-105809.wav
+│       │   ├── Media-105810.wav
+│       │   ├── Media-105811.wav
+│       │   ├── Media-105812.wav
+│       │   └── Media-105907.wav
+│       └── Waltz
+│           ├── Albums-Ballroom_Classics4-01.wav
+│           ├── Albums-Ballroom_Classics4-02.wav
+│           ├── Albums-Ballroom_Classics4-03.wav
+│           ├── Albums-Ballroom_Classics4-04.wav
+│           ├── Albums-Ballroom_Classics4-05.wav
+│           ├── Albums-Ballroom_Magic-01.wav
+│           ├── Albums-Ballroom_Magic-02.wav
+│           ├── Albums-Ballroom_Magic-03.wav
+│           ├── Albums-Ballroom_Magic-04.wav
+│           ├── Albums-Ballroom_Magic-05.wav
+│           ├── Albums-Ballroom_Magic-18.wav
+│           ├── Albums-Chrisanne1-01.wav
+│           ├── Albums-Chrisanne1-02.wav
+│           ├── Albums-Chrisanne1-03.wav
+│           ├── Albums-Chrisanne2-01.wav
+│           ├── Albums-Chrisanne2-02.wav
+│           ├── Albums-Chrisanne2-03.wav
+│           ├── Albums-Chrisanne3-01.wav
+│           ├── Albums-Chrisanne3-02.wav
+│           ├── Albums-Chrisanne3-03.wav
+│           ├── Albums-Commitments-11.wav
+│           ├── Albums-Fire-13.wav
+│           ├── Albums-Secret_Garden-01.wav
+│           ├── Albums-Secret_Garden-02.wav
+│           ├── Albums-Secret_Garden-05.wav
+│           ├── Albums-Secret_Garden-06.wav
+│           ├── Albums-Step_By_Step-01.wav
+│           ├── Albums-Step_By_Step-02.wav
+│           ├── Albums-Step_By_Step-03.wav
+│           ├── Albums-Step_By_Step-04.wav
+│           ├── Media-100601.wav
+│           ├── Media-100602.wav
+│           ├── Media-100603.wav
+│           ├── Media-100604.wav
+│           ├── Media-103301.wav
+│           ├── Media-103302.wav
+│           ├── Media-103303.wav
+│           ├── Media-104201.wav
+│           ├── Media-104202.wav
+│           ├── Media-104203.wav
+│           ├── Media-104204.wav
+│           ├── Media-104205.wav
+│           ├── Media-104301.wav
+│           ├── Media-104302.wav
+│           ├── Media-104303.wav
+│           ├── Media-104401.wav
+│           ├── Media-104402.wav
+│           ├── Media-104403.wav
+│           ├── Media-104501.wav
+│           ├── Media-104502.wav
+│           ├── Media-104503.wav
+│           ├── Media-104504.wav
+│           ├── Media-104601.wav
+│           ├── Media-104602.wav
+│           ├── Media-104603.wav
+│           ├── Media-104604.wav
+│           ├── Media-104701.wav
+│           ├── Media-104702.wav
+│           ├── Media-104703.wav
+│           ├── Media-104704.wav
+│           ├── Media-104705.wav
+│           ├── Media-104801.wav
+│           ├── Media-104802.wav
+│           ├── Media-104803.wav
+│           ├── Media-104804.wav
+│           ├── Media-104805.wav
+│           ├── Media-104901.wav
+│           ├── Media-104902.wav
+│           ├── Media-104903.wav
+│           ├── Media-104904.wav
+│           ├── Media-104905.wav
+│           ├── Media-105001.wav
+│           ├── Media-105002.wav
+│           ├── Media-105003.wav
+│           ├── Media-105004.wav
+│           ├── Media-105005.wav
+│           ├── Media-105006.wav
+│           ├── Media-105007.wav
+│           ├── Media-105101.wav
+│           ├── Media-105102.wav
+│           ├── Media-105103.wav
+│           ├── Media-105104.wav
+│           ├── Media-105105.wav
+│           ├── Media-105106.wav
+│           ├── Media-105210.wav
+│           ├── Media-105211.wav
+│           ├── Media-105212.wav
+│           ├── Media-105213.wav
+│           ├── Media-105214.wav
+│           ├── Media-105215.wav
+│           ├── Media-105301.wav
+│           ├── Media-105302.wav
+│           ├── Media-105303.wav
+│           ├── Media-105304.wav
+│           ├── Media-105316.wav
+│           ├── Media-105501.wav
+│           ├── Media-105502.wav
+│           ├── Media-105503.wav
+│           ├── Media-105504.wav
+│           ├── Media-105701.wav
+│           ├── Media-105702.wav
+│           ├── Media-105703.wav
+│           ├── Media-105704.wav
+│           ├── Media-105801.wav
+│           ├── Media-105802.wav
+│           ├── Media-105803.wav
+│           ├── Media-105804.wav
+│           ├── Media-105805.wav
+│           ├── Media-105901.wav
+│           └── Media-105902.wav
+├── ISMIR2004
+│   ├── Abba
+│   │   ├── annotation
+│   │   │   ├── 01-Dancing Queen beat.bpm
+│   │   │   ├── 02-Knowing Me, Knowing You beat.bpm
+│   │   │   ├── 03-Take A Chance On Me beat.bpm
+│   │   │   ├── 04-Mamma Mia beat.bpm
+│   │   │   ├── 05-Lay All Your Love On Me beat.bpm
+│   │   │   ├── 06-Super Trouper beat.bpm
+│   │   │   ├── 07-I Have A Dream beat.bpm
+│   │   │   ├── 08-The Winner Takes It All beat.bpm
+│   │   │   ├── 09-Money, Money, Money beat.bpm
+│   │   │   ├── 10-S. O. S beat.bpm
+│   │   │   ├── 11-Chiquitita beat.bpm
+│   │   │   ├── 12-Fernando beat.bpm
+│   │   │   ├── 13-Voulez Vous beat.bpm
+│   │   │   ├── 14-Gimme! Gimme! Gimme! (A Man After Midnight) beat.bpm
+│   │   │   ├── 15-Does Your Mother Know beat.bpm
+│   │   │   ├── 16-One Of Us beat.bpm
+│   │   │   ├── 17-The Name Of The Game beat.bpm
+│   │   │   └── 19-Waterloo beat.bpm
+│   │   └── wav
+│   │       ├── 01-Dancing Queen.wav
+│   │       ├── 02-Knowing Me, Knowing You.wav
+│   │       ├── 03-Take A Chance On Me.wav
+│   │       ├── 04-Mamma Mia.wav
+│   │       ├── 05-Lay All Your Love On Me.wav
+│   │       ├── 06-Super Trouper.wav
+│   │       ├── 07-I Have A Dream.wav
+│   │       ├── 08-The Winner Takes It All.wav
+│   │       ├── 09-Money, Money, Money.wav
+│   │       ├── 10-S. O. S.wav
+│   │       ├── 11-Chiquitita.wav
+│   │       ├── 12-Fernando.wav
+│   │       ├── 13-Voulez Vous.wav
+│   │       ├── 14-Gimme! Gimme! Gimme! (A Man After Midnight).wav
+│   │       ├── 15-Does Your Mother Know.wav
+│   │       ├── 16-One Of Us.wav
+│   │       ├── 17-The Name Of The Game.wav
+│   │       └── 19-Waterloo.wav
+│   ├── Alan_Parsons_Project
+│   │   ├── annotation
+│   │   │   ├── 01-A_Dream_Within_A_Dream-beat.bpm
+│   │   │   ├── 02-The_Raven-beat.bpm
+│   │   │   ├── 03-The_Tell-tale_Heart-beat.bpm
+│   │   │   ├── 04-The_Cask_Of_Amontillado-beat.bpm
+│   │   │   ├── 05-_The_System_Of__Doctor_Tarr_And_Professor_Fether-beat.bpm
+│   │   │   ├── 07-The_Fall_Of_The_House_Of_Usher__II__Arrival-beat.bpm
+│   │   │   ├── 09-The_Fall_Of_The_House_Of_Usher__IV__Pavane-beat.bpm
+│   │   │   └── 11-To_One_In_Paradise-beat.bpm
+│   │   └── wav
+│   │       ├── 01-A_Dream_Within_A_Dream.wav
+│   │       ├── 02-The_Raven.wav
+│   │       ├── 03-The_Tell-tale_Heart.wav
+│   │       ├── 04-The_Cask_Of_Amontillado.wav
+│   │       ├── 05-_The_System_Of__Doctor_Tarr_And_Professor_Fether.wav
+│   │       ├── 07-The_Fall_Of_The_House_Of_Usher__II__Arrival.wav
+│   │       ├── 09-The_Fall_Of_The_House_Of_Usher__IV__Pavane.wav
+│   │       └── 11-To_One_In_Paradise.wav
+│   ├── Alirio Diaz
+│   │   ├── annotation
+│   │   │   ├── 01-Tarrega_  Recuerdos de la Alhambra beat.bpm
+│   │   │   ├── 02-Lauro_  Dos Valses Venezolanos - Uno beat.bpm
+│   │   │   ├── 04-Sojo_  Guaso beat.bpm
+│   │   │   └── 05-Sojo_  Cancion beat.bpm
+│   │   └── wav
+│   │       ├── 01-Tarrega_  Recuerdos de la Alhambra.wav
+│   │       ├── 02-Lauro_  Dos Valses Venezolanos - Uno.wav
+│   │       ├── 04-Sojo_  Guaso.wav
+│   │       └── 05-Sojo_  Cancion.wav
+│   ├── aphex_twin
+│   │   ├── annotation
+│   │   │   ├── actium beat.bpm
+│   │   │   ├── ageispolis beat.bpm
+│   │   │   ├── delphium beat.bpm
+│   │   │   ├── green_calx beat.bpm
+│   │   │   ├── hedphelym beat.bpm
+│   │   │   ├── heliosphan beat.bpm
+│   │   │   ├── ptolemy beat.bpm
+│   │   │   ├── pulsewidth beat.bpm
+│   │   │   ├── schottkey_7th_path beat.bpm
+│   │   │   ├── we_are_the_music_makers beat.bpm
+│   │   │   └── xtal beat.bpm
+│   │   └── wav
+│   │       ├── actium.wav
+│   │       ├── ageispolis.wav
+│   │       ├── delphium.wav
+│   │       ├── green_calx.wav
+│   │       ├── hedphelym.wav
+│   │       ├── heliosphan.wav
+│   │       ├── ptolemy.wav
+│   │       ├── pulsewidth.wav
+│   │       ├── schottkey_7th_path.wav
+│   │       ├── we_are_the_music_makers.wav
+│   │       └── xtal.wav
+│   ├── Asian_Dub_Foundation
+│   │   ├── annotation
+│   │   │   ├── 01-Assassin beat.bpm
+│   │   │   ├── 02-Change beat.bpm
+│   │   │   ├── 03-Black_White beat.bpm
+│   │   │   ├── 04-Buzzing beat.bpm
+│   │   │   ├── 05-Free_Satpal_Ram beat.bpm
+│   │   │   ├── 06-Modern_Apprentice beat.bpm
+│   │   │   ├── 07-Operation_Eagle_Lie beat.bpm
+│   │   │   ├── 08-Hypocrite beat.bpm
+│   │   │   ├── 09-Naxalite beat.bpm
+│   │   │   ├── 10-Loot beat.bpm
+│   │   │   ├── 11-Dub_Mentality beat.bpm
+│   │   │   ├── 12-Culture_Move beat.bpm
+│   │   │   └── 13-Real_Areas_For_Investigation beat.bpm
+│   │   └── wav
+│   │       ├── 01-Assassin.wav
+│   │       ├── 02-Change.wav
+│   │       ├── 03-Black_White.wav
+│   │       ├── 04-Buzzing.wav
+│   │       ├── 05-Free_Satpal_Ram.wav
+│   │       ├── 06-Modern_Apprentice.wav
+│   │       ├── 07-Operation_Eagle_Lie.wav
+│   │       ├── 08-Hypocrite.wav
+│   │       ├── 09-Naxalite.wav
+│   │       ├── 10-Loot.wav
+│   │       ├── 11-Dub_Mentality.wav
+│   │       ├── 12-Culture_Move.wav
+│   │       └── 13-Real_Areas_For_Investigation.wav
+│   ├── Autechre
+│   │   ├── annotation
+│   │   │   ├── 01-Foil beat.bpm
+│   │   │   ├── 02-Montreal beat.bpm
+│   │   │   ├── 03-Silverside beat.bpm
+│   │   │   ├── 04-Slip beat.bpm
+│   │   │   ├── 05-Glitch beat.bpm
+│   │   │   ├── 06-Piezo beat.bpm
+│   │   │   ├── 08-Further beat.bpm
+│   │   │   ├── 10-Nil beat.bpm
+│   │   │   └── 11-Teartear beat.bpm
+│   │   └── wav
+│   │       ├── 01-Foil.wav
+│   │       ├── 02-Montreal.wav
+│   │       ├── 03-Silverside.wav
+│   │       ├── 04-Slip.wav
+│   │       ├── 05-Glitch.wav
+│   │       ├── 06-Piezo.wav
+│   │       ├── 08-Further.wav
+│   │       ├── 10-Nil.wav
+│   │       └── 11-Teartear.wav
+│   ├── Aviador_Dro
+│   │   ├── annotation
+│   │   │   ├── 01-Sintonia_del_refugio_atomico beat.bpm
+│   │   │   ├── 02-Nuclear__si__por_supuesto_ beat.bpm
+│   │   │   ├── 03-El_retorno_de_Godzilla beat.bpm
+│   │   │   ├── 04-Varsovia_en_llamas beat.bpm
+│   │   │   ├── 05-Programa_en_espiral beat.bpm
+│   │   │   ├── 06-La_persecucion beat.bpm
+│   │   │   ├── 07-Telepatia beat.bpm
+│   │   │   ├── 08-El_ultimo_asalto_a_la_Bastilla beat.bpm
+│   │   │   ├── 09-Brigada_de_demolicion beat.bpm
+│   │   │   ├── 10-Ondina beat.bpm
+│   │   │   ├── 11-La_television_es_nutritiva beat.bpm
+│   │   │   ├── 12-Cita_en_el_asteroide_Eden beat.bpm
+│   │   │   ├── 13-Obsesion beat.bpm
+│   │   │   ├── 14-Sintonia_de_la_moda_estandarizada beat.bpm
+│   │   │   ├── 15-El_laberinto_del_nuevo_Minotauro beat.bpm
+│   │   │   ├── 16-Kraken beat.bpm
+│   │   │   ├── 17-Selector_de_frecuencias beat.bpm
+│   │   │   ├── 18-La_cicatriz_en_la_fabrica_roja beat.bpm
+│   │   │   └── 19-El_nacimiento_de_la_industria beat.bpm
+│   │   └── wav
+│   │       ├── 01-Sintonia_del_refugio_atomico.wav
+│   │       ├── 02-Nuclear__si__por_supuesto_.wav
+│   │       ├── 03-El_retorno_de_Godzilla.wav
+│   │       ├── 04-Varsovia_en_llamas.wav
+│   │       ├── 05-Programa_en_espiral.wav
+│   │       ├── 06-La_persecucion.wav
+│   │       ├── 07-Telepatia.wav
+│   │       ├── 08-El_ultimo_asalto_a_la_Bastilla.wav
+│   │       ├── 09-Brigada_de_demolicion.wav
+│   │       ├── 10-Ondina.wav
+│   │       ├── 11-La_television_es_nutritiva.wav
+│   │       ├── 12-Cita_en_el_asteroide_Eden.wav
+│   │       ├── 13-Obsesion.wav
+│   │       ├── 14-Sintonia_de_la_moda_estandarizada.wav
+│   │       ├── 15-El_laberinto_del_nuevo_Minotauro.wav
+│   │       ├── 16-Kraken.wav
+│   │       ├── 17-Selector_de_frecuencias.wav
+│   │       ├── 18-La_cicatriz_en_la_fabrica_roja.wav
+│   │       └── 19-El_nacimiento_de_la_industria.wav
+│   ├── Bach
+│   │   ├── annotation
+│   │   │   ├── 01-Prelude and Fugue No. 1 in C major, BWV 870 - 1. Praeludium beat.bpm
+│   │   │   ├── 02-Prelude and Fugue No. 1 in C major, BWV 870 - 2. Fuga beat.bpm
+│   │   │   ├── 03-Prelude and Fugue No. 2 in C minor, BWV 871 - 1. Praeludium beat.bpm
+│   │   │   ├── 04-Prelude and Fugue No. 2 in C minor, BWV 871 - 2. Fuga beat.bpm
+│   │   │   ├── 05-Prelude and Fugue No. 3 in C-sharp major, BWV 872 - 1. Praeludium beat.bpm
+│   │   │   ├── 06-Prelude and Fugue No. 3 in C-sharp major, BWV 872 - 2. Fuga beat.bpm
+│   │   │   ├── Bach - BWV 639 - Ich ruf' zu dir, Herr Jesu Christ beat.bpm
+│   │   │   ├── Bach - Cello suite 1 G - 01 Prelude beat.bpm
+│   │   │   ├── Bach - Cello suite 1 G - 03 Courante beat.bpm
+│   │   │   └── Bach - Cello suite 2 d - 01 Prelude beat.bpm
+│   │   └── wav
+│   │       ├── 01-Prelude and Fugue No. 1 in C major, BWV 870 - 1. Praeludium.wav
+│   │       ├── 02-Prelude and Fugue No. 1 in C major, BWV 870 - 2. Fuga.wav
+│   │       ├── 03-Prelude and Fugue No. 2 in C minor, BWV 871 - 1. Praeludium.wav
+│   │       ├── 04-Prelude and Fugue No. 2 in C minor, BWV 871 - 2. Fuga.wav
+│   │       ├── 05-Prelude and Fugue No. 3 in C-sharp major, BWV 872 - 1. Praeludium.wav
+│   │       ├── 06-Prelude and Fugue No. 3 in C-sharp major, BWV 872 - 2. Fuga.wav
+│   │       ├── Bach - BWV 639 - Ich ruf' zu dir, Herr Jesu Christ.wav
+│   │       ├── Bach - Cello suite 1 G - 01 Prelude.wav
+│   │       ├── Bach - Cello suite 1 G - 03 Courante.wav
+│   │       └── Bach - Cello suite 2 d - 01 Prelude.wav
+│   ├── Bach - Walcha
+│   │   ├── annotation
+│   │   │   ├── 02-Toccata u. Fuge d-moll BWV 565 - II_ Fuge beat.bpm
+│   │   │   ├── 03-Praludium u. Fuge f-moll BWV 534 - I_ Praludium beat.bpm
+│   │   │   ├── 04-Praludium u. Fuge f-moll BWV 534 - II_ Fuge beat.bpm
+│   │   │   ├── 06-Fantasie u. Fuge g-moll BWV 542 - II_ Fuge beat.bpm
+│   │   │   ├── 08-Toccata, Adagio u. Fuge C-dur BWV 564 - II_ Adagio beat.bpm
+│   │   │   ├── 09-Toccata, Adagio u. Fuge C-dur BWV 564 - III_ Fuge beat.bpm
+│   │   │   ├── 10-Triosonate Nr. 1 Es-Dur BWV 525 - I_ (Allegro) beat.bpm
+│   │   │   ├── 11-Triosonate Nr. 1 Es-Dur BWV 525 - II_ Adagio beat.bpm
+│   │   │   └── 12-Triosonate Nr. 1 Es-Dur BWV 525 - III_ Allegro beat.bpm
+│   │   └── wav
+│   │       ├── 02-Toccata u. Fuge d-moll BWV 565 - II_ Fuge.wav
+│   │       ├── 03-Praludium u. Fuge f-moll BWV 534 - I_ Praludium.wav
+│   │       ├── 04-Praludium u. Fuge f-moll BWV 534 - II_ Fuge.wav
+│   │       ├── 06-Fantasie u. Fuge g-moll BWV 542 - II_ Fuge.wav
+│   │       ├── 08-Toccata, Adagio u. Fuge C-dur BWV 564 - II_ Adagio.wav
+│   │       ├── 09-Toccata, Adagio u. Fuge C-dur BWV 564 - III_ Fuge.wav
+│   │       ├── 10-Triosonate Nr. 1 Es-Dur BWV 525 - I_ (Allegro).wav
+│   │       ├── 11-Triosonate Nr. 1 Es-Dur BWV 525 - II_ Adagio.wav
+│   │       └── 12-Triosonate Nr. 1 Es-Dur BWV 525 - III_ Allegro.wav
+│   ├── Bebel_Gilberto
+│   │   ├── annotation
+│   │   │   ├── 01-Samba_da_Bencao beat.bpm
+│   │   │   ├── 02-August_Day_Song beat.bpm
+│   │   │   ├── 04-Sem_Contencao beat.bpm
+│   │   │   ├── 05-Mais_Feliz beat.bpm
+│   │   │   ├── 06-Alguem beat.bpm
+│   │   │   ├── 07-So_Nice__Summer_Samba_ beat.bpm
+│   │   │   ├── 08-Lonely beat.bpm
+│   │   │   ├── 09-Bananeira beat.bpm
+│   │   │   ├── 10-Samba_e_Amor beat.bpm
+│   │   │   └── 11-Close_Your_Eyes beat.bpm
+│   │   └── wav
+│   │       ├── 01-Samba_da_Bencao.wav
+│   │       ├── 02-August_Day_Song.wav
+│   │       ├── 04-Sem_Contencao.wav
+│   │       ├── 05-Mais_Feliz.wav
+│   │       ├── 06-Alguem.wav
+│   │       ├── 07-So_Nice__Summer_Samba_.wav
+│   │       ├── 08-Lonely.wav
+│   │       ├── 09-Bananeira.wav
+│   │       ├── 10-Samba_e_Amor.wav
+│   │       └── 11-Close_Your_Eyes.wav
+│   ├── Bela_Bartok
+│   │   ├── annotation
+│   │   │   ├── 01-The_Miraculous_Mandarin___1.1__Allegro___1.2__Curtain beat.bpm
+│   │   │   ├── 02-The_Miraculous_Mandarin___2__1st_Decoy_Game beat.bpm
+│   │   │   ├── 03-The_Miraculous_Mandarin___3__2nd_Decoy_Game beat.bpm
+│   │   │   ├── 05-The_Miraculous_Mandarin___5.1__Maestoso___5.2__Allegro beat.bpm
+│   │   │   ├── 06-The_Miraculous_Mandarin___6.1__Sempre_vivo___6.2__Adagio beat.bpm
+│   │   │   ├── 07-The_Miraculous_Mandarin___7.1__Agitato___7.2__Molto_moderato beat.bpm
+│   │   │   ├── 09-Music_for_Strings__Percussion_and_Celesta__I__Andante_tranquillo beat.bpm
+│   │   │   └── 11-Music_for_Strings__Percussion_and_Celesta__III__Adagio beat.bpm
+│   │   └── wav
+│   │       ├── 01-The_Miraculous_Mandarin___1.1__Allegro___1.2__Curtain.wav
+│   │       ├── 02-The_Miraculous_Mandarin___2__1st_Decoy_Game.wav
+│   │       ├── 03-The_Miraculous_Mandarin___3__2nd_Decoy_Game.wav
+│   │       ├── 05-The_Miraculous_Mandarin___5.1__Maestoso___5.2__Allegro.wav
+│   │       ├── 06-The_Miraculous_Mandarin___6.1__Sempre_vivo___6.2__Adagio.wav
+│   │       ├── 07-The_Miraculous_Mandarin___7.1__Agitato___7.2__Molto_moderato.wav
+│   │       ├── 09-Music_for_Strings__Percussion_and_Celesta__I__Andante_tranquillo.wav
+│   │       └── 11-Music_for_Strings__Percussion_and_Celesta__III__Adagio.wav
+│   ├── Bernstein_conducts_Stravinsky
+│   │   ├── annotation
+│   │   │   ├── 01-Introduction__Part_1-_The_adoration_of_the_earth_ beat.bpm
+│   │   │   ├── 02-The_augurs_of_spring beat.bpm
+│   │   │   ├── 04-Spring_round_dances beat.bpm
+│   │   │   ├── 05-Games_of_the_rival_tribes beat.bpm
+│   │   │   ├── 06-Procession_of_the_wise_elder beat.bpm
+│   │   │   ├── 08-Dance_of_the_earth beat.bpm
+│   │   │   ├── 10-Mystical_circles_of_the_young_girls beat.bpm
+│   │   │   ├── 11-Glorfication_of_the_chosen_victim beat.bpm
+│   │   │   ├── 12-Summoning_of_the_ancestors beat.bpm
+│   │   │   ├── 14-Sacrifical_dance-_the_chosen_victim beat.bpm
+│   │   │   ├── 15-Petrouchka__scene_1_-_The_shrovetide_fair beat.bpm
+│   │   │   ├── 16-Legerdemain_scene-_Russian_danse beat.bpm
+│   │   │   ├── 17-Scene_2-_Petrushka_s_room beat.bpm
+│   │   │   ├── 19-Waltz__ballerina_and_the_moor beat.bpm
+│   │   │   ├── 20-Scene_4-_The_Shrovetie_fair__toward_evening_ beat.bpm
+│   │   │   ├── 21-Danse_of_the_nursemaids beat.bpm
+│   │   │   ├── 22-The_bear_and_the_peasant beat.bpm
+│   │   │   ├── 23-The_jovial_merchant_with_two_gypsy_girls beat.bpm
+│   │   │   ├── 24-Danse_of_the_coachmen_and_grooms beat.bpm
+│   │   │   └── 25-The_masqueraders beat.bpm
+│   │   └── wav
+│   │       ├── 01-Introduction__Part_1-_The_adoration_of_the_earth_.wav
+│   │       ├── 02-The_augurs_of_spring.wav
+│   │       ├── 04-Spring_round_dances.wav
+│   │       ├── 05-Games_of_the_rival_tribes.wav
+│   │       ├── 06-Procession_of_the_wise_elder.wav
+│   │       ├── 08-Dance_of_the_earth.wav
+│   │       ├── 10-Mystical_circles_of_the_young_girls.wav
+│   │       ├── 11-Glorfication_of_the_chosen_victim.wav
+│   │       ├── 12-Summoning_of_the_ancestors.wav
+│   │       ├── 14-Sacrifical_dance-_the_chosen_victim.wav
+│   │       ├── 15-Petrouchka__scene_1_-_The_shrovetide_fair.wav
+│   │       ├── 16-Legerdemain_scene-_Russian_danse.wav
+│   │       ├── 17-Scene_2-_Petrushka_s_room.wav
+│   │       ├── 19-Waltz__ballerina_and_the_moor.wav
+│   │       ├── 20-Scene_4-_The_Shrovetie_fair__toward_evening_.wav
+│   │       ├── 21-Danse_of_the_nursemaids.wav
+│   │       ├── 22-The_bear_and_the_peasant.wav
+│   │       ├── 23-The_jovial_merchant_with_two_gypsy_girls.wav
+│   │       ├── 24-Danse_of_the_coachmen_and_grooms.wav
+│   │       └── 25-The_masqueraders.wav
+│   ├── Billie Holiday CD1
+│   │   ├── annotation
+│   │   │   ├── 01-Summertime beat.bpm
+│   │   │   ├── 02-Carelessly beat.bpm
+│   │   │   ├── 06-Who loves you beat.bpm
+│   │   │   ├── 09-Let's call a heart to heart beat.bpm
+│   │   │   └── 14-Loverman beat.bpm
+│   │   └── wav
+│   │       ├── 01-Summertime.wav
+│   │       ├── 02-Carelessly.wav
+│   │       ├── 06-Who loves you.wav
+│   │       ├── 09-Let's call a heart to heart.wav
+│   │       └── 14-Loverman.wav
+│   ├── Bjork
+│   │   ├── annotation
+│   │   │   ├── 01-Venus_As_A_Boy beat.bpm
+│   │   │   ├── 02-Hyperballad beat.bpm
+│   │   │   ├── 03-You_ve_Been_Flirting_Again beat.bpm
+│   │   │   ├── 04-Isobel beat.bpm
+│   │   │   ├── 05-Joga beat.bpm
+│   │   │   ├── 06-Unravel beat.bpm
+│   │   │   ├── 07-Bachelorette beat.bpm
+│   │   │   ├── 08-All_Is_Full_Of_Love beat.bpm
+│   │   │   ├── 09-Scatterheart beat.bpm
+│   │   │   ├── 10-I_ve_Seen_It_All beat.bpm
+│   │   │   ├── 11-Pagan_Poetry beat.bpm
+│   │   │   └── 12-It_s_Not_Up_To_You beat.bpm
+│   │   └── wav
+│   │       ├── 01-Venus_As_A_Boy.wav
+│   │       ├── 02-Hyperballad.wav
+│   │       ├── 03-You_ve_Been_Flirting_Again.wav
+│   │       ├── 04-Isobel.wav
+│   │       ├── 05-Joga.wav
+│   │       ├── 06-Unravel.wav
+│   │       ├── 07-Bachelorette.wav
+│   │       ├── 08-All_Is_Full_Of_Love.wav
+│   │       ├── 09-Scatterheart.wav
+│   │       ├── 10-I_ve_Seen_It_All.wav
+│   │       ├── 11-Pagan_Poetry.wav
+│   │       └── 12-It_s_Not_Up_To_You.wav
+│   ├── Cabaret_Voltaire
+│   │   ├── annotation
+│   │   │   ├── 01-24-24 beat.bpm
+│   │   │   ├── 02-In_the_Shadows beat.bpm
+│   │   │   ├── 03-Talking_Time beat.bpm
+│   │   │   ├── 04-Animation beat.bpm
+│   │   │   ├── 05-Over_and_Over beat.bpm
+│   │   │   ├── 06-Just_Fascination beat.bpm
+│   │   │   ├── 07-Why_Kill_Time__When_You_Can_Kill_Yourself_ beat.bpm
+│   │   │   ├── 08-Haiti beat.bpm
+│   │   │   ├── 09-Crackdown beat.bpm
+│   │   │   ├── 10-Diskono beat.bpm
+│   │   │   └── 13-Moscow beat.bpm
+│   │   └── wav
+│   │       ├── 01-24-24.wav
+│   │       ├── 02-In_the_Shadows.wav
+│   │       ├── 03-Talking_Time.wav
+│   │       ├── 04-Animation.wav
+│   │       ├── 05-Over_and_Over.wav
+│   │       ├── 06-Just_Fascination.wav
+│   │       ├── 07-Why_Kill_Time__When_You_Can_Kill_Yourself_.wav
+│   │       ├── 08-Haiti.wav
+│   │       ├── 09-Crackdown.wav
+│   │       ├── 10-Diskono.wav
+│   │       └── 13-Moscow.wav
+│   ├── Carlinhos_Brown
+│   │   ├── annotation
+│   │   │   ├── 02-Pandeiro-Deiro beat.bpm
+│   │   │   ├── 03-Covered_Saints beat.bpm
+│   │   │   ├── 04-Cumplicidade_de_Armario beat.bpm
+│   │   │   ├── 05-Argila beat.bpm
+│   │   │   ├── 06-Tour beat.bpm
+│   │   │   ├── 07-Bog_La_Bag beat.bpm
+│   │   │   ├── 08-O_Bode beat.bpm
+│   │   │   ├── 09-Comunidade-Lobos beat.bpm
+│   │   │   ├── 10-Frases_Ventias beat.bpm
+│   │   │   ├── 11-Quixabeira beat.bpm
+│   │   │   ├── 12-Seo_Ze beat.bpm
+│   │   │   ├── 13-Mares_de_Ti beat.bpm
+│   │   │   ├── 14-Zanza beat.bpm
+│   │   │   ├── 15-A_Namorada beat.bpm
+│   │   │   └── 16-Vanju_Concessa beat.bpm
+│   │   └── wav
+│   │       ├── 02-Pandeiro-Deiro.wav
+│   │       ├── 03-Covered_Saints.wav
+│   │       ├── 04-Cumplicidade_de_Armario.wav
+│   │       ├── 05-Argila.wav
+│   │       ├── 06-Tour.wav
+│   │       ├── 07-Bog_La_Bag.wav
+│   │       ├── 08-O_Bode.wav
+│   │       ├── 09-Comunidade-Lobos.wav
+│   │       ├── 10-Frases_Ventias.wav
+│   │       ├── 11-Quixabeira.wav
+│   │       ├── 12-Seo_Ze.wav
+│   │       ├── 13-Mares_de_Ti.wav
+│   │       ├── 14-Zanza.wav
+│   │       ├── 15-A_Namorada.wav
+│   │       └── 16-Vanju_Concessa.wav
+│   ├── charles_mingus
+│   │   ├── annotation
+│   │   │   ├── cryin_blues beat.bpm
+│   │   │   ├── es_flat_ahs_flat_too beat.bpm
+│   │   │   ├── moanin beat.bpm
+│   │   │   ├── my_jelly_roll_soul beat.bpm
+│   │   │   ├── tensions beat.bpm
+│   │   │   └── wednesday_night_prayer_meeting beat.bpm
+│   │   └── wav
+│   │       ├── cryin_blues.wav
+│   │       ├── es_flat_ahs_flat_too.wav
+│   │       ├── moanin.wav
+│   │       ├── my_jelly_roll_soul.wav
+│   │       ├── tensions.wav
+│   │       └── wednesday_night_prayer_meeting.wav
+│   ├── Classic
+│   │   ├── annotation
+│   │   │   ├── Borodin - String quartet 2 D 01 beat.bpm
+│   │   │   ├── Pergolesi - Stabat Mater 01 beat.bpm
+│   │   │   ├── Pergolesi - Stabat Mater 02 beat.bpm
+│   │   │   ├── Track 01 beat.bpm
+│   │   │   ├── Track 04 beat.bpm
+│   │   │   ├── Vivaldi - Stabat Mater 01 beat.bpm
+│   │   │   └── Vivaldi - Stabat Mater 09 beat.bpm
+│   │   └── wav
+│   │       ├── Borodin - String quartet 2 D 01.wav
+│   │       ├── Pergolesi - Stabat Mater 01.wav
+│   │       ├── Pergolesi - Stabat Mater 02.wav
+│   │       ├── Track 01.wav
+│   │       ├── Track 04.wav
+│   │       ├── Vivaldi - Stabat Mater 01.wav
+│   │       └── Vivaldi - Stabat Mater 09.wav
+│   ├── Elton Medeiros, Nelson Sargento & Galo Preto
+│   │   ├── annotation
+│   │   │   ├── 01-Quem me Ve Sorrindo_Sei Chorar_Alegria beat.bpm
+│   │   │   ├── 02-Alvorada_Ao Amanhecer beat.bpm
+│   │   │   ├── 03-Sala de Recepcao beat.bpm
+│   │   │   ├── 05-Fiz por Voce o que Pude beat.bpm
+│   │   │   ├── 06-O Inverno do Meu Tempo beat.bpm
+│   │   │   ├── 07-Tive Sim beat.bpm
+│   │   │   ├── 08-Amor Proibido beat.bpm
+│   │   │   ├── 11-O Que e Feito de Voce_ beat.bpm
+│   │   │   ├── 12-Divina Dama beat.bpm
+│   │   │   ├── 13-Velho Estacio beat.bpm
+│   │   │   ├── 14-Ciume Doentio beat.bpm
+│   │   │   ├── 16-Sofreguidao beat.bpm
+│   │   │   ├── 17-A Mesma Historia beat.bpm
+│   │   │   ├── 18-Peito Vazio beat.bpm
+│   │   │   ├── 19-Injuria_O Sol Nascera beat.bpm
+│   │   │   └── 20-As Rosas Nao Falam beat.bpm
+│   │   └── wav
+│   │       ├── 01-Quem me Ve Sorrindo_Sei Chorar_Alegria.wav
+│   │       ├── 02-Alvorada_Ao Amanhecer.wav
+│   │       ├── 03-Sala de Recepcao.wav
+│   │       ├── 05-Fiz por Voce o que Pude.wav
+│   │       ├── 06-O Inverno do Meu Tempo.wav
+│   │       ├── 07-Tive Sim.wav
+│   │       ├── 08-Amor Proibido.wav
+│   │       ├── 11-O Que e Feito de Voce_.wav
+│   │       ├── 12-Divina Dama.wav
+│   │       ├── 13-Velho Estacio.wav
+│   │       ├── 14-Ciume Doentio.wav
+│   │       ├── 16-Sofreguidao.wav
+│   │       ├── 17-A Mesma Historia.wav
+│   │       ├── 18-Peito Vazio.wav
+│   │       ├── 19-Injuria_O Sol Nascera.wav
+│   │       └── 20-As Rosas Nao Falam.wav
+│   ├── Fado
+│   │   ├── annotation
+│   │   │   ├── 01-AudioTrack 01 beat.bpm
+│   │   │   ├── 02-AudioTrack 02 beat.bpm
+│   │   │   ├── 03-AudioTrack 03 beat.bpm
+│   │   │   ├── 04-AudioTrack 04 beat.bpm
+│   │   │   ├── 05-AudioTrack 05 beat.bpm
+│   │   │   ├── 07-AudioTrack 07 beat.bpm
+│   │   │   ├── 08-AudioTrack 08 beat.bpm
+│   │   │   ├── 09-AudioTrack 09 beat.bpm
+│   │   │   ├── 10-AudioTrack 10 beat.bpm
+│   │   │   └── 11-AudioTrack 11 beat.bpm
+│   │   └── wav
+│   │       ├── 01-AudioTrack 01.wav
+│   │       ├── 02-AudioTrack 02.wav
+│   │       ├── 03-AudioTrack 03.wav
+│   │       ├── 04-AudioTrack 04.wav
+│   │       ├── 05-AudioTrack 05.wav
+│   │       ├── 07-AudioTrack 07.wav
+│   │       ├── 08-AudioTrack 08.wav
+│   │       ├── 09-AudioTrack 09.wav
+│   │       ├── 10-AudioTrack 10.wav
+│   │       └── 11-AudioTrack 11.wav
+│   ├── Femi_Kuti
+│   │   ├── annotation
+│   │   │   ├── 01-Do_your_best beat.bpm
+│   │   │   ├── 02-Walk_on_the_right_side beat.bpm
+│   │   │   └── 03-Traitors_of_Africa beat.bpm
+│   │   └── wav
+│   │       ├── 01-Do_your_best.wav
+│   │       ├── 02-Walk_on_the_right_side.wav
+│   │       └── 03-Traitors_of_Africa.wav
+│   ├── Genesis
+│   │   ├── annotation
+│   │   │   ├── 01-Dancing_with_the_Moonlit_Knight beat.bpm
+│   │   │   └── 02-I_Know_What_I_Like__In_Your_Wardrobe_ beat.bpm
+│   │   └── wav
+│   │       ├── 01-Dancing_with_the_Moonlit_Knight.wav
+│   │       └── 02-I_Know_What_I_Like__In_Your_Wardrobe_.wav
+│   ├── greek
+│   │   ├── annotation
+│   │   │   ├── 01 H mikri Rallou beat.bpm
+│   │   │   ├── 07 Pikrodafni beat.bpm
+│   │   │   ├── 12 evzwnakia beat.bpm
+│   │   │   ├── Asteriadi - Mia giorti beat.bpm
+│   │   │   ├── Gkoles - Atimi tyxi beat.bpm
+│   │   │   ├── Gkoles - Mou 'fages ta daxtylidia beat.bpm
+│   │   │   ├── Gkoles - S' ena apokrimno akrogiali beat.bpm
+│   │   │   ├── Gkoles - Zwi mou, farmakw8ikes beat.bpm
+│   │   │   ├── Mavili - Afto t' agori beat.bpm
+│   │   │   ├── Mpellou - Nyxtwse xwris feggari beat.bpm
+│   │   │   ├── Paisa sti vrysi - Velvento beat.bpm
+│   │   │   ├── Perdika(xwris logia) beat.bpm
+│   │   │   └── To pasoumi - Smyrni beat.bpm
+│   │   └── wav
+│   │       ├── 01 H mikri Rallou.wav
+│   │       ├── 07 Pikrodafni.wav
+│   │       ├── 12 evzwnakia.wav
+│   │       ├── Asteriadi - Mia giorti.wav
+│   │       ├── Gkoles - Atimi tyxi.wav
+│   │       ├── Gkoles - Mou 'fages ta daxtylidia.wav
+│   │       ├── Gkoles - S' ena apokrimno akrogiali.wav
+│   │       ├── Gkoles - Zwi mou, farmakw8ikes.wav
+│   │       ├── Mavili - Afto t' agori.wav
+│   │       ├── Mpellou - Nyxtwse xwris feggari.wav
+│   │       ├── Paisa sti vrysi - Velvento.wav
+│   │       ├── Perdika(xwris logia).wav
+│   │       └── To pasoumi - Smyrni.wav
+│   ├── GUITARE+
+│   │   ├── annotation
+│   │   │   ├── 01-M. Baumann_ Duo pour guitare et violoncelle, op.62 - 1. Prelude (Lento rubato) beat.bpm
+│   │   │   ├── 03-3. Berceuse (Lento molto) beat.bpm
+│   │   │   ├── 04-4. Hommage ade Falla (Allegro) beat.bpm
+│   │   │   ├── 06-E. Granados_ Intermezzo (de _Goyescas_) beat.bpm
+│   │   │   ├── 07-H. Villa-lobos_ Bachianas Brasileiras No.5 (Aria) beat.bpm
+│   │   │   ├── 09-M. de Falla_ 7 chansons populaires espagnoles (extraits) - El pano moruno beat.bpm
+│   │   │   ├── 11-Nana beat.bpm
+│   │   │   └── 12-Cancion beat.bpm
+│   │   └── wav
+│   │       ├── 01-M. Baumann_ Duo pour guitare et violoncelle, op.62 - 1. Prelude (Lento rubato).wav
+│   │       ├── 03-3. Berceuse (Lento molto).wav
+│   │       ├── 04-4. Hommage ade Falla (Allegro).wav
+│   │       ├── 06-E. Granados_ Intermezzo (de _Goyescas_).wav
+│   │       ├── 07-H. Villa-lobos_ Bachianas Brasileiras No.5 (Aria).wav
+│   │       ├── 09-M. de Falla_ 7 chansons populaires espagnoles (extraits) - El pano moruno.wav
+│   │       ├── 11-Nana.wav
+│   │       └── 12-Cancion.wav
+│   ├── john_coltrane
+│   │   ├── annotation
+│   │   │   └── part_1__acknowledgement beat.bpm
+│   │   └── wav
+│   │       └── part_1__acknowledgement.wav
+│   ├── John Frusciante
+│   │   ├── annotation
+│   │   │   ├── 01-As Can Be beat.bpm
+│   │   │   ├── 03-Head (Beach Arab) beat.bpm
+│   │   │   ├── 04-Big Takeover beat.bpm
+│   │   │   ├── 05-Curtains beat.bpm
+│   │   │   ├── 06-Running Away Into You beat.bpm
+│   │   │   ├── 07-Mascara beat.bpm
+│   │   │   ├── 08-Been Insane beat.bpm
+│   │   │   ├── 09-Skin Blues beat.bpm
+│   │   │   ├── 10-Your Pussy's Glued to a Building on Fire beat.bpm
+│   │   │   ├── 11-Blood on My Neck From Success beat.bpm
+│   │   │   ├── 12-Ten to Butter Blood Voodoo beat.bpm
+│   │   │   ├── 14-Usually Just a T-Shirt_ Untitled 2 beat.bpm
+│   │   │   ├── 15-Usually Just a T-Shirt_ Untitled 3 beat.bpm
+│   │   │   ├── 16-Usually Just a T-Shirt_ Untitled 4 beat.bpm
+│   │   │   ├── 18-Usually Just a T-Shirt_ Untitled 6 beat.bpm
+│   │   │   ├── 19-Usually Just a T-Shirt_ Untitled 7 beat.bpm
+│   │   │   ├── 20-Usually Just a T-Shirt_ Untitled 8 beat.bpm
+│   │   │   └── 21-Usually Just a T-Shirt_ Untitled 9 beat.bpm
+│   │   └── wav
+│   │       ├── 01-As Can Be.wav
+│   │       ├── 03-Head (Beach Arab).wav
+│   │       ├── 04-Big Takeover.wav
+│   │       ├── 05-Curtains.wav
+│   │       ├── 06-Running Away Into You.wav
+│   │       ├── 07-Mascara.wav
+│   │       ├── 08-Been Insane.wav
+│   │       ├── 09-Skin Blues.wav
+│   │       ├── 10-Your Pussy's Glued to a Building on Fire.wav
+│   │       ├── 11-Blood on My Neck From Success.wav
+│   │       ├── 12-Ten to Butter Blood Voodoo.wav
+│   │       ├── 14-Usually Just a T-Shirt_ Untitled 2.wav
+│   │       ├── 15-Usually Just a T-Shirt_ Untitled 3.wav
+│   │       ├── 16-Usually Just a T-Shirt_ Untitled 4.wav
+│   │       ├── 18-Usually Just a T-Shirt_ Untitled 6.wav
+│   │       ├── 19-Usually Just a T-Shirt_ Untitled 7.wav
+│   │       ├── 20-Usually Just a T-Shirt_ Untitled 8.wav
+│   │       └── 21-Usually Just a T-Shirt_ Untitled 9.wav
+│   ├── Jose' Merce'
+│   │   ├── annotation
+│   │   │   ├── 01-Aire beat.bpm
+│   │   │   ├── 04-La Vida Sale beat.bpm
+│   │   │   ├── 06-Arrengao beat.bpm
+│   │   │   └── 07-La Alcoba y la mosca beat.bpm
+│   │   └── wav
+│   │       ├── 01-Aire.wav
+│   │       ├── 04-La Vida Sale.wav
+│   │       ├── 06-Arrengao.wav
+│   │       └── 07-La Alcoba y la mosca.wav
+│   ├── Kocani Orkester
+│   │   ├── annotation
+│   │   │   ├── 03. Romski Cocek beat.bpm
+│   │   │   ├── Kocani Orkestar - Burkan Cocek beat.bpm
+│   │   │   ├── Trubaci - Nikol beat.bpm
+│   │   │   └── Trubaci - Solo tapan beat.bpm
+│   │   └── wav
+│   │       ├── 03. Romski Cocek.wav
+│   │       ├── Kocani Orkestar - Burkan Cocek.wav
+│   │       ├── Trubaci - Nikol.wav
+│   │       └── Trubaci - Solo tapan.wav
+│   ├── Manu_Chao
+│   │   ├── annotation
+│   │   │   ├── 01-Clandestino beat.bpm
+│   │   │   ├── 02-Desaparecido beat.bpm
+│   │   │   ├── 03-Bongo_bong beat.bpm
+│   │   │   ├── 04-Je_ne_t_aime_plus beat.bpm
+│   │   │   ├── 05-Mentira beat.bpm
+│   │   │   └── 06-Lagrimas_de_oro beat.bpm
+│   │   └── wav
+│   │       ├── 01-Clandestino.wav
+│   │       ├── 02-Desaparecido.wav
+│   │       ├── 03-Bongo_bong.wav
+│   │       ├── 04-Je_ne_t_aime_plus.wav
+│   │       ├── 05-Mentira.wav
+│   │       └── 06-Lagrimas_de_oro.wav
+│   ├── more greek
+│   │   ├── annotation
+│   │   │   ├── 03 Efriksen i gi beat.bpm
+│   │   │   ├── 03 Virginouda beat.bpm
+│   │   │   ├── 04 H Stamoula beat.bpm
+│   │   │   ├── 05 Odysseas beat.bpm
+│   │   │   ├── 07 Psevdoixos beat.bpm
+│   │   │   ├── 08 Hlios beat.bpm
+│   │   │   ├── 08 Kapoios peftei... beat.bpm
+│   │   │   ├── Anagnwstopoulos - Hr8a ki apopse sta skalopatia sou beat.bpm
+│   │   │   ├── Dionysiou - Na eixa to kouragio beat.bpm
+│   │   │   ├── Giannakopoulou - Marina beat.bpm
+│   │   │   ├── Giannakopoulou - O kipos empaine sti 8alassa beat.bpm
+│   │   │   ├── Gkoles - Filenaditsa mou beat.bpm
+│   │   │   ├── Gkoles - H tsigkouna beat.bpm
+│   │   │   ├── Gkoles - Keravnoi ki astropelekia beat.bpm
+│   │   │   ├── Gkoles - Kori paraxaidemeni beat.bpm
+│   │   │   ├── Gkoles - Ksaveriwtissa beat.bpm
+│   │   │   ├── Gkoles - Mortissa ki alanis beat.bpm
+│   │   │   ├── Gkoles - O 8ermastis beat.bpm
+│   │   │   ├── Gkoles - O pasatempos beat.bpm
+│   │   │   ├── Gkoles - Peristeriwtissa beat.bpm
+│   │   │   ├── Gkoles - Rimakse to spitiko mas beat.bpm
+│   │   │   ├── Gkoles - Xatzikyriakeio beat.bpm
+│   │   │   ├── Glykeria - Den les kouventa beat.bpm
+│   │   │   ├── Glykeria - Odos Aristotelous beat.bpm
+│   │   │   ├── Glykeria - To agalma beat.bpm
+│   │   │   ├── Kazantzidis - O,ti agapaw egw pe8ainei beat.bpm
+│   │   │   ├── Ksylouris - Afton ton kosmo ton kalo beat.bpm
+│   │   │   ├── Ksylouris - Erwtiko tragoudi (Palikarou palikarou) beat.bpm
+│   │   │   ├── Ksylouris - Evale o 8eos simadi beat.bpm
+│   │   │   ├── Ksylouris - Filentem beat.bpm
+│   │   │   ├── Ksylouris - Htane mia fora beat.bpm
+│   │   │   ├── Ksylouris - Pote 8a kanei ksasteria beat.bpm
+│   │   │   ├── Ksylouris - Xilia myria kymata beat.bpm
+│   │   │   ├── Makedonas - Ena deilino beat.bpm
+│   │   │   ├── Makedonas - Savvatovrado stin Kaisariani beat.bpm
+│   │   │   ├── Marinella - Agapi pou 'gines dikopo maxairi beat.bpm
+│   │   │   ├── Marinella - Kane ligaki ypomoni beat.bpm
+│   │   │   ├── Marinella - Koita me sta matia beat.bpm
+│   │   │   ├── Marinella - Omorfi poli beat.bpm
+│   │   │   ├── Marinella - Pes pws m' antamwses beat.bpm
+│   │   │   ├── Marinella - Prin to xarama beat.bpm
+│   │   │   ├── Marinella - Stalia stalia beat.bpm
+│   │   │   ├── Mitropanos - 8essaloniki beat.bpm
+│   │   │   ├── Mitropanos - Brexei sti ftwxogeitonia beat.bpm
+│   │   │   ├── Mitsias - Apopse f8inopwriase beat.bpm
+│   │   │   ├── Mosxoliou - Eipa na svisw ta palia beat.bpm
+│   │   │   ├── Mosxoliou, Gkika - Den klaiw gia twra beat.bpm
+│   │   │   ├── Mosxoliou, Gkika - Pira ap' to xeri sou nero beat.bpm
+│   │   │   ├── Mosxoliou - Koimisou palikari beat.bpm
+│   │   │   ├── Mosxoliou - Ta deilina beat.bpm
+│   │   │   ├── Mosxoliou - Xwrismos beat.bpm
+│   │   │   ├── Mpellou - Anastenazw kai ponw beat.bpm
+│   │   │   ├── Mpellou - Antilaloune ta vouna beat.bpm
+│   │   │   ├── Mpellou - Apopse kaneis mpam beat.bpm
+│   │   │   ├── Mpellou - De les kouventa beat.bpm
+│   │   │   ├── Mpellou - Kane ligaki ypomoni beat.bpm
+│   │   │   ├── Mpellou - Kapoio vrady t' oneiro mou beat.bpm
+│   │   │   ├── Mpellou - Kardia paraponiara beat.bpm
+│   │   │   ├── Mpellou - Ksimerwnei kai vradiazei beat.bpm
+│   │   │   ├── Mpellou - Liga psixoula agapis sou gyrevw beat.bpm
+│   │   │   ├── Mpellou - Min klais beat.bpm
+│   │   │   ├── Mpellou - O kosmos einai san mpakses beat.bpm
+│   │   │   ├── Mpellou - Peftoun tis vroxis oi stales beat.bpm
+│   │   │   ├── Mpellou - Prin to xarama monaxos beat.bpm
+│   │   │   ├── Mpellou - To minore tis avgis beat.bpm
+│   │   │   ├── Mpellou - To teleftaio gramma sou beat.bpm
+│   │   │   ├── Mpellou - Xwrisame ena deilino beat.bpm
+│   │   │   ├── Mpellou - Zeimpekiko beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Aspri mera beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Brexei sti ftwxogeitonia beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Drapetswna beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Eimai aitos xwris ftera beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Gwnia gwnia beat.bpm
+│   │   │   ├── Mpi8ikwtsis - H kyra beat.bpm
+│   │   │   ├── Mpi8ikwtsis - H mpalanta tou Antrikou beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Kokotas - Stou O8wna ta xronia beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Mana mou kai Panagia beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Matia vourkwmena beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Mia Kyriaki beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Paei o kairos beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Sta xeria sou megalwsan beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Sto perigiali to kryfo beat.bpm
+│   │   │   ├── Mpi8ikwtsis, Xiwtis - Myrtia beat.bpm
+│   │   │   ├── Mpi8ikwtsis - Xrysoprasino fyllo beat.bpm
+│   │   │   ├── Ninou - Apopse kaneis mpam beat.bpm
+│   │   │   ├── Ninou,Tsitsanis - Synnefiasmeni Kyriaki beat.bpm
+│   │   │   ├── Ntalaras - Ta matoklada sou lampoun beat.bpm
+│   │   │   ├── Panou, Dionysiou, Tsitsanis - Axaristi beat.bpm
+│   │   │   ├── Poulopoulos - Kamaroula mia stalia beat.bpm
+│   │   │   ├── Smokovitis - Mi mou 8ymwneis matia mou beat.bpm
+│   │   │   ├── Smokovitis - Prwino tsigaro beat.bpm
+│   │   │   └── Vamvakaris - Fragkosyriani beat.bpm
+│   │   └── wav
+│   │       ├── 03 Efriksen i gi.wav
+│   │       ├── 03 Virginouda.wav
+│   │       ├── 04 H Stamoula.wav
+│   │       ├── 05 Odysseas.wav
+│   │       ├── 07 Psevdoixos.wav
+│   │       ├── 08 Hlios.wav
+│   │       ├── 08 Kapoios peftei....wav
+│   │       ├── Anagnwstopoulos - Hr8a ki apopse sta skalopatia sou.wav
+│   │       ├── Dionysiou - Na eixa to kouragio.wav
+│   │       ├── Giannakopoulou - Marina.wav
+│   │       ├── Giannakopoulou - O kipos empaine sti 8alassa.wav
+│   │       ├── Gkoles - Filenaditsa mou.wav
+│   │       ├── Gkoles - H tsigkouna.wav
+│   │       ├── Gkoles - Keravnoi ki astropelekia.wav
+│   │       ├── Gkoles - Kori paraxaidemeni.wav
+│   │       ├── Gkoles - Ksaveriwtissa.wav
+│   │       ├── Gkoles - Mortissa ki alanis.wav
+│   │       ├── Gkoles - O 8ermastis.wav
+│   │       ├── Gkoles - O pasatempos.wav
+│   │       ├── Gkoles - Peristeriwtissa.wav
+│   │       ├── Gkoles - Rimakse to spitiko mas.wav
+│   │       ├── Gkoles - Xatzikyriakeio.wav
+│   │       ├── Glykeria - Den les kouventa.wav
+│   │       ├── Glykeria - Odos Aristotelous.wav
+│   │       ├── Glykeria - To agalma.wav
+│   │       ├── Kazantzidis - O,ti agapaw egw pe8ainei.wav
+│   │       ├── Ksylouris - Afton ton kosmo ton kalo.wav
+│   │       ├── Ksylouris - Erwtiko tragoudi (Palikarou palikarou).wav
+│   │       ├── Ksylouris - Evale o 8eos simadi.wav
+│   │       ├── Ksylouris - Filentem.wav
+│   │       ├── Ksylouris - Htane mia fora.wav
+│   │       ├── Ksylouris - Pote 8a kanei ksasteria.wav
+│   │       ├── Ksylouris - Xilia myria kymata.wav
+│   │       ├── Makedonas - Ena deilino.wav
+│   │       ├── Makedonas - Savvatovrado stin Kaisariani.wav
+│   │       ├── Marinella - Agapi pou 'gines dikopo maxairi.wav
+│   │       ├── Marinella - Kane ligaki ypomoni.wav
+│   │       ├── Marinella - Koita me sta matia.wav
+│   │       ├── Marinella - Omorfi poli.wav
+│   │       ├── Marinella - Pes pws m' antamwses.wav
+│   │       ├── Marinella - Prin to xarama.wav
+│   │       ├── Marinella - Stalia stalia.wav
+│   │       ├── Mitropanos - 8essaloniki.wav
+│   │       ├── Mitropanos - Brexei sti ftwxogeitonia.wav
+│   │       ├── Mitsias - Apopse f8inopwriase.wav
+│   │       ├── Mosxoliou - Eipa na svisw ta palia.wav
+│   │       ├── Mosxoliou, Gkika - Den klaiw gia twra.wav
+│   │       ├── Mosxoliou, Gkika - Pira ap' to xeri sou nero.wav
+│   │       ├── Mosxoliou - Koimisou palikari.wav
+│   │       ├── Mosxoliou - Ta deilina.wav
+│   │       ├── Mosxoliou - Xwrismos.wav
+│   │       ├── Mpellou - Anastenazw kai ponw.wav
+│   │       ├── Mpellou - Antilaloune ta vouna.wav
+│   │       ├── Mpellou - Apopse kaneis mpam.wav
+│   │       ├── Mpellou - De les kouventa.wav
+│   │       ├── Mpellou - Kane ligaki ypomoni.wav
+│   │       ├── Mpellou - Kapoio vrady t' oneiro mou.wav
+│   │       ├── Mpellou - Kardia paraponiara.wav
+│   │       ├── Mpellou - Ksimerwnei kai vradiazei.wav
+│   │       ├── Mpellou - Liga psixoula agapis sou gyrevw.wav
+│   │       ├── Mpellou - Min klais.wav
+│   │       ├── Mpellou - O kosmos einai san mpakses.wav
+│   │       ├── Mpellou - Peftoun tis vroxis oi stales.wav
+│   │       ├── Mpellou - Prin to xarama monaxos.wav
+│   │       ├── Mpellou - To minore tis avgis.wav
+│   │       ├── Mpellou - To teleftaio gramma sou.wav
+│   │       ├── Mpellou - Xwrisame ena deilino.wav
+│   │       ├── Mpellou - Zeimpekiko.wav
+│   │       ├── Mpi8ikwtsis - Aspri mera.wav
+│   │       ├── Mpi8ikwtsis - Brexei sti ftwxogeitonia.wav
+│   │       ├── Mpi8ikwtsis - Drapetswna.wav
+│   │       ├── Mpi8ikwtsis - Eimai aitos xwris ftera.wav
+│   │       ├── Mpi8ikwtsis - Gwnia gwnia.wav
+│   │       ├── Mpi8ikwtsis - H kyra.wav
+│   │       ├── Mpi8ikwtsis - H mpalanta tou Antrikou.wav
+│   │       ├── Mpi8ikwtsis - Kokotas - Stou O8wna ta xronia.wav
+│   │       ├── Mpi8ikwtsis - Mana mou kai Panagia.wav
+│   │       ├── Mpi8ikwtsis - Matia vourkwmena.wav
+│   │       ├── Mpi8ikwtsis - Mia Kyriaki.wav
+│   │       ├── Mpi8ikwtsis - Paei o kairos.wav
+│   │       ├── Mpi8ikwtsis - Sta xeria sou megalwsan.wav
+│   │       ├── Mpi8ikwtsis - Sto perigiali to kryfo.wav
+│   │       ├── Mpi8ikwtsis, Xiwtis - Myrtia.wav
+│   │       ├── Mpi8ikwtsis - Xrysoprasino fyllo.wav
+│   │       ├── Ninou - Apopse kaneis mpam.wav
+│   │       ├── Ninou,Tsitsanis - Synnefiasmeni Kyriaki.wav
+│   │       ├── Ntalaras - Ta matoklada sou lampoun.wav
+│   │       ├── Panou, Dionysiou, Tsitsanis - Axaristi.wav
+│   │       ├── Poulopoulos - Kamaroula mia stalia.wav
+│   │       ├── Smokovitis - Mi mou 8ymwneis matia mou.wav
+│   │       ├── Smokovitis - Prwino tsigaro.wav
+│   │       └── Vamvakaris - Fragkosyriani.wav
+│   ├── Nina Pastori
+│   │   ├── annotation
+│   │   │   ├── 01-Eres luz (Rumba) beat.bpm
+│   │   │   ├── 04-Como tu, ninguna (Rumba) beat.bpm
+│   │   │   ├── 07-En una canasta (Rumba-Tango) beat.bpm
+│   │   │   └── 12-Genios (Rumba-Cancion) beat.bpm
+│   │   └── wav
+│   │       ├── 01-Eres luz (Rumba).wav
+│   │       ├── 04-Como tu, ninguna (Rumba).wav
+│   │       ├── 07-En una canasta (Rumba-Tango).wav
+│   │       └── 12-Genios (Rumba-Cancion).wav
+│   ├── Olivier Chassain
+│   │   ├── annotation
+│   │   │   ├── 05-Fandango beat.bpm
+│   │   │   ├── 09-Asturias beat.bpm
+│   │   │   ├── 10-Prld1 beat.bpm
+│   │   │   └── 14-Prld5 beat.bpm
+│   │   └── wav
+│   │       ├── 05-Fandango.wav
+│   │       ├── 09-Asturias.wav
+│   │       ├── 10-Prld1.wav
+│   │       └── 14-Prld5.wav
+│   ├── Papakonstantinou
+│   │   ├── annotation
+│   │   │   ├── 01-AudioTrack 01 beat.bpm
+│   │   │   ├── 02-AudioTrack 02 beat.bpm
+│   │   │   ├── 03-AudioTrack 03 beat.bpm
+│   │   │   ├── 04-AudioTrack 04 beat.bpm
+│   │   │   ├── 05-AudioTrack 05 beat.bpm
+│   │   │   ├── 06-AudioTrack 06 beat.bpm
+│   │   │   ├── 07-AudioTrack 07 beat.bpm
+│   │   │   ├── 09-AudioTrack 09 beat.bpm
+│   │   │   ├── 10-AudioTrack 10 beat.bpm
+│   │   │   ├── 12-AudioTrack 12 beat.bpm
+│   │   │   ├── 13-AudioTrack 13 beat.bpm
+│   │   │   ├── 14-AudioTrack 14 beat.bpm
+│   │   │   ├── 15-AudioTrack 15 beat.bpm
+│   │   │   ├── 16-AudioTrack 16 beat.bpm
+│   │   │   ├── 17-AudioTrack 17 beat.bpm
+│   │   │   ├── 18-AudioTrack 18 beat.bpm
+│   │   │   ├── 19-AudioTrack 19 beat.bpm
+│   │   │   ├── 20-AudioTrack 20 beat.bpm
+│   │   │   └── 21-AudioTrack 21 beat.bpm
+│   │   └── wav
+│   │       ├── 01-AudioTrack 01.wav
+│   │       ├── 02-AudioTrack 02.wav
+│   │       ├── 03-AudioTrack 03.wav
+│   │       ├── 04-AudioTrack 04.wav
+│   │       ├── 05-AudioTrack 05.wav
+│   │       ├── 06-AudioTrack 06.wav
+│   │       ├── 07-AudioTrack 07.wav
+│   │       ├── 09-AudioTrack 09.wav
+│   │       ├── 10-AudioTrack 10.wav
+│   │       ├── 12-AudioTrack 12.wav
+│   │       ├── 13-AudioTrack 13.wav
+│   │       ├── 14-AudioTrack 14.wav
+│   │       ├── 15-AudioTrack 15.wav
+│   │       ├── 16-AudioTrack 16.wav
+│   │       ├── 17-AudioTrack 17.wav
+│   │       ├── 18-AudioTrack 18.wav
+│   │       ├── 19-AudioTrack 19.wav
+│   │       ├── 20-AudioTrack 20.wav
+│   │       └── 21-AudioTrack 21.wav
+│   ├── Paulinho da Viola & Elton Medeiros
+│   │   ├── annotation
+│   │   │   ├── 01-Arvoredo beat.bpm
+│   │   │   ├── 02-Maioria sem Nenhum beat.bpm
+│   │   │   ├── 03-14 Anos beat.bpm
+│   │   │   ├── 04-Sofreguidao beat.bpm
+│   │   │   ├── 05-Momento de Fraqueza beat.bpm
+│   │   │   ├── 06-Minha Cofissao beat.bpm
+│   │   │   ├── 07-Perfeito Amor beat.bpm
+│   │   │   ├── 08-Mascarada beat.bpm
+│   │   │   ├── 09-Depois de Tanto Amor beat.bpm
+│   │   │   ├── 10-Samba Original beat.bpm
+│   │   │   └── 11-Alo Alo beat.bpm
+│   │   └── wav
+│   │       ├── 01-Arvoredo.wav
+│   │       ├── 02-Maioria sem Nenhum.wav
+│   │       ├── 03-14 Anos.wav
+│   │       ├── 04-Sofreguidao.wav
+│   │       ├── 05-Momento de Fraqueza.wav
+│   │       ├── 06-Minha Cofissao.wav
+│   │       ├── 07-Perfeito Amor.wav
+│   │       ├── 08-Mascarada.wav
+│   │       ├── 09-Depois de Tanto Amor.wav
+│   │       ├── 10-Samba Original.wav
+│   │       └── 11-Alo Alo.wav
+│   ├── Santana
+│   │   ├── annotation
+│   │   │   ├── 01-Jingo beat.bpm
+│   │   │   ├── 02-El Corazon Manada beat.bpm
+│   │   │   └── 03-La Puesta De Sol beat.bpm
+│   │   └── wav
+│   │       ├── 01-Jingo.wav
+│   │       ├── 02-El Corazon Manada.wav
+│   │       └── 03-La Puesta De Sol.wav
+│   ├── Songs
+│   │   ├── annotation
+│   │   │   ├── Adalberto (Adalberto Alvarez y su son) - Pura imagen beat.bpm
+│   │   │   ├── Adalberto (Adalberto Alvarez y su son) - Sobre tu piel beat.bpm
+│   │   │   ├── Afrocuba - A Luisa beat.bpm
+│   │   │   ├── Afrocuba - Cambio de Clima beat.bpm
+│   │   │   ├── Afrocuba - Mezquinidad beat.bpm
+│   │   │   ├── Alejandro (Alex Benson) - Golondrina beat.bpm
+│   │   │   ├── Alejandro (Alex Benson) - Tengo una penita beat.bpm
+│   │   │   ├── Alfredo - Ahora somos felices beat.bpm
+│   │   │   ├── Alfredo - La rumba de Alfredo beat.bpm
+│   │   │   ├── Caledonia Blues Band - Burning Heart beat.bpm
+│   │   │   ├── Caracas Latin Brothers - El espectaculo beat.bpm
+│   │   │   ├── Caracas Latin Brothers - Los hombres tambien lo mueven beat.bpm
+│   │   │   └── Pastora - Lola beat.bpm
+│   │   └── wav
+│   │       ├── Adalberto (Adalberto Alvarez y su son) - Pura imagen.wav
+│   │       ├── Adalberto (Adalberto Alvarez y su son) - Sobre tu piel.wav
+│   │       ├── Afrocuba - A Luisa.wav
+│   │       ├── Afrocuba - Cambio de Clima.wav
+│   │       ├── Afrocuba - Mezquinidad.wav
+│   │       ├── Alejandro (Alex Benson) - Golondrina.wav
+│   │       ├── Alejandro (Alex Benson) - Tengo una penita.wav
+│   │       ├── Alfredo - Ahora somos felices.wav
+│   │       ├── Alfredo - La rumba de Alfredo.wav
+│   │       ├── Caledonia Blues Band - Burning Heart.wav
+│   │       ├── Caracas Latin Brothers - El espectaculo.wav
+│   │       ├── Caracas Latin Brothers - Los hombres tambien lo mueven.wav
+│   │       └── Pastora - Lola.wav
+│   ├── Teresa Cristina
+│   │   ├── annotation
+│   │   │   ├── 01-Acalanto beat.bpm
+│   │   │   ├── 02-Viver beat.bpm
+│   │   │   ├── 03-candeeiro beat.bpm
+│   │   │   ├── 04-O passar dos anos beat.bpm
+│   │   │   ├── 05-Ja era (Palavra) beat.bpm
+│   │   │   ├── 06-Peito sangrando beat.bpm
+│   │   │   ├── 07-A borboleta e o passarinho beat.bpm
+│   │   │   ├── 08-Pedro e Tereza beat.bpm
+│   │   │   ├── 09-Um calo de estimacao beat.bpm
+│   │   │   ├── 10-Sorri beat.bpm
+│   │   │   ├── 11-Quantas lagrimas beat.bpm
+│   │   │   ├── 12-Lavoura beat.bpm
+│   │   │   ├── 13-Ana agua do rio_A vida me fez assim beat.bpm
+│   │   │   ├── 14-Embala eu_Samba de roda beat.bpm
+│   │   │   └── 15-Portela beat.bpm
+│   │   └── wav
+│   │       ├── 01-Acalanto.wav
+│   │       ├── 02-Viver.wav
+│   │       ├── 03-candeeiro.wav
+│   │       ├── 04-O passar dos anos.wav
+│   │       ├── 05-Ja era (Palavra).wav
+│   │       ├── 06-Peito sangrando.wav
+│   │       ├── 07-A borboleta e o passarinho.wav
+│   │       ├── 08-Pedro e Tereza.wav
+│   │       ├── 09-Um calo de estimacao.wav
+│   │       ├── 10-Sorri.wav
+│   │       ├── 11-Quantas lagrimas.wav
+│   │       ├── 12-Lavoura.wav
+│   │       ├── 13-Ana agua do rio_A vida me fez assim.wav
+│   │       ├── 14-Embala eu_Samba de roda.wav
+│   │       └── 15-Portela.wav
+│   ├── Tomatito
+│   │   ├── annotation
+│   │   │   ├── Tomatito-01.Barrio negro beat.bpm
+│   │   │   ├── Tomatito-02.La voz del tiempo beat.bpm
+│   │   │   ├── Tomatito-04.Armonias del Romane beat.bpm
+│   │   │   ├── Tomatito-05.A mi tao 'El Nino Miguel' beat.bpm
+│   │   │   └── Tomatito-06.Caminillo viejo beat.bpm
+│   │   └── wav
+│   │       ├── Tomatito-01.Barrio negro.wav
+│   │       ├── Tomatito-02.La voz del tiempo.wav
+│   │       ├── Tomatito-04.Armonias del Romane.wav
+│   │       ├── Tomatito-05.A mi tao 'El Nino Miguel'.wav
+│   │       └── Tomatito-06.Caminillo viejo.wav
+│   ├── Vangelis
+│   │   ├── annotation
+│   │   │   ├── 01-Pulstar beat.bpm
+│   │   │   ├── 04-Main_Sequence beat.bpm
+│   │   │   └── 06-Alpha beat.bpm
+│   │   └── wav
+│   │       ├── 01-Pulstar.wav
+│   │       ├── 04-Main_Sequence.wav
+│   │       └── 06-Alpha.wav
+│   └── Xatzidakis
+│       ├── annotation
+│       │   ├── 01-AudioTrack 01 beat.bpm
+│       │   ├── 02-AudioTrack 02 beat.bpm
+│       │   ├── 03-AudioTrack 03 beat.bpm
+│       │   ├── 05-AudioTrack 05 beat.bpm
+│       │   ├── 06-AudioTrack 06 beat.bpm
+│       │   ├── 08-AudioTrack 08 beat.bpm
+│       │   ├── 09-AudioTrack 09 beat.bpm
+│       │   ├── 10-AudioTrack 10 beat.bpm
+│       │   ├── 11-AudioTrack 11 beat.bpm
+│       │   ├── 12-AudioTrack 12 beat.bpm
+│       │   ├── 13-AudioTrack 13 beat.bpm
+│       │   ├── 15-AudioTrack 15 beat.bpm
+│       │   ├── 16-AudioTrack 16 beat.bpm
+│       │   ├── 17-AudioTrack 17 beat.bpm
+│       │   ├── 19-AudioTrack 19 beat.bpm
+│       │   └── 22-AudioTrack 22 beat.bpm
+│       └── wav
+│           ├── 01-AudioTrack 01.wav
+│           ├── 02-AudioTrack 02.wav
+│           ├── 03-AudioTrack 03.wav
+│           ├── 05-AudioTrack 05.wav
+│           ├── 06-AudioTrack 06.wav
+│           ├── 08-AudioTrack 08.wav
+│           ├── 09-AudioTrack 09.wav
+│           ├── 10-AudioTrack 10.wav
+│           ├── 11-AudioTrack 11.wav
+│           ├── 12-AudioTrack 12.wav
+│           ├── 13-AudioTrack 13.wav
+│           ├── 15-AudioTrack 15.wav
+│           ├── 16-AudioTrack 16.wav
+│           ├── 17-AudioTrack 17.wav
+│           ├── 19-AudioTrack 19.wav
+│           └── 22-AudioTrack 22.wav
+├── JCS_dataset
+│   ├── AlbumArt_{F3351644-4BD8-4C89-B023-A2311EDD25C8}_Large.jpg
+│   ├── AlbumArt_{F3351644-4BD8-4C89-B023-A2311EDD25C8}_Small.jpg
+│   ├── AlbumArtSmall.jpg
+│   ├── annotated_audio
+│   │   ├── 001_beats.mp3
+│   │   ├── 002_beats.mp3
+│   │   ├── 003_beats.mp3
+│   │   ├── 004_beats.mp3
+│   │   ├── 005_beats.mp3
+│   │   ├── 006_beats.mp3
+│   │   ├── 007_beats.mp3
+│   │   ├── 008_beats.mp3
+│   │   ├── 009_beats.mp3
+│   │   ├── 010_beats.mp3
+│   │   ├── 011_beats.mp3
+│   │   ├── 012_beats.mp3
+│   │   ├── 013_beats.mp3
+│   │   ├── 014_beats.mp3
+│   │   ├── 015_beats.mp3
+│   │   ├── 016_beats.mp3
+│   │   ├── 017_beats.mp3
+│   │   ├── 018_beats.mp3
+│   │   ├── 019_beats.mp3
+│   │   ├── 020_beats.mp3
+│   │   ├── 021_beats.mp3
+│   │   ├── 022_beats.mp3
+│   │   └── 023_beats.mp3
+│   ├── annotations
+│   │   ├── 001_beats.txt
+│   │   ├── 002_beats.txt
+│   │   ├── 003_beats.txt
+│   │   ├── 004_beats.txt
+│   │   ├── 005_beats.txt
+│   │   ├── 006_beats.txt
+│   │   ├── 007_beats.txt
+│   │   ├── 008_beats.txt
+│   │   ├── 009_beats.txt
+│   │   ├── 010_beats.txt
+│   │   ├── 011_beats.txt
+│   │   ├── 012_beats.txt
+│   │   ├── 013_beats.txt
+│   │   ├── 014_beats.txt
+│   │   ├── 015_beats.txt
+│   │   ├── 016_beats.txt
+│   │   ├── 017_beats.txt
+│   │   ├── 018_beats.txt
+│   │   ├── 019_beats.txt
+│   │   ├── 020_beats.txt
+│   │   ├── 021_beats.txt
+│   │   ├── 022_beats.txt
+│   │   └── 023_beats.txt
+│   ├── audio
+│   │   ├── 001.mp3
+│   │   ├── 002.mp3
+│   │   ├── 003.mp3
+│   │   ├── 004.mp3
+│   │   ├── 005.mp3
+│   │   ├── 006.mp3
+│   │   ├── 007.mp3
+│   │   ├── 008.mp3
+│   │   ├── 009.mp3
+│   │   ├── 010.mp3
+│   │   ├── 011.mp3
+│   │   ├── 012.mp3
+│   │   ├── 013.mp3
+│   │   ├── 014.mp3
+│   │   ├── 015.mp3
+│   │   ├── 016.mp3
+│   │   ├── 017.mp3
+│   │   ├── 018.mp3
+│   │   ├── 019.mp3
+│   │   ├── 020.mp3
+│   │   ├── 021.mp3
+│   │   ├── 022.mp3
+│   │   ├── 023.mp3
+│   │   ├── AlbumArt_{F3351644-4BD8-4C89-B023-A2311EDD25C8}_Large.jpg
+│   │   ├── AlbumArt_{F3351644-4BD8-4C89-B023-A2311EDD25C8}_Small.jpg
+│   │   ├── AlbumArtSmall.jpg
+│   │   ├── desktop.ini
+│   │   └── Folder.jpg
+│   ├── desktop.ini
+│   ├── Folder.jpg
+│   └── readme.txt
+└── SMC_MIREX
+    ├── HolzapfelEtAl12-taslp.pdf
+    ├── SMC_MIREX_Annotations
+    │   ├── SMC_001_2_1_1_a.txt
+    │   ├── SMC_002_3_1_1_a.txt
+    │   ├── SMC_003_2_1_1_m.txt
+    │   ├── SMC_004_2_1_1_m.txt
+    │   ├── SMC_005_3_1_1_a.txt
+    │   ├── SMC_006_2_1_1_f.txt
+    │   ├── SMC_007_1_2_2_m.txt
+    │   ├── SMC_008_1_3_3_m.txt
+    │   ├── SMC_009_2_1_1_o.txt
+    │   ├── SMC_010_3_1_1_m.txt
+    │   ├── SMC_011_2_1_1_m.txt
+    │   ├── SMC_012_1_2_1_a.txt
+    │   ├── SMC_013_1_2_1_a.txt
+    │   ├── SMC_014_1_1_1_a.txt
+    │   ├── SMC_015_2_1_1_f.txt
+    │   ├── SMC_016_2_1_1_m.txt
+    │   ├── SMC_017_3_1_1_m.txt
+    │   ├── SMC_018_2_1_1_j.txt
+    │   ├── SMC_019_2_1_1_a.txt
+    │   ├── SMC_021_1_2_1_m.txt
+    │   ├── SMC_022_1_1_1_a.txt
+    │   ├── SMC_023_2_1_1_a.txt
+    │   ├── SMC_024_1_1_1_a.txt
+    │   ├── SMC_026_2_1_1_m.txt
+    │   ├── SMC_027_2_1_1_m.txt
+    │   ├── SMC_028_1_3_3_a.txt
+    │   ├── SMC_030_1_3_3_j.txt
+    │   ├── SMC_032_1_2_1_o.txt
+    │   ├── SMC_033_1_3_1_o.txt
+    │   ├── SMC_034_1_1_1_j.txt
+    │   ├── SMC_035_2_1_1_a.txt
+    │   ├── SMC_036_2_1_1_j.txt
+    │   ├── SMC_037_2_1_1_m.txt
+    │   ├── SMC_038_2_1_1_a.txt
+    │   ├── SMC_041_2_1_1_a.txt
+    │   ├── SMC_042_2_1_1_a.txt
+    │   ├── SMC_043_2_1_1_m.txt
+    │   ├── SMC_044_1_2_1_a.txt
+    │   ├── SMC_046_2_1_1_a.txt
+    │   ├── SMC_047_1_2_1_a.txt
+    │   ├── SMC_048_2_1_1_o.txt
+    │   ├── SMC_051_3_1_1_o.txt
+    │   ├── SMC_052_1_2_2_a.txt
+    │   ├── SMC_054_1_2_1_o.txt
+    │   ├── SMC_055_3_1_1_m.txt
+    │   ├── SMC_056_1_2_1_a.txt
+    │   ├── SMC_057_1_1_1_m.txt
+    │   ├── SMC_058_3_1_1_j.txt
+    │   ├── SMC_059_2_1_1_m.txt
+    │   ├── SMC_060_1_2_1_a.txt
+    │   ├── SMC_061_2_1_1_a.txt
+    │   ├── SMC_063_2_1_1_m.txt
+    │   ├── SMC_064_2_1_1_o.txt
+    │   ├── SMC_065_2_1_1_a.txt
+    │   ├── SMC_066_2_1_1_m.txt
+    │   ├── SMC_067_1_2_1_a.txt
+    │   ├── SMC_068_1_3_1_a.txt
+    │   ├── SMC_069_2_1_1_m.txt
+    │   ├── SMC_071_1_3_1_a.txt
+    │   ├── SMC_072_1_2_1_o.txt
+    │   ├── SMC_073_3_1_1_j.txt
+    │   ├── SMC_074_1_1_1_a.txt
+    │   ├── SMC_075_1_2_1_a.txt
+    │   ├── SMC_076_2_1_1_a.txt
+    │   ├── SMC_079_1_2_1_j.txt
+    │   ├── SMC_080_3_1_1_o.txt
+    │   ├── SMC_082_3_1_1_a.txt
+    │   ├── SMC_084_2_1_1_a.txt
+    │   ├── SMC_085_3_1_1_j.txt
+    │   ├── SMC_086_2_1_1_m.txt
+    │   ├── SMC_087_2_1_1_m.txt
+    │   ├── SMC_088_3_1_1_o.txt
+    │   ├── SMC_089_1_2_1_o.txt
+    │   ├── SMC_092_1_2_1_j.txt
+    │   ├── SMC_093_1_2_1_o.txt
+    │   ├── SMC_095_1_3_3_m.txt
+    │   ├── SMC_096_1_3_1_a.txt
+    │   ├── SMC_098_1_1_1_a.txt
+    │   ├── SMC_099_1_2_1_o.txt
+    │   ├── SMC_100_1_1_1_o.txt
+    │   ├── SMC_101_1_3_1_a.txt
+    │   ├── SMC_103_1_3_1_a.txt
+    │   ├── SMC_104_2_1_1_m.txt
+    │   ├── SMC_105_1_1_1_m.txt
+    │   ├── SMC_106_2_1_1_o.txt
+    │   ├── SMC_109_3_1_1_m.txt
+    │   ├── SMC_111_1_3_1_j.txt
+    │   ├── SMC_113_3_1_1_a.txt
+    │   ├── SMC_114_1_2_1_m.txt
+    │   ├── SMC_116_3_1_1_a.txt
+    │   ├── SMC_117_1_1_1_a.txt
+    │   ├── SMC_118_1_1_1_a.txt
+    │   ├── SMC_119_3_1_1_o.txt
+    │   ├── SMC_120_1_2_1_a.txt
+    │   ├── SMC_121_2_1_1_a.txt
+    │   ├── SMC_124_1_1_1_o.txt
+    │   ├── SMC_126_1_2_1_a.txt
+    │   ├── SMC_127_1_1_1_m.txt
+    │   ├── SMC_130_1_1_1_a.txt
+    │   ├── SMC_133_3_1_1_m.txt
+    │   ├── SMC_135_1_1_1_a.txt
+    │   ├── SMC_137_1_3_1_a.txt
+    │   ├── SMC_139_2_1_1_j.txt
+    │   ├── SMC_140_1_1_1_a.txt
+    │   ├── SMC_142_2_1_1_a.txt
+    │   ├── SMC_143_1_2_1_o.txt
+    │   ├── SMC_146_2_1_1_a.txt
+    │   ├── SMC_147_2_1_1_m.txt
+    │   ├── SMC_148_1_2_1_j.txt
+    │   ├── SMC_149_1_1_1_m.txt
+    │   ├── SMC_150_3_1_1_a.txt
+    │   ├── SMC_151_1_1_1_a.txt
+    │   ├── SMC_152_1_1_1_a.txt
+    │   ├── SMC_153_1_2_2_o.txt
+    │   ├── SMC_154_3_1_1_a.txt
+    │   ├── SMC_157_1_2_1_a.txt
+    │   ├── SMC_158_1_1_1_a.txt
+    │   ├── SMC_159_1_2_1_a.txt
+    │   ├── SMC_161_1_2_1_a.txt
+    │   ├── SMC_166_2_1_1_a.txt
+    │   ├── SMC_167_3_1_1_m.txt
+    │   ├── SMC_168_3_1_1_a.txt
+    │   ├── SMC_169_1_3_1_a.txt
+    │   ├── SMC_170_3_1_1_m.txt
+    │   ├── SMC_171_1_1_1_j.txt
+    │   ├── SMC_172_1_1_1_a.txt
+    │   ├── SMC_173_2_1_1_j.txt
+    │   ├── SMC_174_1_1_1_m.txt
+    │   ├── SMC_175_2_1_1_j.txt
+    │   ├── SMC_176_2_1_1_a.txt
+    │   ├── SMC_178_3_1_1_j.txt
+    │   ├── SMC_179_2_1_1_a.txt
+    │   ├── SMC_181_3_1_1_m.txt
+    │   ├── SMC_182_1_1_1_o.txt
+    │   ├── SMC_184_2_1_1_a.txt
+    │   ├── SMC_187_2_1_1_o.txt
+    │   ├── SMC_188_3_1_1_a.txt
+    │   ├── SMC_190_3_1_1_a.txt
+    │   ├── SMC_192_2_1_1_a.txt
+    │   ├── SMC_193_3_1_1_o.txt
+    │   ├── SMC_194_1_1_1_a.txt
+    │   ├── SMC_195_1_3_1_a.txt
+    │   ├── SMC_197_2_1_1_o.txt
+    │   ├── SMC_198_1_1_1_m.txt
+    │   ├── SMC_199_2_1_1_a.txt
+    │   ├── SMC_202_3_1_1_h.txt
+    │   ├── SMC_203_1_2_1_a.txt
+    │   ├── SMC_204_1_1_1_a.txt
+    │   ├── SMC_205_2_1_1_j.txt
+    │   ├── SMC_206_2_1_1_f.txt
+    │   ├── SMC_207_1_2_1_m.txt
+    │   ├── SMC_208_2_1_1_a.txt
+    │   ├── SMC_209_1_3_1_a.txt
+    │   ├── SMC_211_1_1_1_h.txt
+    │   ├── SMC_212_3_1_1_a.txt
+    │   ├── SMC_213_1_2_1_m.txt
+    │   ├── SMC_214_2_1_1_a.txt
+    │   ├── SMC_215_3_1_1_m.txt
+    │   ├── SMC_216_2_1_1_m.txt
+    │   ├── SMC_217_2_1_1_a.txt
+    │   ├── SMC_219_1_1_1_a.txt
+    │   ├── SMC_220_3_1_1_o.txt
+    │   ├── SMC_221_2_1_1_a.txt
+    │   ├── SMC_222_3_1_1_a.txt
+    │   ├── SMC_223_1_1_1_j.txt
+    │   ├── SMC_224_3_1_1_o.txt
+    │   ├── SMC_225_3_1_1_m.txt
+    │   ├── SMC_226_3_1_1_m.txt
+    │   ├── SMC_227_2_1_1_m.txt
+    │   ├── SMC_229_3_1_1_a.txt
+    │   ├── SMC_232_1_3_1_a.txt
+    │   ├── SMC_235_1_1_1_j.txt
+    │   ├── SMC_236_3_1_1_m.txt
+    │   ├── SMC_237_2_1_1_m.txt
+    │   ├── SMC_239_1_1_1_a.txt
+    │   ├── SMC_241_1_1_1_j.txt
+    │   ├── SMC_242_1_2_1_a.txt
+    │   ├── SMC_243_1_1_1_a.txt
+    │   ├── SMC_244_1_2_1_m.txt
+    │   ├── SMC_248_1_2_1_m.txt
+    │   ├── SMC_249_3_1_1_j.txt
+    │   ├── SMC_251_1_2_1_a.txt
+    │   ├── SMC_252_1_2_1_o.txt
+    │   ├── SMC_253_3_1_1_m.txt
+    │   ├── SMC_254_1_1_1_m.txt
+    │   ├── SMC_255_1_1_1_f.txt
+    │   ├── SMC_256_1_2_1_a.txt
+    │   ├── SMC_257_1_1_1_a.txt
+    │   ├── SMC_258_1_1_1_a.txt
+    │   ├── SMC_259_1_1_1_a.txt
+    │   ├── SMC_260_1_1_1_a.txt
+    │   ├── SMC_261_2_1_1_a.txt
+    │   ├── SMC_262_1_3_1_m.txt
+    │   ├── SMC_263_1_2_1_j.txt
+    │   ├── SMC_264_2_1_1_m.txt
+    │   ├── SMC_265_1_3_1_a.txt
+    │   ├── SMC_266_1_1_1_a.txt
+    │   ├── SMC_269_2_1_1_a.txt
+    │   ├── SMC_271_2_1_1_j.txt
+    │   ├── SMC_272_1_2_2_j.txt
+    │   ├── SMC_273_1_2_1_o.txt
+    │   ├── SMC_274_1_2_1_a.txt
+    │   ├── SMC_275_3_1_1_a.txt
+    │   ├── SMC_276_1_2_1_o.txt
+    │   ├── SMC_277_1_1_1_j.txt
+    │   ├── SMC_278_1_2_1_o.txt
+    │   ├── SMC_279_2_1_1_m.txt
+    │   ├── SMC_280_2_1_1_m.txt
+    │   ├── SMC_281_2_1_1_m.txt
+    │   ├── SMC_282_2_1_1_j.txt
+    │   ├── SMC_283_2_1_1_m.txt
+    │   ├── SMC_284_2_1_1_a.txt
+    │   ├── SMC_285_1_2_1_a.txt
+    │   ├── SMC_286_1_1_1_j.txt
+    │   ├── SMC_287_1_2_1_a.txt
+    │   ├── SMC_288_1_2_2_o.txt
+    │   └── SMC_289_1_2_2_o.txt
+    ├── SMC_MIREX_Annotations_05_08_2014
+    │   ├── SMC_001_2_1_1_a.txt
+    │   ├── SMC_002_3_1_1_a.txt
+    │   ├── SMC_003_2_1_1_m.txt
+    │   ├── SMC_004_2_1_1_m.txt
+    │   ├── SMC_005_3_1_1_a.txt
+    │   ├── SMC_006_2_1_1_f.txt
+    │   ├── SMC_007_1_2_2_m.txt
+    │   ├── SMC_008_1_3_3_m.txt
+    │   ├── SMC_009_2_1_1_o.txt
+    │   ├── SMC_010_3_1_1_m.txt
+    │   ├── SMC_011_2_1_1_m.txt
+    │   ├── SMC_012_1_2_1_a.txt
+    │   ├── SMC_013_1_2_1_a.txt
+    │   ├── SMC_014_1_1_1_a.txt
+    │   ├── SMC_015_2_1_1_f.txt
+    │   ├── SMC_016_2_1_1_m.txt
+    │   ├── SMC_017_3_1_1_m.txt
+    │   ├── SMC_018_2_1_1_j.txt
+    │   ├── SMC_019_2_1_1_a.txt
+    │   ├── SMC_021_1_2_1_m.txt
+    │   ├── SMC_022_1_1_1_a.txt
+    │   ├── SMC_023_2_1_1_a.txt
+    │   ├── SMC_024_1_1_1_a.txt
+    │   ├── SMC_026_2_1_1_m.txt
+    │   ├── SMC_027_2_1_1_m.txt
+    │   ├── SMC_028_1_3_3_a.txt
+    │   ├── SMC_030_1_3_3_j.txt
+    │   ├── SMC_032_1_2_1_o.txt
+    │   ├── SMC_033_1_3_1_o.txt
+    │   ├── SMC_034_1_1_1_j.txt
+    │   ├── SMC_035_2_1_1_a.txt
+    │   ├── SMC_036_2_1_1_j.txt
+    │   ├── SMC_037_2_1_1_m.txt
+    │   ├── SMC_038_2_1_1_a.txt
+    │   ├── SMC_041_2_1_1_a.txt
+    │   ├── SMC_042_2_1_1_a.txt
+    │   ├── SMC_043_2_1_1_m.txt
+    │   ├── SMC_044_1_2_1_a.txt
+    │   ├── SMC_046_2_1_1_a.txt
+    │   ├── SMC_047_1_2_1_a.txt
+    │   ├── SMC_048_2_1_1_o.txt
+    │   ├── SMC_051_3_1_1_o.txt
+    │   ├── SMC_052_1_2_2_a.txt
+    │   ├── SMC_054_1_2_1_o.txt
+    │   ├── SMC_055_3_1_1_m.txt
+    │   ├── SMC_056_1_2_1_a.txt
+    │   ├── SMC_057_1_1_1_m.txt
+    │   ├── SMC_058_3_1_1_j.txt
+    │   ├── SMC_059_2_1_1_m.txt
+    │   ├── SMC_060_1_2_1_a.txt
+    │   ├── SMC_061_2_1_1_a.txt
+    │   ├── SMC_063_2_1_1_m.txt
+    │   ├── SMC_064_2_1_1_o.txt
+    │   ├── SMC_065_2_1_1_a.txt
+    │   ├── SMC_066_2_1_1_m.txt
+    │   ├── SMC_067_1_2_1_a.txt
+    │   ├── SMC_068_1_3_1_a.txt
+    │   ├── SMC_069_2_1_1_m.txt
+    │   ├── SMC_071_1_3_1_a.txt
+    │   ├── SMC_072_1_2_1_o.txt
+    │   ├── SMC_073_3_1_1_j.txt
+    │   ├── SMC_074_1_1_1_a.txt
+    │   ├── SMC_075_1_2_1_a.txt
+    │   ├── SMC_076_2_1_1_a.txt
+    │   ├── SMC_079_1_2_1_j.txt
+    │   ├── SMC_080_3_1_1_o.txt
+    │   ├── SMC_082_3_1_1_a.txt
+    │   ├── SMC_084_2_1_1_a.txt
+    │   ├── SMC_085_3_1_1_j.txt
+    │   ├── SMC_086_2_1_1_m.txt
+    │   ├── SMC_087_2_1_1_m.txt
+    │   ├── SMC_088_3_1_1_o.txt
+    │   ├── SMC_089_1_2_1_o.txt
+    │   ├── SMC_092_1_2_1_j.txt
+    │   ├── SMC_093_1_2_1_o.txt
+    │   ├── SMC_095_1_3_3_m.txt
+    │   ├── SMC_096_1_3_1_a.txt
+    │   ├── SMC_098_1_1_1_a.txt
+    │   ├── SMC_099_1_2_1_o.txt
+    │   ├── SMC_100_1_1_1_o.txt
+    │   ├── SMC_101_1_3_1_a.txt
+    │   ├── SMC_103_1_3_1_a.txt
+    │   ├── SMC_104_2_1_1_m.txt
+    │   ├── SMC_105_1_1_1_m.txt
+    │   ├── SMC_106_2_1_1_o.txt
+    │   ├── SMC_109_3_1_1_m.txt
+    │   ├── SMC_111_1_3_1_j.txt
+    │   ├── SMC_113_3_1_1_a.txt
+    │   ├── SMC_114_1_2_1_m.txt
+    │   ├── SMC_116_3_1_1_a.txt
+    │   ├── SMC_117_1_1_1_a.txt
+    │   ├── SMC_118_1_1_1_a.txt
+    │   ├── SMC_119_3_1_1_o.txt
+    │   ├── SMC_120_1_2_1_a.txt
+    │   ├── SMC_121_2_1_1_a.txt
+    │   ├── SMC_124_1_1_1_o.txt
+    │   ├── SMC_126_1_2_1_a.txt
+    │   ├── SMC_127_1_1_1_m.txt
+    │   ├── SMC_130_1_1_1_a.txt
+    │   ├── SMC_133_3_1_1_m.txt
+    │   ├── SMC_135_1_1_1_a.txt
+    │   ├── SMC_137_1_3_1_a.txt
+    │   ├── SMC_139_2_1_1_j.txt
+    │   ├── SMC_140_1_1_1_a.txt
+    │   ├── SMC_142_2_1_1_a.txt
+    │   ├── SMC_143_1_2_1_o.txt
+    │   ├── SMC_146_2_1_1_a.txt
+    │   ├── SMC_147_2_1_1_m.txt
+    │   ├── SMC_148_1_2_1_j.txt
+    │   ├── SMC_149_1_1_1_m.txt
+    │   ├── SMC_150_3_1_1_a.txt
+    │   ├── SMC_151_1_1_1_a.txt
+    │   ├── SMC_152_1_1_1_a.txt
+    │   ├── SMC_153_1_2_2_o.txt
+    │   ├── SMC_154_3_1_1_a.txt
+    │   ├── SMC_157_1_2_1_a.txt
+    │   ├── SMC_158_1_1_1_a.txt
+    │   ├── SMC_159_1_2_1_a.txt
+    │   ├── SMC_161_1_2_1_a.txt
+    │   ├── SMC_166_2_1_1_a.txt
+    │   ├── SMC_167_3_1_1_m.txt
+    │   ├── SMC_168_3_1_1_a.txt
+    │   ├── SMC_169_1_3_1_a.txt
+    │   ├── SMC_170_3_1_1_m.txt
+    │   ├── SMC_171_1_1_1_j.txt
+    │   ├── SMC_172_1_1_1_a.txt
+    │   ├── SMC_173_2_1_1_j.txt
+    │   ├── SMC_174_1_1_1_m.txt
+    │   ├── SMC_175_2_1_1_j.txt
+    │   ├── SMC_176_2_1_1_a.txt
+    │   ├── SMC_178_3_1_1_j.txt
+    │   ├── SMC_179_2_1_1_a.txt
+    │   ├── SMC_181_3_1_1_m.txt
+    │   ├── SMC_182_1_1_1_o.txt
+    │   ├── SMC_184_2_1_1_a.txt
+    │   ├── SMC_187_2_1_1_o.txt
+    │   ├── SMC_188_3_1_1_a.txt
+    │   ├── SMC_190_3_1_1_a.txt
+    │   ├── SMC_192_2_1_1_a.txt
+    │   ├── SMC_193_3_1_1_o.txt
+    │   ├── SMC_194_1_1_1_a.txt
+    │   ├── SMC_195_1_3_1_a.txt
+    │   ├── SMC_197_2_1_1_o.txt
+    │   ├── SMC_198_1_1_1_m.txt
+    │   ├── SMC_199_2_1_1_a.txt
+    │   ├── SMC_202_3_1_1_h.txt
+    │   ├── SMC_203_1_2_1_a.txt
+    │   ├── SMC_204_1_1_1_a.txt
+    │   ├── SMC_205_2_1_1_j.txt
+    │   ├── SMC_206_2_1_1_f.txt
+    │   ├── SMC_207_1_2_1_m.txt
+    │   ├── SMC_208_2_1_1_a.txt
+    │   ├── SMC_209_1_3_1_a.txt
+    │   ├── SMC_211_1_1_1_h.txt
+    │   ├── SMC_212_3_1_1_a.txt
+    │   ├── SMC_213_1_2_1_m.txt
+    │   ├── SMC_214_2_1_1_a.txt
+    │   ├── SMC_215_3_1_1_m.txt
+    │   ├── SMC_216_2_1_1_m.txt
+    │   ├── SMC_217_2_1_1_a.txt
+    │   ├── SMC_219_1_1_1_a.txt
+    │   ├── SMC_220_3_1_1_o.txt
+    │   ├── SMC_221_2_1_1_a.txt
+    │   ├── SMC_222_3_1_1_a.txt
+    │   ├── SMC_223_1_1_1_j.txt
+    │   ├── SMC_224_3_1_1_o.txt
+    │   ├── SMC_225_3_1_1_m.txt
+    │   ├── SMC_226_3_1_1_m.txt
+    │   ├── SMC_227_2_1_1_m.txt
+    │   ├── SMC_229_3_1_1_a.txt
+    │   ├── SMC_232_1_3_1_a.txt
+    │   ├── SMC_235_1_1_1_j.txt
+    │   ├── SMC_236_3_1_1_m.txt
+    │   ├── SMC_237_2_1_1_m.txt
+    │   ├── SMC_239_1_1_1_a.txt
+    │   ├── SMC_241_1_1_1_j.txt
+    │   ├── SMC_242_1_2_1_a.txt
+    │   ├── SMC_243_1_1_1_a.txt
+    │   ├── SMC_244_1_2_1_m.txt
+    │   ├── SMC_248_1_2_1_m.txt
+    │   ├── SMC_249_3_1_1_j.txt
+    │   ├── SMC_251_1_2_1_a.txt
+    │   ├── SMC_252_1_2_1_o.txt
+    │   ├── SMC_253_3_1_1_m.txt
+    │   ├── SMC_254_1_1_1_m.txt
+    │   ├── SMC_255_1_1_1_f.txt
+    │   ├── SMC_256_1_2_1_a.txt
+    │   ├── SMC_257_1_1_1_a.txt
+    │   ├── SMC_258_1_1_1_a.txt
+    │   ├── SMC_259_1_1_1_a.txt
+    │   ├── SMC_260_1_1_1_a.txt
+    │   ├── SMC_261_2_1_1_a.txt
+    │   ├── SMC_262_1_3_1_m.txt
+    │   ├── SMC_263_1_2_1_j.txt
+    │   ├── SMC_264_2_1_1_m.txt
+    │   ├── SMC_265_1_3_1_a.txt
+    │   ├── SMC_266_1_1_1_a.txt
+    │   ├── SMC_269_2_1_1_a.txt
+    │   ├── SMC_271_2_1_1_j.txt
+    │   ├── SMC_272_1_2_2_j.txt
+    │   ├── SMC_273_1_2_1_o.txt
+    │   ├── SMC_274_1_2_1_a.txt
+    │   ├── SMC_275_3_1_1_a.txt
+    │   ├── SMC_276_1_2_1_o.txt
+    │   ├── SMC_277_1_1_1_j.txt
+    │   ├── SMC_278_1_2_1_o.txt
+    │   ├── SMC_279_2_1_1_m.txt
+    │   ├── SMC_280_2_1_1_m.txt
+    │   ├── SMC_281_2_1_1_m.txt
+    │   ├── SMC_282_2_1_1_j.txt
+    │   ├── SMC_283_2_1_1_m.txt
+    │   ├── SMC_284_2_1_1_a.txt
+    │   ├── SMC_285_1_2_1_a.txt
+    │   ├── SMC_286_1_1_1_j.txt
+    │   ├── SMC_287_1_2_1_a.txt
+    │   ├── SMC_288_1_2_2_o.txt
+    │   └── SMC_289_1_2_2_o.txt
+    ├── SMC_MIREX_Audio
+    │   ├── SMC_001.wav
+    │   ├── SMC_002.wav
+    │   ├── SMC_003.wav
+    │   ├── SMC_004.wav
+    │   ├── SMC_005.wav
+    │   ├── SMC_006.wav
+    │   ├── SMC_007.wav
+    │   ├── SMC_008.wav
+    │   ├── SMC_009.wav
+    │   ├── SMC_010.wav
+    │   ├── SMC_011.wav
+    │   ├── SMC_012.wav
+    │   ├── SMC_013.wav
+    │   ├── SMC_014.wav
+    │   ├── SMC_015.wav
+    │   ├── SMC_016.wav
+    │   ├── SMC_017.wav
+    │   ├── SMC_018.wav
+    │   ├── SMC_019.wav
+    │   ├── SMC_021.wav
+    │   ├── SMC_022.wav
+    │   ├── SMC_023.wav
+    │   ├── SMC_024.wav
+    │   ├── SMC_026.wav
+    │   ├── SMC_027.wav
+    │   ├── SMC_028.wav
+    │   ├── SMC_030.wav
+    │   ├── SMC_032.wav
+    │   ├── SMC_033.wav
+    │   ├── SMC_034.wav
+    │   ├── SMC_035.wav
+    │   ├── SMC_036.wav
+    │   ├── SMC_037.wav
+    │   ├── SMC_038.wav
+    │   ├── SMC_041.wav
+    │   ├── SMC_042.wav
+    │   ├── SMC_043.wav
+    │   ├── SMC_044.wav
+    │   ├── SMC_046.wav
+    │   ├── SMC_047.wav
+    │   ├── SMC_048.wav
+    │   ├── SMC_051.wav
+    │   ├── SMC_052.wav
+    │   ├── SMC_054.wav
+    │   ├── SMC_055.wav
+    │   ├── SMC_056.wav
+    │   ├── SMC_057.wav
+    │   ├── SMC_058.wav
+    │   ├── SMC_059.wav
+    │   ├── SMC_060.wav
+    │   ├── SMC_061.wav
+    │   ├── SMC_063.wav
+    │   ├── SMC_064.wav
+    │   ├── SMC_065.wav
+    │   ├── SMC_066.wav
+    │   ├── SMC_067.wav
+    │   ├── SMC_068.wav
+    │   ├── SMC_069.wav
+    │   ├── SMC_071.wav
+    │   ├── SMC_072.wav
+    │   ├── SMC_073.wav
+    │   ├── SMC_074.wav
+    │   ├── SMC_075.wav
+    │   ├── SMC_076.wav
+    │   ├── SMC_079.wav
+    │   ├── SMC_080.wav
+    │   ├── SMC_082.wav
+    │   ├── SMC_084.wav
+    │   ├── SMC_085.wav
+    │   ├── SMC_086.wav
+    │   ├── SMC_087.wav
+    │   ├── SMC_088.wav
+    │   ├── SMC_089.wav
+    │   ├── SMC_092.wav
+    │   ├── SMC_093.wav
+    │   ├── SMC_095.wav
+    │   ├── SMC_096.wav
+    │   ├── SMC_098.wav
+    │   ├── SMC_099.wav
+    │   ├── SMC_100.wav
+    │   ├── SMC_101.wav
+    │   ├── SMC_103.wav
+    │   ├── SMC_104.wav
+    │   ├── SMC_105.wav
+    │   ├── SMC_106.wav
+    │   ├── SMC_109.wav
+    │   ├── SMC_111.wav
+    │   ├── SMC_113.wav
+    │   ├── SMC_114.wav
+    │   ├── SMC_116.wav
+    │   ├── SMC_117.wav
+    │   ├── SMC_118.wav
+    │   ├── SMC_119.wav
+    │   ├── SMC_120.wav
+    │   ├── SMC_121.wav
+    │   ├── SMC_124.wav
+    │   ├── SMC_126.wav
+    │   ├── SMC_127.wav
+    │   ├── SMC_130.wav
+    │   ├── SMC_133.wav
+    │   ├── SMC_135.wav
+    │   ├── SMC_137.wav
+    │   ├── SMC_139.wav
+    │   ├── SMC_140.wav
+    │   ├── SMC_142.wav
+    │   ├── SMC_143.wav
+    │   ├── SMC_146.wav
+    │   ├── SMC_147.wav
+    │   ├── SMC_148.wav
+    │   ├── SMC_149.wav
+    │   ├── SMC_150.wav
+    │   ├── SMC_151.wav
+    │   ├── SMC_152.wav
+    │   ├── SMC_153.wav
+    │   ├── SMC_154.wav
+    │   ├── SMC_157.wav
+    │   ├── SMC_158.wav
+    │   ├── SMC_159.wav
+    │   ├── SMC_161.wav
+    │   ├── SMC_166.wav
+    │   ├── SMC_167.wav
+    │   ├── SMC_168.wav
+    │   ├── SMC_169.wav
+    │   ├── SMC_170.wav
+    │   ├── SMC_171.wav
+    │   ├── SMC_172.wav
+    │   ├── SMC_173.wav
+    │   ├── SMC_174.wav
+    │   ├── SMC_175.wav
+    │   ├── SMC_176.wav
+    │   ├── SMC_178.wav
+    │   ├── SMC_179.wav
+    │   ├── SMC_181.wav
+    │   ├── SMC_182.wav
+    │   ├── SMC_184.wav
+    │   ├── SMC_187.wav
+    │   ├── SMC_188.wav
+    │   ├── SMC_190.wav
+    │   ├── SMC_192.wav
+    │   ├── SMC_193.wav
+    │   ├── SMC_194.wav
+    │   ├── SMC_195.wav
+    │   ├── SMC_197.wav
+    │   ├── SMC_198.wav
+    │   ├── SMC_199.wav
+    │   ├── SMC_202.wav
+    │   ├── SMC_203.wav
+    │   ├── SMC_204.wav
+    │   ├── SMC_205.wav
+    │   ├── SMC_206.wav
+    │   ├── SMC_207.wav
+    │   ├── SMC_208.wav
+    │   ├── SMC_209.wav
+    │   ├── SMC_211.wav
+    │   ├── SMC_212.wav
+    │   ├── SMC_213.wav
+    │   ├── SMC_214.wav
+    │   ├── SMC_215.wav
+    │   ├── SMC_216.wav
+    │   ├── SMC_217.wav
+    │   ├── SMC_219.wav
+    │   ├── SMC_220.wav
+    │   ├── SMC_221.wav
+    │   ├── SMC_222.wav
+    │   ├── SMC_223.wav
+    │   ├── SMC_224.wav
+    │   ├── SMC_225.wav
+    │   ├── SMC_226.wav
+    │   ├── SMC_227.wav
+    │   ├── SMC_229.wav
+    │   ├── SMC_232.wav
+    │   ├── SMC_235.wav
+    │   ├── SMC_236.wav
+    │   ├── SMC_237.wav
+    │   ├── SMC_239.wav
+    │   ├── SMC_241.wav
+    │   ├── SMC_242.wav
+    │   ├── SMC_243.wav
+    │   ├── SMC_244.wav
+    │   ├── SMC_248.wav
+    │   ├── SMC_249.wav
+    │   ├── SMC_251.wav
+    │   ├── SMC_252.wav
+    │   ├── SMC_253.wav
+    │   ├── SMC_254.wav
+    │   ├── SMC_255.wav
+    │   ├── SMC_256.wav
+    │   ├── SMC_257.wav
+    │   ├── SMC_258.wav
+    │   ├── SMC_259.wav
+    │   ├── SMC_260.wav
+    │   ├── SMC_261.wav
+    │   ├── SMC_262.wav
+    │   ├── SMC_263.wav
+    │   ├── SMC_264.wav
+    │   ├── SMC_265.wav
+    │   ├── SMC_266.wav
+    │   ├── SMC_269.wav
+    │   ├── SMC_271.wav
+    │   ├── SMC_272.wav
+    │   ├── SMC_273.wav
+    │   ├── SMC_274.wav
+    │   ├── SMC_275.wav
+    │   ├── SMC_276.wav
+    │   ├── SMC_277.wav
+    │   ├── SMC_278.wav
+    │   ├── SMC_279.wav
+    │   ├── SMC_280.wav
+    │   ├── SMC_281.wav
+    │   ├── SMC_282.wav
+    │   ├── SMC_283.wav
+    │   ├── SMC_284.wav
+    │   ├── SMC_285.wav
+    │   ├── SMC_286.wav
+    │   ├── SMC_287.wav
+    │   ├── SMC_288.wav
+    │   └── SMC_289.wav
+    ├── SMC_MIREX_Readme.txt
+    └── SMC_MIREX_Tags
+        ├── SMC_001.tag
+        ├── SMC_002.tag
+        ├── SMC_003.tag
+        ├── SMC_004.tag
+        ├── SMC_005.tag
+        ├── SMC_006.tag
+        ├── SMC_007.tag
+        ├── SMC_008.tag
+        ├── SMC_009.tag
+        ├── SMC_010.tag
+        ├── SMC_011.tag
+        ├── SMC_012.tag
+        ├── SMC_013.tag
+        ├── SMC_014.tag
+        ├── SMC_015.tag
+        ├── SMC_016.tag
+        ├── SMC_017.tag
+        ├── SMC_018.tag
+        ├── SMC_019.tag
+        ├── SMC_021.tag
+        ├── SMC_022.tag
+        ├── SMC_023.tag
+        ├── SMC_024.tag
+        ├── SMC_026.tag
+        ├── SMC_027.tag
+        ├── SMC_028.tag
+        ├── SMC_030.tag
+        ├── SMC_032.tag
+        ├── SMC_033.tag
+        ├── SMC_034.tag
+        ├── SMC_035.tag
+        ├── SMC_036.tag
+        ├── SMC_037.tag
+        ├── SMC_038.tag
+        ├── SMC_041.tag
+        ├── SMC_042.tag
+        ├── SMC_043.tag
+        ├── SMC_044.tag
+        ├── SMC_046.tag
+        ├── SMC_047.tag
+        ├── SMC_048.tag
+        ├── SMC_051.tag
+        ├── SMC_052.tag
+        ├── SMC_054.tag
+        ├── SMC_055.tag
+        ├── SMC_056.tag
+        ├── SMC_057.tag
+        ├── SMC_058.tag
+        ├── SMC_059.tag
+        ├── SMC_060.tag
+        ├── SMC_061.tag
+        ├── SMC_063.tag
+        ├── SMC_064.tag
+        ├── SMC_065.tag
+        ├── SMC_066.tag
+        ├── SMC_067.tag
+        ├── SMC_068.tag
+        ├── SMC_069.tag
+        ├── SMC_071.tag
+        ├── SMC_072.tag
+        ├── SMC_073.tag
+        ├── SMC_074.tag
+        ├── SMC_075.tag
+        ├── SMC_076.tag
+        ├── SMC_079.tag
+        ├── SMC_080.tag
+        ├── SMC_082.tag
+        ├── SMC_084.tag
+        ├── SMC_085.tag
+        ├── SMC_086.tag
+        ├── SMC_087.tag
+        ├── SMC_088.tag
+        ├── SMC_089.tag
+        ├── SMC_092.tag
+        ├── SMC_093.tag
+        ├── SMC_095.tag
+        ├── SMC_096.tag
+        ├── SMC_098.tag
+        ├── SMC_099.tag
+        ├── SMC_100.tag
+        ├── SMC_101.tag
+        ├── SMC_103.tag
+        ├── SMC_104.tag
+        ├── SMC_105.tag
+        ├── SMC_106.tag
+        ├── SMC_109.tag
+        ├── SMC_111.tag
+        ├── SMC_113.tag
+        ├── SMC_114.tag
+        ├── SMC_116.tag
+        ├── SMC_117.tag
+        ├── SMC_118.tag
+        ├── SMC_119.tag
+        ├── SMC_120.tag
+        ├── SMC_121.tag
+        ├── SMC_124.tag
+        ├── SMC_126.tag
+        ├── SMC_127.tag
+        ├── SMC_130.tag
+        ├── SMC_133.tag
+        ├── SMC_135.tag
+        ├── SMC_137.tag
+        ├── SMC_139.tag
+        ├── SMC_140.tag
+        ├── SMC_142.tag
+        ├── SMC_143.tag
+        ├── SMC_146.tag
+        ├── SMC_147.tag
+        ├── SMC_148.tag
+        ├── SMC_149.tag
+        ├── SMC_150.tag
+        ├── SMC_151.tag
+        ├── SMC_152.tag
+        ├── SMC_153.tag
+        ├── SMC_154.tag
+        ├── SMC_157.tag
+        ├── SMC_158.tag
+        ├── SMC_159.tag
+        ├── SMC_161.tag
+        ├── SMC_166.tag
+        ├── SMC_167.tag
+        ├── SMC_168.tag
+        ├── SMC_169.tag
+        ├── SMC_170.tag
+        ├── SMC_171.tag
+        ├── SMC_172.tag
+        ├── SMC_173.tag
+        ├── SMC_174.tag
+        ├── SMC_175.tag
+        ├── SMC_176.tag
+        ├── SMC_178.tag
+        ├── SMC_179.tag
+        ├── SMC_181.tag
+        ├── SMC_182.tag
+        ├── SMC_184.tag
+        ├── SMC_187.tag
+        ├── SMC_188.tag
+        ├── SMC_190.tag
+        ├── SMC_192.tag
+        ├── SMC_193.tag
+        ├── SMC_194.tag
+        ├── SMC_195.tag
+        ├── SMC_197.tag
+        ├── SMC_198.tag
+        ├── SMC_199.tag
+        ├── SMC_202.tag
+        ├── SMC_203.tag
+        ├── SMC_204.tag
+        ├── SMC_205.tag
+        ├── SMC_206.tag
+        ├── SMC_207.tag
+        ├── SMC_208.tag
+        ├── SMC_209.tag
+        ├── SMC_211.tag
+        ├── SMC_212.tag
+        ├── SMC_213.tag
+        ├── SMC_214.tag
+        ├── SMC_215.tag
+        ├── SMC_216.tag
+        ├── SMC_217.tag
+        ├── SMC_219.tag
+        ├── SMC_220.tag
+        ├── SMC_221.tag
+        ├── SMC_222.tag
+        ├── SMC_223.tag
+        ├── SMC_224.tag
+        ├── SMC_225.tag
+        ├── SMC_226.tag
+        ├── SMC_227.tag
+        ├── SMC_229.tag
+        ├── SMC_232.tag
+        ├── SMC_235.tag
+        ├── SMC_236.tag
+        ├── SMC_237.tag
+        ├── SMC_239.tag
+        ├── SMC_241.tag
+        ├── SMC_242.tag
+        ├── SMC_243.tag
+        ├── SMC_244.tag
+        ├── SMC_248.tag
+        ├── SMC_249.tag
+        ├── SMC_251.tag
+        ├── SMC_252.tag
+        ├── SMC_253.tag
+        ├── SMC_254.tag
+        ├── SMC_255.tag
+        ├── SMC_256.tag
+        ├── SMC_257.tag
+        ├── SMC_258.tag
+        ├── SMC_259.tag
+        ├── SMC_260.tag
+        ├── SMC_261.tag
+        ├── SMC_262.tag
+        ├── SMC_263.tag
+        ├── SMC_264.tag
+        ├── SMC_265.tag
+        ├── SMC_266.tag
+        ├── SMC_269.tag
+        ├── SMC_271.tag
+        ├── SMC_272.tag
+        ├── SMC_273.tag
+        ├── SMC_274.tag
+        ├── SMC_275.tag
+        ├── SMC_276.tag
+        ├── SMC_277.tag
+        ├── SMC_278.tag
+        ├── SMC_279.tag
+        ├── SMC_280.tag
+        ├── SMC_281.tag
+        ├── SMC_282.tag
+        ├── SMC_283.tag
+        ├── SMC_284.tag
+        ├── SMC_285.tag
+        ├── SMC_286.tag
+        ├── SMC_287.tag
+        ├── SMC_288.tag
+        └── SMC_289.tag
+
+164 directories, 4308 files
